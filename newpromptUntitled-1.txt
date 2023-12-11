@@ -1,0 +1,76 @@
+create JS and HTML and CSS files
+the HTML has a roll down for "verb"
+JS verb objects are created from JSON and sorted
+the verb objects are displayed in the roll down
+the user selects a verb
+the verb object is displayed in the HTML
+
+
+button for getting random verb 
+
+HTML displays 12 cells labeled:
+Simple Present
+Present Continuous
+Present Perfect
+Present Perfect Continuous
+Simple Past
+Past Continuous
+Past Perfect
+Past Perfect Continuous
+Simple Future
+Future Continuous
+Future Perfect
+Future Perfect Continuous
+
+beneath the table is a field for displaying
+questions:
+synonyms:
+antonyms:
+
+Here is the JSON
+
+{
+    "topic": "persuasive verbs",
+    "category": "regular",
+    "verb": "convince",
+    "answer": [
+    "I/They/We/You convince | He/She/It convinces",
+    "I am | He/She/It is | They/We/You are convincing",
+    "I/You/They/We have | He/She/It has convinced",
+    "I/You/They/We have been convincing | He/She/It has been convincing",
+    "I/He/She/It/We/You/They convinced",
+    "I/He/She/It was convincing | They/We/You were convincing",
+    "I/He/She/It/We/You/They had convinced",
+    "I/He/She/It/We/You/They had been convincing",
+    "I/He/She/It/We/You/They will convince",
+    "I/He/She/It/We/You/They will be convincing",
+    "I/He/She/It/We/You/They will have convinced",
+    "I/He/She/It/We/You/They will have been convincing"
+    ],
+    "synonyms": [
+    "persuade",
+    "induce",
+    "influence",
+    "coax",
+    "talk round",
+    "get",
+    "urge",
+    "win over",
+    "bring around",
+    "sway",
+    "coerce",
+    "prompt"
+    ],
+    "antonyms": [
+    "dissuade",
+    "discourage",
+    "deterr"
+    ],
+    "questions": [
+    "How can you convince your team to adopt this approach? (context: team management)",
+    "Who convinced you to take this job? (context: career)",
+    "Have you convinced your parents about your plan? (context: personal decision)",
+    "What argument convinced you to change your mind? (context: debate)",
+    "How do you plan to convince the board? (context: business proposal)"
+    ],
+    },

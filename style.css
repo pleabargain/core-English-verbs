@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+select, button {
+    margin: 10px 0;
+}
+
+/* New CSS for bulleted questions */
+#extraInfo ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#extraInfo ul li {
+    margin-bottom: 5px;
+}
