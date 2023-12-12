@@ -982,6 +982,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "How long does it take for you to get ready in the morning? (context: daily routine)",
         "Have they gotten ready for their trip? (context: travel)",
         "Who got ready first? (context: competition)",
+        "If you are ready and your partner is not ready, what do usually you do?",
         "How long will it take to get ready? (context: time management)",
         "Will we have enough time to get ready? (context: time management)"
     ]
@@ -1026,6 +1027,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Did you forget about the meeting? (context: work)",
         "Who often forgets about their appointments? (context: personal)",
+        "Have you ever forgotten about your mother's birthday? (context: personal)",
         "Have they forgotten about the promise they made? (context: social)",
         "Why do I always forget about these small details? (context: self-reflection)",
         "Will you forget about this incident? (context: personal)"
@@ -1264,6 +1266,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Can you look up the definition of this word? (context: study)",
         "Who will look up the flight times? (context: travel)",
+        "If you look yourself up on Google, what do you find? (context: personal)",
         "Have you looked up the information for your report? (context: work)",
         "Why are they always looking up old records? (context: research)",
         "Will she look up her old friends on social media? (context: social)"
@@ -1326,6 +1329,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "What do you advise in this situation? (context: consulting)",
         "Who advised you on this matter? (context: guidance)",
         "Have you been advised about the risks? (context: risk assessment)",
+        "What did they advise you to do? (context: instruction)",
         "Why did they advise against it? (context: caution)",
         "How should I advise them on this issue? (context: counseling)"
     ]
@@ -2574,12 +2578,14 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How do you plan to build the new structure? (context: architecture)",
         "Who will build the website? (context: web development)",
+        "If you could build anything, what would you build? (context: hypothetical)",
         "Have they built a prototype yet? (context: product design)",
         "What materials are used to build these houses? (context: construction materials)",
         "Why is it important to build strong relationships? (context: interpersonal skills)"
     ]
 }
 
+//TODO: define
 ,
 
 {
@@ -2623,6 +2629,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "Where did you go on your vacation? (context: travel inquiry)",
 "How often do you go to the gym? (context: inquiry about routine)",
 "Can I go with you? (context: request to accompany)",
+"If you could go anywhere, where would you go? (context: hypothetical)",
 "What time do you go to bed? (context: inquiry about routine)",
 "How do we go about solving this problem? (context: seeking method)"
 ]
@@ -2663,6 +2670,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How do you use this tool? (context: instruction)",
         "Who uses this software? (context: utilization)",
+        "If you use someone else's work, would you give them credit? (context: plagiarism)",
         "Have they used this method before? (context: application)",
         "Why did he use such strong language? (context: communication)",
         "What will she use for the project? (context: selection)"
@@ -2712,6 +2720,8 @@ document.addEventListener('DOMContentLoaded', function() {
 "How do you know each other? (context: inquiry about acquaintance)",
 "How long have you known each other? (context: inquiry about acquaintance)",
 "How well do you know each other? (context: inquiry about acquaintance)",
+"Who knows the answer to this question? (context: inquiry about knowledge)",
+
 "Did you know that she moved abroad? (context: sharing information)",
 "If you knew the answer, why didn't you say anything? (context: inquiry about behavior)",
 "What do you know about this topic? (context: inquiry about expertise)",
@@ -2760,6 +2770,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Can you draw a portrait of her? (context: artistic)",
         "Who draws the best in the class? (context: skill assessment)",
+        "If you could draw anything, what would you draw? (context: conditional statement)",
         "Have they drawn up the plans for the building? (context: architecture)",
         "Why do some artists draw only in black and white? (context: artistic style)",
         "Will the artist draw the landscape from memory? (context: artistic process)"
@@ -2836,6 +2847,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "What do you do for a living? (context: career inquiry)",
 "Why didn't he care? (context: inquiry about behavior)",
 "What did you do?! (context: expressing surprise)",
+"If you could do anything as a career, what would you do? (context: conditional statement)",
 "How do I do this exercise? (context: seeking instructions)",
 "Do they do their homework regularly? (context: inquiry about habit)",
 "Did you do something special for your birthday? (context: casual conversation)",
@@ -2867,6 +2879,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "How do you manage your team? (context: leadership)",
         "Who manages your finances at home? (context: finance management)",
         "Have you managed a project like this before? (context: experience)",
+        "If you had to manage a team, what would you do? (context: conditional statement)",
         "What strategies do you use to manage stress? (context: personal development)",
         "Why is it hard to manage time effectively? (context: time management)"
     ]
@@ -2896,6 +2909,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Can you request the information for me? (context: assistance)",
         "Who will request approval? (context: authorization)",
+        "If you make a request, which friends would help you. (context: conditional statement)",
         "Have you requested the resources needed? (context: resource allocation)",
         "What did they request in the meeting? (context: business discussion)",
         "Why did you request this specific item? (context: preference)"
@@ -2958,6 +2972,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Can you speak louder, please? (context: public speaking)",
         "Who will speak at the conference? (context: event planning)",
+        "If you could speak any language, what would it be? (context: hypothetical)",
         "Have you spoken to him about the issue? (context: interpersonal communication)",
         "What language do they speak in that country? (context: language inquiry)",
         "Why is it difficult to speak in public? (context: public speaking anxiety)"
@@ -3002,6 +3017,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "questions": [
 "What did he say about the meeting? (context: inquiry about opinion)",
 "Can you say that again? (context: request for repetition)",
+"If someone accuses you of something you didn't do, what would you say? (context: hypothetical)",
 "Who says it's going to rain? (context: inquiry about source)",
 "How do you say 'hello' in Spanish? (context: language learning)",
 "Why didn't you say anything? (context: inquiry about silence)"
@@ -3048,6 +3064,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "How do I get to the train station? (context: asking for directions)",
 "Did you get my message? (context: confirmation of communication)",
 "When will you get the results? (context: inquiry about outcomes)",
+"If you get a message from an alien, what would you do? (context: hypothetical)",
 "Can I get you something to drink? (context: offering assistance)",
 "Where did you get this information? (context: inquiry about source)",
 "Can you get me a better table please? (context: inquiry about information)",
@@ -3095,6 +3112,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "questions": [
         "Who won the match yesterday? (context: sports)",
+        "If you won the lottery, what would you do? (context: hypothetical)",
         "Have you ever won a competition? (context: personal achievement)",
         "What does it take to win in this industry? (context: business)",
         "Which team do you think will win the championship? (context: sports)",
@@ -3126,6 +3144,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How do you feel today? (context: well-being)",
         "Who feels responsible for this? (context: accountability)",
+        "If you feel sick, you should see a doctor. (context: health advice)",
         "Have you ever felt this way before? (context: emotional experience)",
         "What makes you feel happy? (context: emotions)",
         "Why do you feel that way? (context: understanding emotions)"
@@ -3159,6 +3178,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Who drives this car regularly? (context: vehicle usage)",
         "Have you ever driven a truck? (context: driving experience)",
         "How long have you been driving?",
+        "If you drive due east, where will you end up? (context: navigation)",
         "Why do you drive so fast? (context: driving habits)",
         "How long does it take to drive there? (context: travel time)",
         "Why did you decide to drive instead of fly? (context: travel choice)"
@@ -3191,6 +3211,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How quickly can you answer the email? (context: correspondence)",
         "Who answered the phone? (context: telephone call)",
+        "If you know the answer, why didn't you say anything? (context: inquiry about behavior)",
         "Have you answered their questions yet? (context: inquiry response)",
         "What answer did you give to the interviewer? (context: interview)",
         "Why haven't you answered my messages? (context: communication)"
@@ -3221,6 +3242,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "antonyms": ["soothe", "calm", "alleviate", "ease", "reduce", "quell", "pacify", "placate", "mitigate", "dampen", "cool", "assuage"],
     "questions": [
         "What can inflame this condition? (context: medical)",
+        "If the wound is inflamed, what should I do? (context: medical inquiry)",
         "Who is likely to inflame the situation? (context: conflict resolution)",
         "Have you done anything to inflame the issue? (context: conflict escalation)",
         "Why do certain foods inflame allergies? (context: dietary concerns)",
@@ -3253,6 +3275,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Which countries did you visit last year? (context: travel experiences)",
         "Who will visit the new museum? (context: leisure activity)",
         "Have you visited your family recently? (context: family reunion)",
+        "If you could visit any country, where would you go? (context: travel plans)",
         "What attractions did you visit in the city? (context: tourism)",
         "Why do people visit historical sites? (context: cultural interest)"
     ]
@@ -3301,6 +3324,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "questions": [
         "How often do you fly for business? (context: travel)",
+        "When do you fly out? (context: travel plans)",
         "Who flew the plane during the emergency? (context: aviation)",
         "Have the birds started flying south for the winter? (context: nature)",
         "Can you fly a kite in this kind of wind? (context: leisure)",
