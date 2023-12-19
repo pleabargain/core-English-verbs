@@ -53,6 +53,39 @@ document.addEventListener('DOMContentLoaded', function() {
 },
 
 {
+    "topic": "daily activities",
+    "category": "regular",
+    "verb": "get dressed",
+    "answer": [
+        "I/They/We/You get dressed | He/She/It gets dressed",
+        "I am | He/She/It is | They/We/You are getting dressed",
+        "I/You/They/We have | He/She/It has got dressed",
+        "I/You/They/We have been getting dressed | He/She/It has been getting dressed",
+        "I/He/She/It/We/You/They got dressed",
+        "I/He/She/It was getting dressed | They/We/You were getting dressed",
+        "I/He/She/It/We/You/They had got dressed",
+        "I/He/She/It/We/You/They had been getting dressed",
+        "I/He/She/It/We/You/They will get dressed",
+        "I/He/She/It/We/You/They will be getting dressed",
+        "I/He/She/It/We/You/They will have got dressed",
+        "I/He/She/It/We/You/They will have been getting dressed"
+    ],
+"synonyms":[ "dress up", "don clothes", "put on clothes", "attire oneself", "clothe oneself"],
+
+"antonyms":[ "undress", "disrobe", "strip", "take off clothes"],
+
+    "questions": [
+        "Have you got dressed for the party?(context: social)",
+        "Why is he getting dressed so early?(context: daily routine)",
+        "Will they get dressed before breakfast?(context: daily routine)",
+        "Who got dressed first?(context: competition)",
+        "How quickly can you get dressed?(context: time management)"
+    ]
+},
+
+
+
+{
     "topic": "transaction verbs",
     "category": "irregular",
     "verb": "buy",
@@ -206,37 +239,6 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 ,
 
-
-{
-    "topic": "planning verbs",
-    "category": "regular",
-    "verb": "prepare",
-    "answer": [
-        "I/They/We/You prepare | He/She/It prepares",
-        "I am | He/She/It is | They/We/You are preparing",
-        "I/You/They/We have | He/She/It has prepared",
-        "I/You/They/We have been preparing | He/She/It has been preparing",
-        "I/He/She/It/We/You/They prepared",
-        "I/He/She/It was preparing | They/We/You were preparing",
-        "I/He/She/It/We/You/They had prepared",
-        "I/He/She/It/We/You/They had been preparing",
-        "I/He/She/It/We/You/They will prepare",
-        "I/He/She/It/We/You/They will be preparing",
-        "I/He/She/It/We/You/They will have prepared",
-        "I/He/She/It/We/You/They will have been preparing"
-    ],
-    "synonyms": ["ready", "set up", "arrange", "organize", "assemble", "equip", "make ready", "gear up", "plan", "prime", "provision", "train"],
-    "antonyms": ["disorganize", "disarrange", "unsettle", "scatter", "demobilize", "disassemble", "confuse", "disrupt", "disorder"],
-    "questions": [
-        "How do you prepare for meetings? (context: business)",
-        "Who will prepare the report? (context: work task)",
-        "Have you [prepared|practiced|rehearsed] your presentation? (context: public speaking)",
-        "What are you [preparing|making] for dinner? (context: cooking)",
-        "Why is it important to prepare in advance? (context: planning)"
-    ]
-}
-
-,
 
 {
     "topic": "editing verbs",
@@ -4057,8 +4059,72 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 ,
 
+{
+      "topic": "safety verbs",
+      "category": "regular",
+      "verb": "look out",
+      "answer": [
+          "I/They/We/You look out | He/She/It looks out",
+          "I am | He/She/It is | They/We/You are looking out",
+          "I/You/They/We have | He/She/It has looked out",
+          "I/You/They/We have been looking out | He/She/It has been looking out",
+          "I/He/She/It/We/You/They looked out",
+          "I/He/She/It was looking out | They/We/You were looking out",
+          "I/He/She/It/We/You/They had looked out",
+          "I/He/She/It/We/You/They had been looking out",
+          "I/He/She/It/We/You/They will look out",
+          "I/He/She/It/We/You/They will be looking out",
+          "I/He/She/It/We/You/They will have looked out",
+          "I/He/She/It/We/You/They will have been looking out"
+      ],
+"synonyms":[ "be vigilant", "watch out", "be on guard", "be careful", "pay attention", "heed"],
 
+"antonyms":[ "ignore", "disregard", "neglect", "overlook", "miss", "be oblivious"],
+
+      "questions": [
+          "Can you look out for my dog while I'm away?(context: pet care)",
+          "Who will look out for any hazards during the hike?(context: outdoor activity)",
+          "Why should we always look out when crossing the street?(context: safety)",
+          "Have you looked out for any signs of trouble?(context: vigilance)",
+          "How do you look out for your family's safety?(context: family care)"
+      ]
+  }
 ,
+
+{
+      "topic": "motivational verbs",
+      "category": "regular",
+      "verb": "take action",
+      "answer": [
+          "I/They/We/You take action | He/She/It takes action",
+          "I am | He/She/It is | They/We/You are taking action",
+          "I/You/They/We have | He/She/It has taken action",
+          "I/You/They/We have been taking action | He/She/It has been taking action",
+          "I/He/She/It/We/You/They took action",
+          "I/He/She/It was taking action | They/We/You were taking action",
+          "I/He/She/It/We/You/They had taken action",
+          "I/He/She/It/We/You/They had been taking action",
+          "I/He/She/It/We/You/They will take action",
+          "I/He/She/It/We/You/They will be taking action",
+          "I/He/She/It/We/You/They will have taken action",
+          "I/He/She/It/We/You/They will have been taking action"
+      ],
+"synonyms":[ "act", "intervene", "make a move", "make a stand", "step in", "respond"],
+
+"antonyms":[ "hesitate", "wait", "delay", "procrastinate", "dither", "do nothing"],
+
+      "questions": [
+          "When will the government take action against pollution?(context: environmental policy)",
+          "Have they taken action on your complaint?(context: customer service)",
+          "Why hasn't anyone taken action yet?(context: crisis management)",
+          "Who will take action to resolve this issue?(context: problem-solving)",
+          "How can we take action to improve our community?(context: community service)"
+      ]
+  },
+
+
+
+
 {
     "topic": "common verbs",
     "category": "irregular",
@@ -5697,6 +5763,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Where did you grow up? (context: personal background)",
         "How does one's childhood affect how they grow up? (context: psychology)",
+        "Who was your role model when you were growing up? (context: personal development)",
         "What are the challenges children face as they grow up? (context: child development)",
         "How have cities grown up over the centuries? (context: urban development)",
         "What skills do children need to grow up successfully? (context: education)"
@@ -5705,7 +5772,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ,
 
 
-  
+
 {
     "topic": "knowledge verbs",
     "category": "irregular",
