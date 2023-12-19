@@ -882,6 +882,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 {
+    "topic": "relaxation verbs",
+    "category": "regular",
+    "verb": "take a breath",
+    "answer": [
+        "I/They/We/You take a breath | He/She/It takes a breath",
+        "I am | He/She/It is | They/We/You are taking a breath",
+        "I/You/They/We have | He/She/It has taken a breath",
+        "I/You/They/We have been taking a breath | He/She/It has been taking a breath",
+        "I/He/She/It/We/You/They took a breath",
+        "I/He/She/It was taking a breath | They/We/You were taking a breath",
+        "I/He/She/It/We/You/They had taken a breath",
+        "I/He/She/It/We/You/They had been taking a breath",
+        "I/He/She/It/We/You/They will take a breath",
+        "I/He/She/It/We/You/They will be taking a breath",
+        "I/He/She/It/We/You/They will have taken a breath",
+        "I/He/She/It/We/You/They will have been taking a breath"
+    ],
+"synonyms":[ "inhale", "breathe in", "draw breath", "respire", "gasp", "catch one's breath"],
+
+"antonyms":[ "exhale", "breathe out", "hold one's breath", "suffocate", "asphyxiate"],
+
+    "questions": [
+        "Can we take a breath before starting the next session?(context: relaxation)",
+        "Who took a deep breath before diving into the pool?(context: swimming)",
+        "Have you taken a breath and calmed down yet?(context: emotional regulation)",
+        "Why did he take a breath before answering the question?(context: public speaking)",
+        "How do you take a breath to relieve stress?(context: stress management)"
+    ]
+},
+
+
+{
       "topic": "discussion verbs",
       "category": "regular",
       "verb": "bring up",
@@ -1055,6 +1087,40 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
   
+  
+  {
+        "topic": "motion verbs",
+        "category": "regular",
+        "verb": "slow down",
+        "answer": [
+            "I/They/We/You slow down | He/She/It slows down",
+            "I am | He/She/It is | They/We/You are slowing down",
+            "I/You/They/We have | He/She/It has slowed down",
+            "I/You/They/We have been slowing down | He/She/It has been slowing down",
+            "I/He/She/It/We/You/They slowed down",
+            "I/He/She/It was slowing down | They/We/You were slowing down",
+            "I/He/She/It/We/You/They had slowed down",
+            "I/He/She/It/We/You/They had been slowing down",
+            "I/He/She/It/We/You/They will slow down",
+            "I/He/She/It/We/You/They will be slowing down",
+            "I/He/She/It/We/You/They will have slowed down",
+            "I/He/She/It/We/You/They will have been slowing down"
+        ],
+  "synonyms":[ "decelerate", "reduce speed", "ease up", "moderate", "slacken", "lessen pace"],
+  
+  "antonyms":[ "speed up", "accelerate", "hasten", "quicken", "rush", "increase pace"],
+  
+        "questions": [
+            "Why did the driver slow down at the intersection?(context: driving)",
+            "Who needs to slow down while speaking in meetings?(context: communication)",
+            "Have you slowed down your work pace due to stress?(context: work-life balance)",
+            "Why should we slow down our eating?(context: health advice)",
+            "How can I slow down my thoughts before sleeping?(context: relaxation)"
+        ]
+    },
+  
+
+
 
   {
     "topic": "preparation verbs",
