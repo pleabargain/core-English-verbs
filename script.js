@@ -472,6 +472,211 @@ document.addEventListener('DOMContentLoaded', function() {
   },
 
   
+  {
+    "topic": "housekeeping verbs",
+    "category": "regular",
+    "verb": "clean up",
+    "answer": [
+        "I/They/We/You clean up | He/She/It cleans up",
+        "I am | He/She/It is | They/We/You are cleaning up",
+        "I/You/They/We have | He/She/It has cleaned up",
+        "I/You/They/We have been cleaning up | He/She/It has been cleaning up",
+        "I/He/She/It/We/You/They cleaned up",
+        "I/He/She/It was cleaning up | They/We/You were cleaning up",
+        "I/He/She/It/We/You/They had cleaned up",
+        "I/He/She/It/We/You/They had been cleaning up",
+        "I/He/She/It/We/You/They will clean up",
+        "I/He/She/It/We/You/They will be cleaning up",
+        "I/He/She/It/We/You/They will have cleaned up",
+        "I/He/She/It/We/You/They will have been cleaning up"
+    ],
+"synonyms":[ "tidy up", "neaten", "straighten up", "put in order", "order", "organize"],
+
+"antonyms":[ "mess up", "disorder", "clutter", "litter", "disarrange", "scatter"],
+
+    "questions": [
+        "Can you clean up your room before guests arrive?(context: household chores)",
+        "Who cleans up the kitchen after dinner?(context: family duties)",
+        "Have they cleaned up the park after the festival?(context: community service)",
+        "Why did she clean up the files on her computer?(context: organization)",
+        "How do you clean up your diet for better health?(context: health and nutrition)"
+    ]
+},
+
+
+
+
+
+{
+    "topic": "housekeeping verbs",
+    "category": "regular",
+    "verb": "decide",
+    "answer": [
+      "I/They/We/You decide | He/She/It decides",
+      "I am | He/She/It is | They/We/You are deciding",
+      "I/You/They/We have | He/She/It has decided",
+      "I/You/They/We have been deciding | He/She/It has been deciding",
+      "I/He/She/It/We/You/They decided",
+      "I/He/She/It was deciding | They/We/You were deciding",
+      "I/He/She/It/We/You/They had decided",
+      "I/He/She/It/We/You/They had been deciding",
+      "I/He/She/It/We/You/They will decide",
+      "I/He/She/It/We/You/They will be deciding",
+      "I/He/She/It/We/You/They will have decided",
+      "I/He/She/It/We/You/They will have been deciding"
+    ],
+    "synonyms": [
+      "choose", "make up one's mind", "settle on", "determine", "conclude", "resolve"
+    ],
+    "antonyms": [
+      "waver", "hesitate", "fluctuate", "dither", "vacillate", "change one's mind"
+    ],
+    "questions": [
+      "Should you decide on a paint color before buying furniture?(context: home improvement)",
+      "Who will decide what to eat for dinner?(context: family dynamics)",
+      "How did they decide which charity to support?(context: philanthropy)",
+      "Why did she decide to take a break from her job?(context: career choices)",
+      "What factors do you consider when deciding on a vacation destination?(context: travel planning)"
+    ]
+  },
+  
+
+  {
+    "topic": "housekeeping verbs",
+    "category": "phrasal",
+    "verb": "give advice",
+    "answer": [
+      "I/They/We/You give advice (to someone) | He/She/It gives advice (to someone)",
+      "I am | He/She/It is | They/We/You are giving advice (to someone)",
+      "I/You/They/We have | He/She/It has given advice (to someone)",
+      "I/You/They/We have been giving advice (to someone) | He/She/It has been giving advice (to someone)",
+      "I/He/She/It/We/You/They gave advice (to someone)",
+      "I/He/She/It was giving advice (to someone) | They/We/You were giving advice (to someone)",
+      "I/He/She/It/We/You/They had given advice (to someone)",
+      "I/He/She/It/We/You/They had been giving advice (to someone)",
+      "I/He/She/It/We/You/They will give advice (to someone)",
+      "I/He/She/It/We/You/They will be giving advice (to someone)",
+      "I/He/She/It/We/You/They will have given advice (to someone)",
+      "I/He/She/It/We/You/They will have been giving advice (to someone)"
+    ],
+    "synonyms": [
+      "offer advice", "suggest", "recommend", "counsel", "guide", "instruct", "mentor"
+    ],
+    "antonyms": [
+      "ignore", "disregard", "dismiss", "contradict", "mislead", "deceive", "confuse"
+    ],
+    "questions": [
+      "Can you give me some advice on cleaning up my cluttered room?(context: household needs)",
+      "Who should I give advice to about applying for college?(context: academic guidance)",
+      "Have they given advice on how to handle this difficult situation?(context: problem-solving)",
+      "Why did she give conflicting advice to her two friends?(context: confusion)",
+      "How can we give better advice to students struggling with online learning?(context: educational strategies)"
+    ]
+  },
+  
+
+  {
+    "topic": "housekeeping verbs",
+    "category": "phrasal",
+    "verb": "put on",
+    "answer": [
+      "I/They/We/You put on | He/She/It puts on",
+      "I am | He/She/It is | They/We/You are putting on",
+      "I/You/They/We have | He/She/It has put on",
+      "I/You/They/We have been putting on | He/She/It has been putting on",
+      "I/He/She/It/We/You/They put on",
+      "I/He/She/It was putting on | They/We/You were putting on",
+      "I/He/She/It/We/You/They had put on",
+      "I/He/She/It/We/You/They had been putting on",
+      "I/He/She/It/We/You/They will put on",
+      "I/He/She/It/We/You/They will be putting on",
+      "I/He/She/It/We/You/They will have put on",
+      "I/He/She/It/We/You/They will have been putting on"
+    ],
+    "synonyms": [
+      "dress in", "wear", "apply", "impose", "stage", "pretend", "deceive" 
+    ],
+    "antonyms": [
+      "take off", "undress", "remove", "lift", "cancel", "reveal", "be honest"
+    ],
+    "questions": [
+      "Can you put on your shoes before we go outside?(context: getting ready)",
+      "Who put on the decorations for the party?(context: organizing events)",
+      "Have they put on the play about the history of the town?(context: community activities)",
+      "Why did she put on that fake accent?(context: deception)",
+      "How can we put on a more sustainable fashion show?(context: eco-friendly practices)"
+    ]
+  },
+  
+
+
+  {
+    "topic": "housekeeping verbs",
+    "category": "regular",
+    "verb": "shut down",
+    "answer": [
+      "I/They/We/You shut down | He/She/It shuts down",
+      "I am | He/She/It is | They/We/You are shutting down",
+      "I/You/They/We have | He/She/It has shut down",
+      "I/You/They/We have been shutting down | He/She/It has been shutting down",
+      "I/He/She/It/We/You/They shut down",
+      "I/He/She/It was shutting down | They/We/You were shutting down",
+      "I/He/She/It/We/You/They had shut down",
+      "I/He/She/It/We/You/They had been shutting down",
+      "I/He/She/It/We/You/They will shut down",
+      "I/He/She/It/We/You/They will be shutting down",
+      "I/He/She/It/We/You/They will have shut down",
+      "I/He/She/It/We/You/They will have been shutting down"
+    ],
+    "synonyms": [
+      "close down", "turn off", "deactivate", "power down", "halt", "discontinue"
+    ],
+    "antonyms": [
+      "turn on", "activate", "power up", "start up", "launch", "reactivate"
+    ],
+    "questions": [
+      "Please shut down the computer before leaving for the night.(context: office procedures)",
+      "Why did the power plant shut down unexpectedly?(context: infrastructure issues)",
+      "Who will shut down the production line for maintenance?(context: factory operations)",
+      "Have they shut down the website for updates?(context: web development)",
+      "How can we shut down the spread of misinformation online?(context: digital literacy)"
+    ]
+  },
+
+
+  {
+    "topic": "housekeeping verbs",
+    "category": "phrasal",
+    "verb": "close down",
+    "answer": [
+      "I/They/We/You close down | He/She/It closes down",
+      "I am | He/She/It is | They/We/You are closing down",
+      "I/You/They/We have | He/She/It has closed down",
+      "I/You/They/We have been closing down | He/She/It has been closing down",
+      "I/He/She/It/We/You/They closed down",
+      "I/He/She/It was closing down | They/We/You were closing down",
+      "I/He/She/It/We/You/They had closed down",
+      "I/He/She/It/We/You/They had been closing down",
+      "I/He/She/It/We/You/They will close down",
+      "I/He/She/It/We/You/They will be closing down",
+      "I/He/She/It/We/You/They will have closed down",
+      "I/He/She/It/We/You/They will have been closing down"
+    ],
+    "synonyms": [
+      "shut down", "cease operation", "wind up", "liquidate", "terminate", "discontinue"
+    ],
+    "antonyms": [
+      "open up", "start up", "launch", "initiate", "commence", "reopen"
+    ],
+    "questions": [
+      "When will the library close down for renovations?(context: public services)",
+      "Why did the restaurant close down after so many years?(context: business failure)",
+      "Who will close down the computer when everyone leaves?(context: office routine)",
+      "Have they closed down the street for construction?(context: road closures)",
+      "How can we prevent our local park from closing down due to budget cuts?(context: community activism)"
+    ]
+  },
+  
 
 
   {
@@ -1346,6 +1551,39 @@ document.addEventListener('DOMContentLoaded', function() {
   },
 
   
+  {
+    "topic": "separation verbs",
+    "category": "regular",
+    "verb": "leave behind",
+    "answer": [
+        "I/They/We/You leave behind | He/She/It leaves behind",
+        "I am | He/She/It is | They/We/You are leaving behind",
+        "I/You/They/We have | He/She/It has left behind",
+        "I/You/They/We have been leaving behind | He/She/It has been leaving behind",
+        "I/He/She/It/We/You/They left behind",
+        "I/He/She/It was leaving behind | They/We/You were leaving behind",
+        "I/He/She/It/We/You/They had left behind",
+        "I/He/She/It/We/You/They had been leaving behind",
+        "I/He/She/It/We/You/They will leave behind",
+        "I/He/She/It/We/You/They will be leaving behind",
+        "I/He/She/It/We/You/They will have left behind",
+        "I/He/She/It/We/You/They will have been leaving behind"
+    ],
+"synonyms":[ "abandon", "forsake", "discard", "forget", "neglect", "omit"],
+
+"antonyms":[ "take", "bring", "carry", "retain", "keep", "hold on to"],
+
+    "questions": [
+        "Why did you leave behind your umbrella?(context: forgetfulness)",
+        "Who leaves behind the most items at school?(context: school environment)",
+        "Have they left behind any of their belongings?(context: moving out)",
+        "Can we leave behind old habits and start fresh?(context: personal development)",
+        "How do you feel when you are left behind on a trip?(context: social experiences)"
+    ]
+},
+
+
+
 
 
   {
@@ -1726,8 +1964,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "Why is the dog running around the yard? (context: general)",
         "Can you run a mile without stopping? (context: fitness)"
     ]
-}
-,
+},
+
 
 {
     "topic": "state verbs",
@@ -2568,6 +2806,8 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
   
+
+
   {
     "topic": "movement verbs",
     "category": "phrasal verb (irregular)",
@@ -3430,7 +3670,83 @@ document.addEventListener('DOMContentLoaded', function() {
 ]
 },
 
+{
+    "topic": "housekeeping verbs",
+    "category": "phrasal",
+    "verb": "get on (with something)",
+    "answer": [
+      "I/They/We/You get on (with something) | He/She/It gets on (with something)",
+      "I am | He/She/It is | They/We/You are getting on (with something)",
+      "I/You/They/We have | He/She/It has gotten on (with something)",
+      "I/You/They/We have been getting on (with something) | He/She/It has been getting on (with something)",
+      "I/He/She/It/We/You/They got on (with something)",
+      "I/He/She/It was getting on (with something) | They/We/You were getting on (with something)",
+      "I/He/She/It/We/You/They had gotten on (with something)",
+      "I/He/She/It/We/You/They had been getting on (with something)",
+      "I/He/She/It/We/You/They will get on (with something)",
+      "I/He/She/It/We/You/They will be getting on (with something)",
+      "I/He/She/It/We/You/They will have gotten on (with something)",
+      "I/He/She/It/We/You/They will have been getting on (with something)"
+    ],
+    "synonyms": [
+      "make progress", "deal with", "manage", "cope", "succeed", "thrive"
+    ],
+    "antonyms": [
+      "struggle", "falter", "fail", "be overwhelmed", "give up", "decline"
+    ],
+    "questions": [
+      "Is she getting on well with her new job?(context: career progress)",
+      "How are you getting on with painting the living room?(context: household tasks)",
+      "Do you think they will get on with their new neighbors?(context: social interactions)",
+      "When are you getting on the plane?(context: travel plans)",
+      "Why is he having trouble getting on with his studies?(context: academic challenges)",
+      "What tips can you share for getting on better with family members?(context: relationships)"
+    ]
+  },
 
+
+  {
+    "topic": "housekeeping verbs",
+    "category": "phrasal",
+    "verb": "make progress",
+    "answer": [
+      "I/They/We/You make progress (on something) | He/She/It makes progress (on something)",
+      "I am | He/She/It is | They/We/You are making progress (on something)",
+      "I/You/They/We have | He/She/It has made progress (on something)",
+      "I/You/They/We have been making progress (on something) | He/She/It has been making progress (on something)",
+      "I/He/She/It/We/You/They made progress (on something)",
+      "I/He/She/It was making progress (on something) | They/We/You were making progress (on something)",
+      "I/He/She/It/We/You/They had made progress (on something)",
+      "I/He/She/It/We/You/They had been making progress (on something)",
+      "I/He/She/It/We/You/They will make progress (on something)",
+      "I/He/She/It/We/You/They will be making progress (on something)",
+      "I/He/She/It/We/You/They will have made progress (on something)",
+      "I/He/She/It/We/You/They will have been making progress (on something)"
+    ],
+    "synonyms": [
+      "advance", "move forward", "develop", "improve", "gain ground", "get closer to", "achieve", "succeed"
+    ],
+    "antonyms": [
+      "stagnate", "regress", "deteriorate", "backslide", "stall", "fall behind", "fail", "regress"
+    ],
+    "images": [
+      "A close-up photo of a gardener planting a seedling, symbolizing the start of new progress.",
+      "A bar graph showing an upward trend, illustrating progress over time.",
+      "A photo of a person crossing a finish line, representing successful completion of a goal.",
+      "A picture of a construction site with scaffolding and beams, depicting progress on a physical project.",
+      "A split-screen image showing a messy room before and a tidy room after, showcasing progress in cleaning."
+    ],
+    "questions": [
+      "How can you make progress on your fitness goals?(context: personal health)",
+      "Have you made any progress on your project?(context: work tasks)",
+      "Who is responsible for making progress on this project?(context: teamwork)",
+      "Have they made any progress on solving the environmental crisis?(context: global challenges)",
+      "Why did she stall and make no progress on her writing?(context: creative roadblocks)",
+      "What strategies can we use to make progress towards a more sustainable future?(context: environmental action)"
+    ]
+  }
+  
+  
 
 {
     "topic": "competition verbs",
@@ -3471,6 +3787,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Who won the match yesterday? (context: sports)",
         "If you won the lottery, what would you do? (context: hypothetical)",
         "Have you ever won a competition? (context: personal achievement)",
+        "If you win today's match, what happens next? (context: conditional statement)",
         "What does it take to win in this industry? (context: business)",
         "Which team do you think will win the championship? (context: sports)",
         "How did she feel after winning the award? (context: achievement)"
@@ -4460,6 +4777,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "How can I pass my driving test on the first try?(context: achievement)"
     ]
 },
+
 
 {
     "topic": "communication verbs",
@@ -5708,6 +6026,73 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
 
+  
+  {
+        "topic": "release verbs",
+        "category": "regular",
+        "verb": "let go",
+        "answer": [
+            "I/They/We/You let go | He/She/It lets go",
+            "I am | He/She/It is | They/We/You are letting go",
+            "I/You/They/We have | He/She/It has let go",
+            "I/You/They/We have been letting go | He/She/It has been letting go",
+            "I/He/She/It/We/You/They let go",
+            "I/He/She/It was letting go | They/We/You were letting go",
+            "I/He/She/It/We/You/They had let go",
+            "I/He/She/It/We/You/They had been letting go",
+            "I/He/She/It/We/You/They will let go",
+            "I/He/She/It/We/You/They will be letting go",
+            "I/He/She/It/We/You/They will have let go",
+            "I/He/She/It/We/You/They will have been letting go"
+        ],
+  "synonyms":[ "release", "relinquish", "free", "unhand", "surrender", "abandon"],
+  
+  "antonyms":[ "hold", "grasp", "cling", "retain", "keep", "grip"],
+  
+        "questions": [
+            "When will you let go of the past mistakes?(context: emotional healing)",
+            "Who lets go of their anger quickly in your family?(context: emotional regulation)",
+            "Have they let go of their old car yet?(context: selling possessions)",
+            "Why did he let go of such a great opportunity?(context: decision-making)",
+            "How do you let go of stress after work?(context: stress management)"
+        ]
+    },
+  
+
+
+
+  {
+    "topic": "perseverance verbs",
+    "category": "regular",
+    "verb": "hold on",
+    "answer": [
+        "I/They/We/You hold on | He/She/It holds on",
+        "I am | He/She/It is | They/We/You are holding on",
+        "I/You/They/We have | He/She/It has held on",
+        "I/You/They/We have been holding on | He/She/It has been holding on",
+        "I/He/She/It/We/You/They held on",
+        "I/He/She/It was holding on | They/We/You were holding on",
+        "I/He/She/It/We/You/They had held on",
+        "I/He/She/It/We/You/They had been holding on",
+        "I/He/She/It/We/You/They will hold on",
+        "I/He/She/It/We/You/They will be holding on",
+        "I/He/She/It/We/You/They will have held on",
+        "I/He/She/It/We/You/They will have been holding on"
+    ],
+"synonyms":[ "grip", "cling", "grasp", "hang on", "maintain", "persevere"],
+
+"antonyms":[ "release", "let go", "surrender", "abandon", "give up", "relinquish"],
+
+    "questions": [
+        "Can you hold on to the rope tightly?(context: physical activity)",
+        "Who holds on to their dreams despite challenges?(context: aspiration)",
+        "Have they held on to the old traditions?(context: cultural practice)",
+        "Why did she hold on to those memories for so long?(context: emotional attachment)",
+        "How do you hold on to your beliefs in difficult times?(context: perseverance)"
+    ]
+},
+
+
 
 
   {
@@ -5854,6 +6239,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How do you get employees to buy in to a new policy? (context: management)",
         "Why is it important for stakeholders to buy in to a project? (context: project management)",
+        "If you don't buy it now, will you regret it later? (context: sales)",
         "What factors influence customers to buy in to a brand? (context: marketing)",
         "How can we encourage more people to buy in to this idea? (context: persuasion)",
         "What happens when a leader doesn't buy in to the company culture? (context: corporate governance)"
@@ -6206,8 +6592,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "How have cities grown up over the centuries? (context: urban development)",
         "What skills do children need to grow up successfully? (context: education)"
     ]
-  }
-  ,
+  },
 
 
 
