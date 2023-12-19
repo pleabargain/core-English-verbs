@@ -671,37 +671,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
 
-{
-    "topic": "sensory verbs",
-    "category": "irregular",
-    "verb": "hear",
-    "answer": [
-        "I/They/We/You hear | He/She/It hears",
-        "I am | He/She/It is | They/We/You are hearing",
-        "I/You/They/We have | He/She/It has heard",
-        "I/You/They/We have been hearing | He/She/It has been hearing",
-        "I/He/She/It/We/You/They heard",
-        "I/He/She/It was hearing | They/We/You were hearing",
-        "I/He/She/It/We/You/They had heard",
-        "I/He/She/It/We/You/They had been hearing",
-        "I/He/She/It/We/You/They will hear",
-        "I/He/She/It/We/You/They will be hearing",
-        "I/He/She/It/We/You/They will have heard",
-        "I/He/She/It/We/You/They will have been hearing"
-    ],
-    "synonyms": ["listen to", "catch", "overhear", "eavesdrop", "perceive", "detect", "make out", "distinguish", "attend", "heed", "take in", "discern"],
-    "antonyms": ["ignore", "mishear", "overlook", "neglect", "disregard", "unheed", "tune out", "miss", "be deaf to", "disbelieve", "doubt"],
-    "questions": [
-        "Did you hear what they said? (context: conversation)",
-        "Who hears the noise in the night? (context: investigation)",
-        "Have you heard the latest news? (context: updates)",
-        "What did you hear about the event? (context: gossip)",
-        "Why can't I hear anything? (context: audio issues)"
-    ]
-}
-
-,
-
 
 {
     "topic": "movement verbs",
@@ -733,6 +702,54 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 ,
+
+{
+    "topic": "appearance verbs",
+    "category": "regular",
+    "verb": "show up",
+    "answer": [
+        "I/They/We/You show up | He/She/It shows up",
+        "I am | He/She/It is | They/We/You are showing up",
+        "I/You/They/We have | He/She/It has shown up",
+        "I/You/They/We have been showing up | He/She/It has been showing up",
+        "I/He/She/It/We/You/They showed up",
+        "I/He/She/It was showing up | They/We/You were showing up",
+        "I/He/She/It/We/You/They had shown up",
+        "I/He/She/It/We/You/They had been showing up",
+        "I/He/She/It/We/You/They will show up",
+        "I/He/She/It/We/You/They will be showing up",
+        "I/He/She/It/We/You/They will have shown up",
+        "I/He/She/It/We/You/They will have been showing up"
+    ],
+    "synonyms": [
+        "arrive", 
+        "appear", 
+        "turn up", 
+        "come", 
+        "attend", 
+        "be present", 
+        "materialize", 
+        "emerge", 
+        "surface"
+    ],
+    "antonyms": [
+        "leave", 
+        "depart", 
+        "exit", 
+        "disappear", 
+        "vanish", 
+        "absent oneself"
+    ],
+    "questions": [
+        "Who showed up at the party? (context: social event)",
+        "Did everyone show up on time? (context: meeting)",
+        "How do you react when uninvited guests show up? (context: hosting)",
+        "Why didn't you show up yesterday? (context: appointment)",
+        "What happens if the main speaker doesn't show up? (context: event planning)"
+    ]
+  }
+  ,
+
 
 
 {
@@ -3915,6 +3932,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Why did you refuse the offer? (context: decision-making)",
         "Who refuses to participate in the project? (context: team dynamics)",
+        "When was the last you refused to do something? (context: personal inquiry)",
         "Have they refused your request? (context: negotiation)",
         "What reasons might someone have to refuse this? (context: objection analysis)",
         "How can we convince them not to refuse? (context: persuasion strategy)"
@@ -3947,6 +3965,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Why were you forced to change your plans? (context: compulsion)",
         "Who has been forced to leave the job? (context: employment issues)",
         "Have they forced a decision on this matter? (context: decision making)",
+        "Have you ever forced someone to do something? (context: compulsion)",
         "What can force us to reconsider our strategy? (context: business planning)",
         "How do you handle being forced into a situation? (context: coping strategies)"
     ]
@@ -3978,6 +3997,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Who seeks approval for these projects? (context: administrative process)",
         "Have they sought help with the problem? (context: problem-solving)",
         "Have you sought advice from an expert? (context: guidance seeking)",
+        "When was the last time you sought advice and for what? (context: guidance seeking)",
         "Why do people seek fame? (context: motivation analysis)",
         "How do you seek advice when needed? (context: guidance seeking)"
     ]
@@ -4087,6 +4107,54 @@ document.addEventListener('DOMContentLoaded', function() {
         "Will you take responsibility for this? (context: responsibility assignment)"
     ]
 },
+
+
+{
+    "topic": "common verbs",
+    "category": "irregular",
+    "verb": "hold",
+    "answer": [
+        "I/They/We/You hold | He/She/It holds",
+        "I am | He/She/It is | They/We/You are holding",
+        "I/You/They/We have | He/She/It has held",
+        "I/You/They/We have been holding | He/She/It has been holding",
+        "I/He/She/It/We/You/They held",
+        "I/He/She/It was holding | They/We/You were holding",
+        "I/He/She/It/We/You/They had held",
+        "I/He/She/It/We/You/They had been holding",
+        "I/He/She/It/We/You/They will hold",
+        "I/He/She/It/We/You/They will be holding",
+        "I/He/She/It/We/You/They will have held",
+        "I/He/She/It/We/You/They will have been holding"
+    ],
+    "synonyms": [
+        "grasp",
+        "grip",
+        "clutch",
+        "cling to",
+        "hang onto",
+        "retain",
+        "possess",
+        "have",
+        "maintain",
+        "sustain"
+    ],
+    "antonyms": [
+        "release",
+        "let go",
+        "drop",
+        "relinquish",
+        "surrender"
+    ],
+    "questions": [
+        "Can you hold this for me? (context: general)",
+        "Who holds the record for this? (context: sports)",
+        "Have you held a leadership position before? (context: career)",
+        "How long can you hold your breath? (context: general)",
+        "What are you holding in your hand? (context: general)"
+    ]
+},
+
 
 
 {
@@ -4312,12 +4380,1033 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How do you prepare for an exam? (context: studying)",
         "Who is preparing dinner tonight? (context: cooking)",
+        "How long did it take for you to prepare the presentation? (context: work)",
         "Have they prepared their presentation? (context: work)",
         "Why did she prepare so early? (context: planning)",
         "What do we need to prepare for the trip? (context: travel)"
     ]
   }
   ,
+
+
+  {
+    "topic": "common verbs",
+    "category": "regular",
+    "verb": "wait for",
+    "answer": [
+        "I/They/We/You wait for | He/She/It waits for",
+        "I am | He/She/It is | They/We/You are waiting for",
+        "I/You/They/We have | He/She/It has waited for",
+        "I/You/They/We have been waiting for | He/She/It has been waiting for",
+        "I/He/She/It/We/You/They waited for",
+        "I/He/She/It was waiting for | They/We/You were waiting for",
+        "I/He/She/It/We/You/They had waited for",
+        "I/He/She/It/We/You/They had been waiting for",
+        "I/He/She/It/We/You/They will wait for",
+        "I/He/She/It/We/You/They will be waiting for",
+        "I/He/She/It/We/You/They will have waited for",
+        "I/He/She/It/We/You/They will have been waiting for"
+    ],
+    "synonyms": [
+        "anticipate",
+        "expect",
+        "look out for",
+        "await",
+        "hold on for",
+        "bide time for",
+        "stay for",
+        "pause for",
+        "remain for",
+        "stand by for"
+    ],
+    "antonyms": [
+        "leave",
+        "depart",
+        "disregard",
+        "ignore",
+        "neglect"
+    ],
+    "questions": [
+        "How long will you wait for the bus? (context: transportation)",
+        "Who are you waiting for? (context: general)",
+        "Have you been waiting for this opportunity? (context: career)",
+        "Will they wait for us at the restaurant? (context: social)",
+        "Why did you wait for so long? (context: general)"
+    ]
+}
+  ,
+
+
+
+  {
+    "topic": "general verbs",
+    "category": "regular",
+    "verb": "make ready",
+    "answer": [
+      "I/They/We/You make ready | He/She/It makes ready",
+      "I am | He/She/It is | They/We/You are making ready",
+      "I/You/They/We have | He/She/It has made ready",
+      "I/You/They/We have been making ready | He/She/It has been making ready",
+      "I/He/She/It/We/You/They made ready",
+      "I/He/She/It was making ready | They/We/You were making ready",
+      "I/He/She/It/We/You/They had made ready",
+      "I/He/She/It/We/You/They had been making ready",
+      "I/He/She/It/We/You/They will make ready",
+      "I/He/She/It/We/You/They will be making ready",
+      "I/He/She/It/We/You/They will have made ready",
+      "I/He/She/It/We/You/They will have been making ready"
+    ],
+    "synonyms": ["prepare", "set up", "arrange", "organize", "equip", "provision"],
+    "antonyms": ["disorganize", "neglect", "disarrange", "unsettle"],
+    "questions": [
+      "How can we make ready for the meeting?(context: preparation)",
+      "Who makes ready the equipment for the event?(context: organization)",
+      "Have you made ready for your trip?(context: travel)",
+      "What do we need to make ready for the presentation?(context: work)",
+      "Are they making ready for the holiday season?(context: general)"
+    ]
+  }
+  ,
+  {
+    "topic": "creation verbs",
+    "category": "regular",
+    "verb": "make",
+    "answer": [
+        "I/They/We/You make | He/She/It makes",
+        "I am | He/She/It is | They/We/You are making",
+        "I/You/They/We have | He/She/It has made",
+        "I/You/They/We have been making | He/She/It has been making",
+        "I/He/She/It/We/You/They made",
+        "I/He/She/It was making | They/We/You were making",
+        "I/He/She/It/We/You/They had made",
+        "I/He/She/It/We/You/They had been making",
+        "I/He/She/It/We/You/They will make",
+        "I/He/She/It/We/You/They will be making",
+        "I/He/She/It/We/You/They will have made",
+        "I/He/She/It/We/You/They will have been making"
+    ],
+    "synonyms": [
+        "create", 
+        "produce", 
+        "manufacture", 
+        "build", 
+        "construct", 
+        "form", 
+        "fabricate", 
+        "forge", 
+        "generate", 
+        "compose", 
+        "craft"
+    ],
+    "antonyms": [
+        "destroy", 
+        "break", 
+        "demolish", 
+        "dismantle", 
+        "ruin", 
+        "undo"
+    ],
+    "questions": [
+        "What are you making for dinner? (context: cooking)",
+        "Who made this decision? (context: business)",
+        "Have they made any progress? (context: project management)",
+        "How do you make a website? (context: technology)",
+        "Can you make a difference? (context: motivational)"
+    ]
+  } ,
+
+
+  {
+    "topic": "restriction verbs",
+    "category": "irregular",
+    "verb": "withhold",
+    "answer": [
+        "I/They/We/You withhold | He/She/It withholds",
+        "I am | He/She/It is | They/We/You are withholding",
+        "I/You/They/We have | He/She/It has withheld",
+        "I/You/They/We have been withholding | He/She/It has been withholding",
+        "I/He/She/It/We/You/They withheld",
+        "I/He/She/It was withholding | They/We/You were withholding",
+        "I/He/She/It/We/You/They had withheld",
+        "I/He/She/It/We/You/They had been withholding",
+        "I/He/She/It/We/You/They will withhold",
+        "I/He/She/It/We/You/They will be withholding",
+        "I/He/She/It/We/You/They will have withheld",
+        "I/He/She/It/We/You/They will have been withholding"
+    ],
+    "synonyms": [
+        "retain", 
+        "reserve", 
+        "hold back", 
+        "keep back", 
+        "refrain", 
+        "suppress", 
+        "restrain", 
+        "conceal", 
+        "hide"
+    ],
+    "antonyms": [
+        "release", 
+        "disclose", 
+        "yield", 
+        "surrender", 
+        "give", 
+        "reveal", 
+        "expose", 
+        "provide", 
+        "offer"
+    ],
+    "questions": [
+        "Why did they withhold the information? (context: investigation)",
+        "Are you withholding something from me? (context: personal)",
+        "Has the company withheld any profits? (context: business)",
+        "What reasons might someone have to withhold consent? (context: legal)",
+        "Can the government withhold these documents? (context: legal)"
+    ]
+  }
+ ,
+
+
+ {
+    "topic": "movement verbs",
+    "category": "irregular",
+    "verb": "run into",
+    "answer": [
+        "I/They/We/You run into | He/She/It runs into",
+        "I am | He/She/It is | They/We/You are running into",
+        "I/You/They/We have | He/She/It has run into",
+        "I/You/They/We have been running into | He/She/It has been running into",
+        "I/He/She/It/We/You/They ran into",
+        "I/He/She/It was running into | They/We/You were running into",
+        "I/He/She/It/We/You/They had run into",
+        "I/He/She/It/We/You/They had been running into",
+        "I/He/She/It/We/You/They will run into",
+        "I/He/She/It/We/You/They will be running into",
+        "I/He/She/It/We/You/They will have run into",
+        "I/He/She/It/We/You/They will have been running into"
+    ],
+    "synonyms": [
+        "encounter", 
+        "meet", 
+        "come across", 
+        "stumble upon", 
+        "bump into", 
+        "collide with", 
+        "strike", 
+        "hit", 
+        "crash into"
+    ],
+    "antonyms": [
+        "avoid", 
+        "dodge", 
+        "evade", 
+        "miss", 
+        "bypass", 
+        "circumvent"
+    ],
+    "questions": [
+        "Did you run into anyone you knew? (context: social)",
+        "How often do you run into this issue? (context: problem-solving)",
+        "What happens if we run into legal problems? (context: business)",
+        "Have you ever run into a wild animal while hiking? (context: outdoor activities)",
+        "What do you do when you run into a language barrier? (context: travel)"
+    ]
+  }
+ ,
+ 
+ {
+   "topic": "problem-solving verbs",
+   "category": "regular",
+   "verb": "solve",
+   "answer": [
+       "I/They/We/You solve | He/She/It solves",
+       "I am | He/She/It is | They/We/You are solving",
+       "I/You/They/We have | He/She/It has solved",
+       "I/You/They/We have been solving | He/She/It has been solving",
+       "I/He/She/It/We/You/They solved",
+       "I/He/She/It was solving | They/We/You were solving",
+       "I/He/She/It/We/You/They had solved",
+       "I/He/She/It/We/You/They had been solving",
+       "I/He/She/It/We/You/They will solve",
+       "I/He/She/It/We/You/They will be solving",
+       "I/He/She/It/We/You/They will have solved",
+       "I/He/She/It/We/You/They will have been solving"
+   ],
+   "synonyms": [
+       "resolve", 
+       "work out", 
+       "figure out", 
+       "unravel", 
+       "decipher", 
+       "decode", 
+       "crack", 
+       "settle", 
+       "clear up", 
+       "untangle"
+   ],
+   "antonyms": [
+       "complicate", 
+       "worsen", 
+       "confound", 
+       "exacerbate", 
+       "perplex", 
+       "muddle", 
+       "confuse"
+   ],
+   "questions": [
+       "How did you solve the problem? (context: problem-solving)",
+       "Can you solve this math equation? (context: education)",
+       "What steps are you taking to solve the issue? (context: business)",
+       "Who solved the mystery in the story? (context: literature)",
+       "Is it possible to solve this conflict peacefully? (context: conflict resolution)"
+   ]
+ }
+ ,
+ 
+ {
+    "topic": "discovery verbs",
+    "category": "irregular",
+    "verb": "come across",
+    "answer": [
+        "I/They/We/You come across | He/She/It comes across",
+        "I am | He/She/It is | They/We/You are coming across",
+        "I/You/They/We have | He/She/It has come across",
+        "I/You/They/We have been coming across | He/She/It has been coming across",
+        "I/He/She/It/We/You/They came across",
+        "I/He/She/It was coming across | They/We/You were coming across",
+        "I/He/She/It/We/You/They had come across",
+        "I/He/She/It/We/You/They had been coming across",
+        "I/He/She/It/We/You/They will come across",
+        "I/He/She/It/We/You/They will be coming across",
+        "I/He/She/It/We/You/They will have come across",
+        "I/He/She/It/We/You/They will have been coming across"
+    ],
+    "synonyms": [
+        "encounter", 
+        "find", 
+        "stumble upon", 
+        "run into", 
+        "discover", 
+        "unearth", 
+        "uncover", 
+        "hit upon", 
+        "chance upon"
+    ],
+    "antonyms": [
+        "miss", 
+        "overlook", 
+        "ignore", 
+        "bypass", 
+        "neglect", 
+        "lose"
+    ],
+    "questions": [
+        "Have you come across any good books lately? (context: reading)",
+        "How did you come across this information? (context: research)",
+        "Do you often come across such problems in your work? (context: problem-solving)",
+        "What should we do if we come across a dangerous animal? (context: safety)",
+        "Have you ever come across someone from your hometown in another country? (context: travel)"
+    ]
+  }
+ 
+ ,
+  {
+    "topic": "financial verbs",
+    "category": "regular",
+    "verb": "refund",
+    "answer": [
+      "I/They/We/You refund | He/She/It refunds",
+      "I am | He/She/It is | They/We/You are refunding",
+      "I/You/They/We have | He/She/It has refunded",
+      "I/You/They/We have been refunding | He/She/It has been refunding",
+      "I/He/She/It/We/You/They refunded",
+      "I/He/She/It was refunding | They/We/You were refunding",
+      "I/He/She/It/We/You/They had refunded",
+      "I/He/She/It/We/You/They had been refunding",
+      "I/He/She/It/We/You/They will refund",
+      "I/He/She/It/We/You/They will be refunding",
+      "I/He/She/It/We/You/They will have refunded",
+      "I/He/She/It/We/You/They will have been refunding"
+    ],
+    "synonyms": ["reimburse", "repay", "return", "give back", "compensate"],
+    "antonyms": ["charge", "debit", "withhold", "take"],
+    "questions": [
+      "How do I request a refund for this product?(context: customer service)",
+      "Who is responsible for processing refunds?(context: business operations)",
+      "Have you received a refund for the cancelled flight?(context: travel)",
+      "What is the company's policy on refunds?(context: consumer rights)",
+      "Are they refunding the full amount?(context: financial transactions)"
+    ]
+  }
+  ,
+  {
+    "topic": "impact verbs",
+    "category": "irregular",
+    "verb": "hit",
+    "answer": [
+        "I/They/We/You hit | He/She/It hits",
+        "I am | He/She/It is | They/We/You are hitting",
+        "I/You/They/We have | He/She/It has hit",
+        "I/You/They/We have been hitting | He/She/It has been hitting",
+        "I/He/She/It/We/You/They hit",
+        "I/He/She/It was hitting | They/We/You were hitting",
+        "I/He/She/It/We/You/They had hit",
+        "I/He/She/It/We/You/They had been hitting",
+        "I/He/She/It/We/You/They will hit",
+        "I/He/She/It/We/You/They will be hitting",
+        "I/He/She/It/We/You/They will have hit",
+        "I/He/She/It/We/You/They will have been hitting"
+    ],
+    "synonyms": [
+        "strike", 
+        "punch", 
+        "smack", 
+        "bash", 
+        "slap", 
+        "thump", 
+        "bang", 
+        "knock", 
+        "clout", 
+        "wallop"
+    ],
+    "antonyms": [
+        "miss", 
+        "dodge", 
+        "avoid", 
+        "evade", 
+        "bypass"
+    ],
+    "questions": [
+        "Where did the ball hit you? (context: sports)",
+        "What happens when you hit the target? (context: goal achievement)",
+        "Have you ever hit a home run? (context: baseball)",
+        "How does it feel when you hit a wall in your creativity? (context: creative process)",
+        "What should you do if your car hits an animal? (context: driving)"
+    ]
+  },
+
+  {
+    "topic": "review verbs",
+    "category": "irregular",
+    "verb": "go over",
+    "answer": [
+        "I/They/We/You go over | He/She/It goes over",
+        "I am | He/She/It is | They/We/You are going over",
+        "I/You/They/We have | He/She/It has gone over",
+        "I/You/They/We have been going over | He/She/It has been going over",
+        "I/He/She/It/We/You/They went over",
+        "I/He/She/It was going over | They/We/You were going over",
+        "I/He/She/It/We/You/They had gone over",
+        "I/He/She/It/We/You/They had been going over",
+        "I/He/She/It/We/You/They will go over",
+        "I/He/She/It/We/You/They will be going over",
+        "I/He/She/It/We/You/They will have gone over",
+        "I/He/She/It/We/You/They will have been going over"
+    ],
+    "synonyms": [
+        "review", 
+        "examine", 
+        "check", 
+        "inspect", 
+        "revisit", 
+        "scrutinize", 
+        "study", 
+        "look over", 
+        "analyze"
+    ],
+    "antonyms": [
+        "ignore", 
+        "neglect", 
+        "overlook", 
+        "bypass", 
+        "skip"
+    ],
+    "questions": [
+        "Can we go over the report again? (context: business meeting)",
+        "How do you usually go over your notes? (context: study habits)",
+        "Did the team go over the project plan thoroughly? (context: project management)",
+        "How often should we go over safety procedures? (context: safety training)",
+        "What is the best way to go over a legal document? (context: legal review)"
+    ]
+  }
+  ,
+
+
+  {
+    "topic": "communication verbs",
+    "category": "regular",
+    "verb": "send",
+    "answer": [
+        "I/They/We/You send | He/She/It sends",
+        "I am | He/She/It is | They/We/You are sending",
+        "I/You/They/We have | He/She/It has sent",
+        "I/You/They/We have been sending | He/She/It has been sending",
+        "I/He/She/It/We/You/They sent",
+        "I/He/She/It was sending | They/We/You were sending",
+        "I/He/She/It/We/You/They had sent",
+        "I/He/She/It/We/You/They had been sending",
+        "I/He/She/It/We/You/They will send",
+        "I/He/She/It/We/You/They will be sending",
+        "I/He/She/It/We/You/They will have sent",
+        "I/He/She/It/We/You/They will have been sending"
+    ],
+    "synonyms": [
+        "dispatch", 
+        "transmit", 
+        "mail", 
+        "post", 
+        "forward", 
+        "ship", 
+        "deliver", 
+        "convey", 
+        "transfer", 
+        "relay"
+    ],
+    "antonyms": [
+        "receive", 
+        "retain", 
+        "withhold", 
+        "keep", 
+        "hold"
+    ],
+    "questions": [
+        "Did you send the email to all the clients? (context: business communication)",
+        "Who will send the invitations for the event? (context: event planning)",
+        "How do we send this package overseas? (context: shipping)",
+        "Can you send me the details by tonight? (context: request for information)",
+        "When should we send the survey to the participants? (context: research)"
+    ]
+  }
+  ,
+  
+
+
+
+  {
+    "topic": "management verbs",
+    "category": "irregular",
+    "verb": "deal with",
+    "answer": [
+        "I/They/We/You deal with | He/She/It deals with",
+        "I am | He/She/It is | They/We/You are dealing with",
+        "I/You/They/We have | He/She/It has dealt with",
+        "I/You/They/We have been dealing with | He/She/It has been dealing with",
+        "I/He/She/It/We/You/They dealt with",
+        "I/He/She/It was dealing with | They/We/You were dealing with",
+        "I/He/She/It/We/You/They had dealt with",
+        "I/He/She/It/We/You/They had been dealing with",
+        "I/He/She/It/We/You/They will deal with",
+        "I/He/She/It/We/You/They will be dealing with",
+        "I/He/She/It/We/You/They will have dealt with",
+        "I/He/She/It/We/You/They will have been dealing with"
+    ],
+    "synonyms": [
+        "handle", 
+        "manage", 
+        "tackle", 
+        "address", 
+        "confront", 
+        "cope with", 
+        "attend to", 
+        "grapple with", 
+        "take care of", 
+        "contend with"
+    ],
+    "antonyms": [
+        "ignore", 
+        "neglect", 
+        "avoid", 
+        "evade", 
+        "overlook"
+    ],
+    "questions": [
+        "How do you deal with stress? (context: personal well-being)",
+        "Who will deal with the client's complaints? (context: customer service)",
+        "What strategies can we use to deal with this issue? (context: problem-solving)",
+        "Can you deal with these documents before the end of the day? (context: work task)",
+        "How should teachers deal with disruptive students? (context: education)"
+    ]
+  }
+  ,
+  {
+    "topic": "hospitality verbs",
+    "category": "irregular",
+    "verb": "have over",
+    "answer": [
+        "I/They/We/You have over | He/She/It has over",
+        "I am | He/She/It is | They/We/You are having over",
+        "I/You/They/We have | He/She/It has had over",
+        "I/You/They/We have been having over | He/She/It has been having over",
+        "I/He/She/It/We/You/They had over",
+        "I/He/She/It was having over | They/We/You were having over",
+        "I/He/She/It/We/You/They had had over",
+        "I/He/She/It/We/You/They had been having over",
+        "I/He/She/It/We/You/They will have over",
+        "I/He/She/It/We/You/They will be having over",
+        "I/He/She/It/We/You/They will have had over",
+        "I/He/She/It/We/You/They will have been having over"
+    ],
+    "synonyms": [
+        "invite", 
+        "entertain", 
+        "host", 
+        "receive", 
+        "welcome", 
+        "accommodate", 
+        "ask over", 
+        "entertain guests"
+    ],
+    "antonyms": [
+        "dismiss", 
+        "send away", 
+        "turn away", 
+        "refuse", 
+        "reject"
+    ],
+    "questions": [
+        "How often do you have friends over? (context: social gathering)",
+        "Are you planning to have anyone over this weekend? (context: hosting)",
+        "What should I prepare if I have guests over for dinner? (context: meal planning)",
+        "How do you feel when you have family over for the holidays? (context: holiday hosting)",
+        "What activities do you suggest when you have kids over? (context: entertaining children)"
+    ]
+  }
+  ,
+
+
+  {
+    "topic": "transportation verbs",
+    "category": "regular",
+    "verb": "drive over",
+    "answer": [
+        "I/They/We/You drive over | He/She/It drives over",
+        "I am | He/She/It is | They/We/You are driving over",
+        "I/You/They/We have | He/She/It has driven over",
+        "I/You/They/We have been driving over | He/She/It has been driving over",
+        "I/He/She/It/We/You/They drove over",
+        "I/He/She/It was driving over | They/We/You were driving over",
+        "I/He/She/It/We/You/They had driven over",
+        "I/He/She/It/We/You/They had been driving over",
+        "I/He/She/It/We/You/They will drive over",
+        "I/He/She/It/We/You/They will be driving over",
+        "I/He/She/It/We/You/They will have driven over",
+        "I/He/She/It/We/You/They will have been driving over"
+    ],
+    "synonyms": [
+        "travel by car", 
+        "go by car", 
+        "journey over", 
+        "commute", 
+        "motor over", 
+        "ride over", 
+        "travel over", 
+        "navigate over"
+    ],
+    "antonyms": [
+        "walk", 
+        "cycle", 
+        "run", 
+        "stay", 
+        "remain", 
+        "halt"
+    ],
+    "questions": [
+        "Can you drive over to pick up the groceries? (context: errand)",
+        "How long will it take to drive over to the conference? (context: travel planning)",
+        "Should we drive over or take the train? (context: travel decision)",
+        "What's the best route to drive over the mountains? (context: travel advice)",
+        "Is it safe to drive over during the winter? (context: seasonal travel)"
+    ]
+  },
+  {
+    "topic": "consumption verbs",
+    "category": "regular",
+    "verb": "use up",
+    "answer": [
+        "I/They/We/You use up | He/She/It uses up",
+        "I am | He/She/It is | They/We/You are using up",
+        "I/You/They/We have | He/She/It has used up",
+        "I/You/They/We have been using up | He/She/It has been using up",
+        "I/He/She/It/We/You/They used up",
+        "I/He/She/It was using up | They/We/You were using up",
+        "I/He/She/It/We/You/They had used up",
+        "I/He/She/It/We/You/They had been using up",
+        "I/He/She/It/We/You/They will use up",
+        "I/He/She/It/We/You/They will be using up",
+        "I/He/She/It/We/You/They will have used up",
+        "I/He/She/It/We/You/They will have been using up"
+    ],
+    "synonyms": [
+        "exhaust", 
+        "deplete", 
+        "consume", 
+        "spend", 
+        "drain", 
+        "expend", 
+        "empty", 
+        "finish", 
+        "burn through", 
+        "run through"
+    ],
+    "antonyms": [
+        "conserve", 
+        "save", 
+        "preserve", 
+        "spare", 
+        "hoard", 
+        "ration"
+    ],
+    "questions": [
+        "How quickly did you use up the supplies? (context: resource management)",
+        "What happens when they use up all their savings? (context: financial planning)",
+        "Do we have enough ink or will the printer use it up quickly? (context: office supplies)",
+        "Why did the project use up so much time? (context: project evaluation)",
+        "What strategies can be used to not use up energy too fast? (context: energy conservation)"
+    ]
+  },
+
+  {
+    "topic": "search verbs",
+    "category": "irregular",
+    "verb": "seek out",
+    "answer": [
+        "I/They/We/You seek out | He/She/It seeks out",
+        "I am | He/She/It is | They/We/You are seeking out",
+        "I/You/They/We have | He/She/It has sought out",
+        "I/You/They/We have been seeking out | He/She/It has been seeking out",
+        "I/He/She/It/We/You/They sought out",
+        "I/He/She/It was seeking out | They/We/You were seeking out",
+        "I/He/She/It/We/You/They had sought out",
+        "I/He/She/It/We/You/They had been seeking out",
+        "I/He/She/It/We/You/They will seek out",
+        "I/He/She/It/We/You/They will be seeking out",
+        "I/He/She/It/We/You/They will have sought out",
+        "I/He/She/It/We/You/They will have been seeking out"
+    ],
+    "synonyms": [
+        "search for", 
+        "look for", 
+        "hunt for", 
+        "scout for", 
+        "pursue", 
+        "track down", 
+        "find", 
+        "discover", 
+        "locate", 
+        "unearth"
+    ],
+    "antonyms": [
+        "ignore", 
+        "overlook", 
+        "neglect", 
+        "disregard", 
+        "avoid"
+    ],
+    "questions": [
+        "How do you seek out new business opportunities? (context: business development)",
+        "What methods do you use to seek out information? (context: research)",
+        "Who can help me seek out antique furniture? (context: shopping)",
+        "Why is it important to seek out different viewpoints? (context: personal growth)",
+        "Can you seek out a good location for our next meeting? (context: event planning)"
+    ]
+  },
+
+
+  {
+    "topic": "communication verbs",
+    "category": "regular",
+    "verb": "reach out",
+    "answer": [
+        "I/They/We/You reach out | He/She/It reaches out",
+        "I am | He/She/It is | They/We/You are reaching out",
+        "I/You/They/We have | He/She/It has reached out",
+        "I/You/They/We have been reaching out | He/She/It has been reaching out",
+        "I/He/She/It/We/You/They reached out",
+        "I/He/She/It was reaching out | They/We/You were reaching out",
+        "I/He/She/It/We/You/They had reached out",
+        "I/He/She/It/We/You/They had been reaching out",
+        "I/He/She/It/We/You/They will reach out",
+        "I/He/She/It/We/You/They will be reaching out",
+        "I/He/She/It/We/You/They will have reached out",
+        "I/He/She/It/We/You/They will have been reaching out"
+    ],
+    "synonyms": [
+        "contact", 
+        "communicate with", 
+        "get in touch with", 
+        "connect with", 
+        "approach", 
+        "engage", 
+        "address", 
+        "speak to", 
+        "write to", 
+        "call"
+    ],
+    "antonyms": [
+        "ignore", 
+        "avoid", 
+        "disregard", 
+        "withdraw from", 
+        "alienate"
+    ],
+    "questions": [
+        "How do you reach out to potential clients? (context: business networking)",
+        "When should I reach out to my mentor for advice? (context: career development)",
+        "What's the best way to reach out to someone you haven't spoken to in years? (context: personal relationships)",
+        "Should we reach out to the community for support? (context: community engagement)",
+        "Can you reach out to the customer service team for help? (context: customer support)"
+    ]
+  }
+  ,
+
+  {
+    "topic": "inquiry verbs",
+    "category": "regular",
+    "verb": "ask about",
+    "answer": [
+        "I/They/We/You ask about | He/She/It asks about",
+        "I am | He/She/It is | They/We/You are asking about",
+        "I/You/They/We have | He/She/It has asked about",
+        "I/You/They/We have been asking about | He/She/It has been asking about",
+        "I/He/She/It/We/You/They asked about",
+        "I/He/She/It was asking about | They/We/You were asking about",
+        "I/He/She/It/We/You/They had asked about",
+        "I/He/She/It/We/You/They had been asking about",
+        "I/He/She/It/We/You/They will ask about",
+        "I/He/She/It/We/You/They will be asking about",
+        "I/He/She/It/We/You/They will have asked about",
+        "I/He/She/It/We/You/They will have been asking about"
+    ],
+    "synonyms": [
+        "inquire about", 
+        "question about", 
+        "probe about", 
+        "interrogate about", 
+        "enquire about", 
+        "query about", 
+        "investigate about", 
+        "check about", 
+        "seek information about"
+    ],
+    "antonyms": [
+        "ignore", 
+        "overlook", 
+        "disregard", 
+        "avoid discussing", 
+        "bypass"
+    ],
+    "questions": [
+        "Did you ask about the requirements for the project? (context: project planning)",
+        "How should I ask about the company's work culture in an interview? (context: job interview)",
+        "Can you ask about the price of the item? (context: shopping)",
+        "Who will ask about the details of the agreement? (context: business negotiation)",
+        "When is a good time to ask about the progress of the work? (context: management)"
+    ]
+  },
+
+
+
+  {
+    "topic": "resignation verbs",
+    "category": "irregular",
+    "verb": "give up",
+    "answer": [
+        "I/They/We/You give up | He/She/It gives up",
+        "I am | He/She/It is | They/We/You are giving up",
+        "I/You/They/We have | He/She/It has given up",
+        "I/You/They/We have been giving up | He/She/It has been giving up",
+        "I/He/She/It/We/You/They gave up",
+        "I/He/She/It was giving up | They/We/You were giving up",
+        "I/He/She/It/We/You/They had given up",
+        "I/He/She/It/We/You/They had been giving up",
+        "I/He/She/It/We/You/They will give up",
+        "I/He/She/It/We/You/They will be giving up",
+        "I/He/She/It/We/You/They will have given up",
+        "I/He/She/It/We/You/They will have been giving up"
+    ],
+    "synonyms": [
+        "surrender", 
+        "quit", 
+        "stop", 
+        "abandon", 
+        "cease", 
+        "desist", 
+        "forfeit", 
+        "yield", 
+        "renounce", 
+        "resign"
+    ],
+    "antonyms": [
+        "persevere", 
+        "continue", 
+        "persist", 
+        "maintain", 
+        "uphold", 
+        "carry on", 
+        "keep up"
+    ],
+    "questions": [
+        "Why did he give up on his dream? (context: motivation)",
+        "When is it okay to give up on a difficult task? (context: problem-solving)",
+        "Have you ever given up something important for someone else? (context: sacrifice)",
+        "What makes people give up on their goals? (context: psychology)",
+        "How do you convince someone not to give up? (context: encouragement)"
+    ]
+  },
+
+
+
+  {
+    "topic": "fabrication verbs",
+    "category": "regular",
+    "verb": "make up",
+    "answer": [
+        "I/They/We/You make up | He/She/It makes up",
+        "I am | He/She/It is | They/We/You are making up",
+        "I/You/They/We have | He/She/It has made up",
+        "I/You/They/We have been making up | He/She/It has been making up",
+        "I/He/She/It/We/You/They made up",
+        "I/He/She/It was making up | They/We/You were making up",
+        "I/He/She/It/We/You/They had made up",
+        "I/He/She/It/We/You/They had been making up",
+        "I/He/She/It/We/You/They will make up",
+        "I/He/She/It/We/You/They will be making up",
+        "I/He/She/It/We/You/They will have made up",
+        "I/He/She/It/We/You/They will have been making up"
+    ],
+    "synonyms": [
+        "invent", 
+        "fabricate", 
+        "concoct", 
+        "create", 
+        "devise", 
+        "construct", 
+        "formulate", 
+        "imagine", 
+        "dream up", 
+        "compose"
+    ],
+    "antonyms": [
+        "disprove", 
+        "refute", 
+        "debunk", 
+        "expose", 
+        "reveal", 
+        "uncover", 
+        "disclose", 
+        "discredit", 
+        "invalidate"
+    ],
+    "questions": [
+        "Why do children make up stories? (context: psychology)",
+        "How do companies make up for their mistakes? (context: business ethics)",
+        "Can we make up a game to play? (context: recreation)",
+        "What happens when scientists make up data? (context: scientific integrity)",
+        "How do you make up with someone after an argument? (context: relationships)"
+    ]
+  },
+
+  {
+    "topic": "agreement verbs",
+    "category": "irregular",
+    "verb": "buy in",
+    "answer": [
+        "I/They/We/You buy in | He/She/It buys in",
+        "I am | He/She/It is | They/We/You are buying in",
+        "I/You/They/We have | He/She/It has bought in",
+        "I/You/They/We have been buying in | He/She/It has been buying in",
+        "I/He/She/It/We/You/They bought in",
+        "I/He/She/It was buying in | They/We/You were buying in",
+        "I/He/She/It/We/You/They had bought in",
+        "I/He/She/It/We/You/They had been buying in",
+        "I/He/She/It/We/You/They will buy in",
+        "I/He/She/It/We/You/They will be buying in",
+        "I/He/She/It/We/You/They will have bought in",
+        "I/He/She/It/We/You/They will have been buying in"
+    ],
+    "synonyms": [
+        "invest in", 
+        "participate in", 
+        "engage in", 
+        "commit to", 
+        "support", 
+        "endorse", 
+        "subscribe to", 
+        "agree with", 
+        "accept", 
+        "approve"
+    ],
+    "antonyms": [
+        "opt out", 
+        "withdraw from", 
+        "reject", 
+        "disagree with", 
+        "disapprove", 
+        "disavow", 
+        "eschew", 
+        "resist", 
+        "decline"
+    ],
+    "questions": [
+        "How do you get employees to buy in to a new policy? (context: management)",
+        "Why is it important for stakeholders to buy in to a project? (context: project management)",
+        "What factors influence customers to buy in to a brand? (context: marketing)",
+        "How can we encourage more people to buy in to this idea? (context: persuasion)",
+        "What happens when a leader doesn't buy in to the company culture? (context: corporate governance)"
+    ]
+  },
+
+
+  {
+    "topic": "persistence verbs",
+    "category": "irregular",
+    "verb": "keep up",
+    "answer": [
+        "I/They/We/You keep up | He/She/It keeps up",
+        "I am | He/She/It is | They/We/You are keeping up",
+        "I/You/They/We have | He/She/It has kept up",
+        "I/You/They/We have been keeping up | He/She/It has been keeping up",
+        "I/He/She/It/We/You/They kept up",
+        "I/He/She/It was keeping up | They/We/You were keeping up",
+        "I/He/She/It/We/You/They had kept up",
+        "I/He/She/It/We/You/They had been keeping up",
+        "I/He/She/It/We/You/They will keep up",
+        "I/He/She/It/We/You/They will be keeping up",
+        "I/He/She/It/We/You/They will have kept up",
+        "I/He/She/It/We/You/They will have been keeping up"
+    ],
+    "synonyms": [
+        "maintain", 
+        "continue", 
+        "sustain", 
+        "preserve", 
+        "carry on", 
+        "persist", 
+        "uphold", 
+        "prolong", 
+        "persevere with", 
+        "stick with"
+    ],
+    "antonyms": [
+        "abandon", 
+        "quit", 
+        "give up", 
+        "discontinue", 
+        "cease", 
+        "stop", 
+        "desist", 
+        "halt", 
+        "drop", 
+        "relinquish"
+    ],
+    "questions": [
+        "How do you keep up with industry news? (context: professional development)",
+        "Can you keep up with the pace of the course? (context: education)",
+        "What strategies help you keep up your motivation? (context: personal development)",
+        "How do athletes keep up their stamina? (context: sports)",
+        "What tools do you use to keep up with your tasks? (context: productivity)"
+    ]
+  },
 
   {
     "topic": "discovery verbs",
@@ -4566,6 +5655,106 @@ document.addEventListener('DOMContentLoaded', function() {
 },
 
 
+{
+    "topic": "development verbs",
+    "category": "irregular",
+    "verb": "grow up",
+    "answer": [
+        "I/They/We/You grow up | He/She/It grows up",
+        "I am | He/She/It is | They/We/You are growing up",
+        "I/You/They/We have | He/She/It has grown up",
+        "I/You/They/We have been growing up | He/She/It has been growing up",
+        "I/He/She/It/We/You/They grew up",
+        "I/He/She/It was growing up | They/We/You were growing up",
+        "I/He/She/It/We/You/They had grown up",
+        "I/He/She/It/We/You/They had been growing up",
+        "I/He/She/It/We/You/They will grow up",
+        "I/He/She/It/We/You/They will be growing up",
+        "I/He/She/It/We/You/They will have grown up",
+        "I/He/She/It/We/You/They will have been growing up"
+    ],
+    "synonyms": [
+        "mature", 
+        "develop", 
+        "age", 
+        "evolve", 
+        "progress", 
+        "blossom", 
+        "flourish", 
+        "advance", 
+        "ripen", 
+        "come of age"
+    ],
+    "antonyms": [
+        "regress", 
+        "stagnate", 
+        "deteriorate", 
+        "worsen", 
+        "decline", 
+        "wither", 
+        "atrophy"
+    ],
+    "questions": [
+        "Where did you grow up? (context: personal background)",
+        "How does one's childhood affect how they grow up? (context: psychology)",
+        "What are the challenges children face as they grow up? (context: child development)",
+        "How have cities grown up over the centuries? (context: urban development)",
+        "What skills do children need to grow up successfully? (context: education)"
+    ]
+  }
+  ,
+
+
+  
+{
+    "topic": "knowledge verbs",
+    "category": "irregular",
+    "verb": "know about",
+    "answer": [
+        "I/They/We/You know about | He/She/It knows about",
+        "I am | He/She/It is | They/We/You are knowing about",
+        "I/You/They/We have | He/She/It has known about",
+        "I/You/They/We have been knowing about | He/She/It has been knowing about",
+        "I/He/She/It/We/You/They knew about",
+        "I/He/She/It was knowing about | They/We/You were knowing about",
+        "I/He/She/It/We/You/They had known about",
+        "I/He/She/It/We/You/They had been knowing about",
+        "I/He/She/It/We/You/They will know about",
+        "I/He/She/It/We/You/They will be knowing about",
+        "I/He/She/It/We/You/They will have known about",
+        "I/He/She/It/We/You/They will have been knowing about"
+    ],
+    "synonyms": [
+        "be aware of", 
+        "be informed about", 
+        "be familiar with", 
+        "understand", 
+        "be cognizant of", 
+        "be acquainted with", 
+        "recognize", 
+        "be conscious of", 
+        "be versed in", 
+        "comprehend"
+    ],
+    "antonyms": [
+        "be ignorant of", 
+        "be unaware of", 
+        "overlook", 
+        "miss", 
+        "neglect", 
+        "disregard", 
+        "be oblivious to", 
+        "misunderstand"
+    ],
+    "questions": [
+        "What do you know about the history of this place? (context: cultural interest)",
+        "Who knows about the change in the schedule? (context: work communication)",
+        "How can we find out what customers know about our products? (context: market research)",
+        "Do parents know about the challenges their kids face online? (context: digital safety)",
+        "Should the public know about government spending? (context: political transparency)"
+    ]
+  }
+,  
 
 {
     "topic": "common verbs",
