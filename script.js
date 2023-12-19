@@ -813,9 +813,105 @@ document.addEventListener('DOMContentLoaded', function() {
         "What made you decide to marry? (context: relationship)",
         "How did you celebrate your marriage? (context: celebration)"
     ]
-}
+},
 
-,
+
+
+{
+    "topic": "exclusion verbs",
+    "category": "regular",
+    "verb": "leave out",
+    "answer": [
+        "I/They/We/You leave out | He/She/It leaves out",
+        "I am | He/She/It is | They/We/You are leaving out",
+        "I/You/They/We have | He/She/It has left out",
+        "I/You/They/We have been leaving out | He/She/It has been leaving out",
+        "I/He/She/It/We/You/They left out",
+        "I/He/She/It was leaving out | They/We/You were leaving out",
+        "I/He/She/It/We/You/They had left out",
+        "I/He/She/It/We/You/They had been leaving out",
+        "I/He/She/It/We/You/They will leave out",
+        "I/He/She/It/We/You/They will be leaving out",
+        "I/He/She/It/We/You/They will have left out",
+        "I/He/She/It/We/You/They will have been leaving out"
+    ],
+"synonyms":[ "omit", "exclude", "skip", "overlook", "neglect", "ignore"],
+
+"antonyms":[ "include", "incorporate", "embrace", "add", "insert", "acknowledge"],
+
+    "questions": [
+        "Why did you leave out the important details in your report?(context: work documentation)",
+        "Who was left out of the team selection?(context: team formation)",
+        "Have they left out any key points in the presentation?(context: presentation review)",
+        "Can you ensure no one is left out in the meeting discussion?(context: inclusivity)",
+        "How do you feel when you are left out of social events?(context: social experiences)"
+    ]
+},
+
+
+{
+    "topic": "emotional verbs",
+    "category": "regular",
+    "verb": "worry about",
+    "answer": [
+        "I/They/We/You worry about | He/She/It worries about",
+        "I am | He/She/It is | They/We/You are worrying about",
+        "I/You/They/We have | He/She/It has worried about",
+        "I/You/They/We have been worrying about | He/She/It has been worrying about",
+        "I/He/She/It/We/You/They worried about",
+        "I/He/She/It was worrying about | They/We/You were worrying about",
+        "I/He/She/It/We/You/They had worried about",
+        "I/He/She/It/We/You/They had been worrying about",
+        "I/He/She/It/We/You/They will worry about",
+        "I/He/She/It/We/You/They will be worrying about",
+        "I/He/She/It/We/You/They will have worried about",
+        "I/He/She/It/We/You/They will have been worrying about"
+    ],
+"synonyms":[ "fret about", "agonize over", "be anxious about", "be concerned about", "stew over"],
+
+"antonyms":[ "ignore", "neglect", "disregard", "overlook", "be unconcerned about", "be indifferent to"],
+
+    "questions": [
+        "Why do you always worry about small details?(context: anxiety)",
+        "Who worries about making mistakes in your team?(context: team dynamics)",
+        "Have you worried about the upcoming exam?(context: academic anxiety)",
+        "Why did she worry about traveling alone?(context: safety concerns)",
+        "How can we stop worrying about things we can't control?(context: stress management)"
+    ]
+},
+
+
+{
+      "topic": "discussion verbs",
+      "category": "regular",
+      "verb": "bring up",
+      "answer": [
+          "I/They/We/You bring up | He/She/It brings up",
+          "I am | He/She/It is | They/We/You are bringing up",
+          "I/You/They/We have | He/She/It has brought up",
+          "I/You/They/We have been bringing up | He/She/It has been bringing up",
+          "I/He/She/It/We/You/They brought up",
+          "I/He/She/It was bringing up | They/We/You were bringing up",
+          "I/He/She/It/We/You/They had brought up",
+          "I/He/She/It/We/You/They had been bringing up",
+          "I/He/She/It/We/You/They will bring up",
+          "I/He/She/It/We/You/They will be bringing up",
+          "I/He/She/It/We/You/They will have brought up",
+          "I/He/She/It/We/You/They will have been bringing up"
+      ],
+"synonyms":[ "mention", "raise", "introduce", "talk about", "refer to", "discuss"],
+
+"antonyms":[ "suppress", "overlook", "ignore", "neglect", "bypass", "omit"],
+
+      "questions": [
+          "When will you bring up the budget issue in the meeting?(context: business)",
+          "Who brings up the best ideas in your team?(context: teamwork)",
+          "Have they brought up the new policy changes yet?(context: policy discussion)",
+          "Why did he bring up that old argument again?(context: conflict)",
+          "How do you bring up sensitive topics with friends?(context: social interaction)"
+      ]
+  },
+
 
 {
     "topic": "movement verbs",
@@ -4090,6 +4186,106 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
   }
 ,
+
+
+{
+    "topic": "general verbs",
+    "category": "regular",
+    "verb": "pass",
+    "answer": [
+        "I/They/We/You pass | He/She/It passes",
+        "I am | He/She/It is | They/We/You are passing",
+        "I/You/They/We have | He/She/It has passed",
+        "I/You/They/We have been passing | He/She/It has been passing",
+        "I/He/She/It/We/You/They passed",
+        "I/He/She/It was passing | They/We/You were passing",
+        "I/He/She/It/We/You/They had passed",
+        "I/He/She/It/We/You/They had been passing",
+        "I/He/She/It/We/You/They will pass",
+        "I/He/She/It/We/You/They will be passing",
+        "I/He/She/It/We/You/They will have passed",
+        "I/He/She/It/We/You/They will have been passing"
+    ],
+"synonyms":[ "move past", "go by", "cross", "overtake", "surpass", "navigate"],
+
+"antonyms":[ "fail", "stop", "halt", "remain", "stay", "linger"],
+
+    "questions": [
+        "How do you pass the time on weekends?(context: leisure)",
+        "Who passed you in the hallway earlier?(context: encounter)",
+        "Have they passed the new law yet?(context: legislation)",
+        "Why did he pass on the opportunity to lead the project?(context: decision-making)",
+        "How can I pass my driving test on the first try?(context: achievement)"
+    ]
+},
+
+{
+    "topic": "communication verbs",
+    "category": "regular",
+    "verb": "talk about",
+    "answer": [
+        "I/They/We/You talk about | He/She/It talks about",
+        "I am | He/She/It is | They/We/You are talking about",
+        "I/You/They/We have | He/She/It has talked about",
+        "I/You/They/We have been talking about | He/She/It has been talking about",
+        "I/He/She/It/We/You/They talked about",
+        "I/He/She/It was talking about | They/We/You were talking about",
+        "I/He/She/It/We/You/They had talked about",
+        "I/He/She/It/We/You/They had been talking about",
+        "I/He/She/It/We/You/They will talk about",
+        "I/He/She/It/We/You/They will be talking about",
+        "I/He/She/It/We/You/They will have talked about",
+        "I/He/She/It/We/You/They will have been talking about"
+    ],
+"synonyms":[ "discuss", "speak about", "converse about", "mention", "bring up", "refer to"],
+
+"antonyms":[ "ignore", "overlook", "omit", "neglect", "bypass", "sidestep"],
+
+    "questions": [
+        "How often do you talk about your goals?(context: personal development)",
+    "Have you talked to anyone about this?(context: inquiry)",
+    "When were you planning to talk about this?(context: scheduling)",
+        "What will you talk about in the meeting?(context: business)",
+        "Who talks about sports all the time?(context: hobbies)",
+        "Have they talked about the new project?(context: project planning)",
+        "Why did she talk about that incident?(context: recounting events)",
+    ]
+},
+
+
+
+{
+    "topic": "movement verbs",
+    "category": "irregular",
+    "verb": "go by",
+    "answer": [
+        "I/They/We/You go by | He/She/It goes by",
+        "I am | He/She/It is | They/We/You are going by",
+        "I/You/They/We have | He/She/It has gone by",
+        "I/You/They/We have been going by | He/She/It has been going by",
+        "I/He/She/It/We/You/They went by",
+        "I/He/She/It was going by | They/We/You were going by",
+        "I/He/She/It/We/You/They had gone by",
+        "I/He/She/It/We/You/They had been going by",
+        "I/He/She/It/We/You/They will go by",
+        "I/He/She/It/We/You/They will be going by",
+        "I/He/She/It/We/You/They will have gone by",
+        "I/He/She/It/We/You/They will have been going by"
+    ],
+"synonyms":[ "pass", "move past", "proceed", "travel", "navigate", "elapse"],
+
+"antonyms":[ "stop", "halt", "remain", "stay", "linger", "pause"],
+
+    "questions": [
+        "How many buses go by this street every hour?(context: transportation)",
+        "Who went by just now?(context: observation)",
+        "Have five minutes gone by already?(context: timekeeping)",
+        "Why do we let opportunities go by so often?(context: missed opportunities)",
+        "How quickly does time go by during the holidays?(context: time perception)"
+    ]
+},
+
+
 
 {
       "topic": "motivational verbs",
