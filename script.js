@@ -1081,12 +1081,47 @@ document.addEventListener('DOMContentLoaded', function() {
         "Why do we always rush in the mornings? (context: daily routine)",
         "Who rushed to the hospital after hearing the news? (context: emergency)",
         "Why did they rush delivery? (context: business)",
+        "Is rushing this project a good idea? (context: project management)",
         "Have they rushed the production process? (context: business)",
         "How can you rush through your homework so quickly? (context: study habits)",
         "Will she rush into making a decision? (context: decision making)"
     ]
   },
   
+
+  
+{
+      "topic": "daily activities",
+      "category": "irregular",
+      "verb": "get up",
+      "answer": [
+          "I/They/We/You get up | He/She/It gets up",
+          "I am | He/She/It is | They/We/You are getting up",
+          "I/You/They/We have | He/She/It has got up",
+          "I/You/They/We have been getting up | He/She/It has been getting up",
+          "I/He/She/It/We/You/They got up",
+          "I/He/She/It was getting up | They/We/You were getting up",
+          "I/He/She/It/We/You/They had got up",
+          "I/He/She/It/We/You/They had been getting up",
+          "I/He/She/It/We/You/They will get up",
+          "I/He/She/It/We/You/They will be getting up",
+          "I/He/She/It/We/You/They will have got up",
+          "I/He/She/It/We/You/They will have been getting up"
+      ],
+"synonyms":[ "rise", "arise", "stand up", "awaken", "stir", "come to one's feet"],
+
+"antonyms":[ "lie down", "sit down", "recline", "rest", "settle", "remain seated"],
+
+      "questions": [
+          "What time do you usually get up in the morning?(context: daily routine)",
+          "Who gets up first in your household?(context: family dynamics)",
+          "Have you got up late today?(context: time management)",
+          "If they got up so early, then why were they late?(context: punctuality)",
+          "Why did he get up so early on the weekend?(context: personal habits)",
+          "How do you feel when you get up for a morning workout?(context: fitness)"
+      ]
+  },
+
   
   {
         "topic": "motion verbs",
@@ -1112,6 +1147,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
         "questions": [
             "Why did the driver slow down at the intersection?(context: driving)",
+            "If you slow down, you might see the details.(context: observation)",
             "Who needs to slow down while speaking in meetings?(context: communication)",
             "Have you slowed down your work pace due to stress?(context: work-life balance)",
             "Why should we slow down our eating?(context: health advice)",
@@ -1163,6 +1199,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "How long does it take for you to get ready in the morning? (context: daily routine)",
         "Have they gotten ready for their trip? (context: travel)",
         "Who got ready first? (context: competition)",
+        "Why did you get ready so early? (context: punctuality)",
         "If you are ready and your partner is not ready, what do usually you do?",
         "How long will it take to get ready? (context: time management)",
         "Will we have enough time to get ready? (context: time management)"
@@ -1208,6 +1245,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Did you forget about the meeting? (context: work)",
         "Who often forgets about their appointments? (context: personal)",
+        "If you forget something repeatedly, what does that tell you?",
         "Have you ever forgotten about your mother's birthday? (context: personal)",
         "Have they forgotten about the promise they made? (context: social)",
         "Why do I always forget about these small details? (context: self-reflection)",
@@ -1254,6 +1292,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Did you hear about the new policy? (context: work)",
         "Who heard about the accident first? (context: news)",
+        "If you hear about this again, let me know. (context: communication)",
         "Have they heard about the changes in the project? (context: business)",
         "Why haven't we heard about this earlier? (context: surprise)",
         "Will you hear about the results soon? (context: anticipation)"
@@ -1298,6 +1337,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "questions": [
         "Did you leave out any details in your report? (context: work)",
+        "If you leave out that part, does it still make sense? (context: communication)",
         "Who always leaves out the important parts of the story? (context: storytelling)",
         "Have they left out anyone from the invitation list? (context: event planning)",
         "Why do you leave out vegetables in your diet? (context: personal habits)",
@@ -1349,6 +1389,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "questions": [
         "Who will take over the company after the CEO retires? (context: business)",
+        "If they take over the department, what will change? (context: management)",
         "Have they taken over the responsibilities of the project? (context: management)",
         "Why did the government take over the failing bank? (context: economics)",
         "When will the new manager take over the team? (context: work transition)",
@@ -1401,6 +1442,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How long will the meeting go on? (context: duration)",
         "Who can go on talking for hours? (context: personal trait)",
+        "If you continue to go on like that, I will have to leave. (context: annoyance)",
         "Have they decided to go on with the project? (context: business decision)",
         "Why does this problem always go on? (context: ongoing issue)",
         "Will the show go on despite the weather? (context: event planning)"
@@ -1509,6 +1551,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "What do you advise in this situation? (context: consulting)",
         "Who advised you on this matter? (context: guidance)",
+        "If you had advised me earlier, I would have told you what happened. (context: regret)",
         "Have you been advised about the risks? (context: risk assessment)",
         "What did they advise you to do? (context: instruction)",
         "Why did they advise against it? (context: caution)",
@@ -1685,6 +1728,39 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
 }
 ,
+
+{
+    "topic": "state verbs",
+    "category": "regular",
+    "verb": "stay",
+    "answer": [
+        "I/They/We/You stay | He/She/It stays",
+        "I am | He/She/It is | They/We/You are staying",
+        "I/You/They/We have | He/She/It has stayed",
+        "I/You/They/We have been staying | He/She/It has been staying",
+        "I/He/She/It/We/You/They stayed",
+        "I/He/She/It was staying | They/We/You were staying",
+        "I/He/She/It/We/You/They had stayed",
+        "I/He/She/It/We/You/They had been staying",
+        "I/He/She/It/We/You/They will stay",
+        "I/He/She/It/We/You/They will be staying",
+        "I/He/She/It/We/You/They will have stayed",
+        "I/He/She/It/We/You/They will have been staying"
+    ],
+"synonyms":[ "remain", "linger", "reside", "abide", "dwell", "be stationed"],
+
+"antonyms":[ "leave", "depart", "move", "exit", "go", "vacate"],
+
+    "questions": [
+        "How long will you stay in the city?(context: travel)",
+        "Who stays calm under pressure in your team?(context: work environment)",
+        "Have they stayed at that hotel before?(context: accommodation)",
+        "Why did she stay at home today?(context: personal choice)",
+        "How do you make guests feel welcome when they stay over?(context: hospitality)"
+    ]
+},
+
+
 
 {
     "topic": "movement verbs",
@@ -1866,8 +1942,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "Why do people want to become famous? (context: societal)",
         "Can I help you find what you want? (context: customer service)"
     ]
-}
-,
+},
+
 
 {
     "topic": "financial verbs",
@@ -2576,6 +2652,74 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
 },
 
+
+{
+    "topic": "physical activity verbs",
+    "category": "regular",
+    "verb": "stand up",
+    "answer": [
+        "I/They/We/You stand up | He/She/It stands up",
+        "I am | He/She/It is | They/We/You are standing up",
+        "I/You/They/We have | He/She/It has stood up",
+        "I/You/They/We have been standing up | He/She/It has been standing up",
+        "I/He/She/It/We/You/They stood up",
+        "I/He/She/It was standing up | They/We/You were standing up",
+        "I/He/She/It/We/You/They had stood up",
+        "I/He/She/It/We/You/They had been standing up",
+        "I/He/She/It/We/You/They will stand up",
+        "I/He/She/It/We/You/They will be standing up",
+        "I/He/She/It/We/You/They will have stood up",
+        "I/He/She/It/We/You/They will have been standing up"
+    ],
+"synonyms":[ "rise", "get up", "arise", "uprise", "erect oneself", "get to one's feet"],
+
+"antonyms":[ "sit down", "lie down", "recline", "settle", "remain seated", "kneel"],
+
+    "questions": [
+        "Why do we stand up for the national anthem?(context: respect and protocol)",
+        "Who stood up to greet the visitors?(context: courtesy)",
+        "When you stood up, did you notice the person behind you?(context: awareness)",
+        "Have you ever stood up for your beliefs?(context: advocacy)",
+        "Why did he stand up in the middle of the meeting?(context: interruption)",
+        "How do you feel after standing up for a long time?(context: physical discomfort)"
+    ]
+},
+
+
+{
+      "topic": "communication verbs",
+      "category": "regular",
+      "verb": "explain",
+      "answer": [
+          "I/They/We/You explain | He/She/It explains",
+          "I am | He/She/It is | They/We/You are explaining",
+          "I/You/They/We have | He/She/It has explained",
+          "I/You/They/We have been explaining | He/She/It has been explaining",
+          "I/He/She/It/We/You/They explained",
+          "I/He/She/It was explaining | They/We/You were explaining",
+          "I/He/She/It/We/You/They had explained",
+          "I/He/She/It/We/You/They had been explaining",
+          "I/He/She/It/We/You/They will explain",
+          "I/He/She/It/We/You/They will be explaining",
+          "I/He/She/It/We/You/They will have explained",
+          "I/He/She/It/We/You/They will have been explaining"
+      ],
+"synonyms":[ "clarify", "elucidate", "expound", "describe", "illuminate", "interpret"],
+
+"antonyms":[ "confuse", "obfuscate", "mislead", "complicate", "muddle", "conceal"],
+
+      "questions": [
+          "Can you explain the concept again?(context: education)",
+          "Who explains the rules to new team members?(context: orientation)",
+          "Have they explained the reasons for the delay?(context: business communication)",
+          "Why did she explain the procedure so thoroughly?(context: instruction)",
+          "How do you explain complex ideas to children?(context: teaching)"
+      ]
+  },
+
+
+
+
 {
     "topic": "activity verbs",
     "category": "phrasal verb (regular)",
@@ -2733,6 +2877,38 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
   
+
+  {
+    "topic": "physical activity verbs",
+    "category": "regular",
+    "verb": "take a seat",
+    "answer": [
+        "I/They/We/You take a seat | He/She/It takes a seat",
+        "I am | He/She/It is | They/We/You are taking a seat",
+        "I/You/They/We have | He/She/It has taken a seat",
+        "I/You/They/We have been taking a seat | He/She/It has been taking a seat",
+        "I/He/She/It/We/You/They took a seat",
+        "I/He/She/It was taking a seat | They/We/You were taking a seat",
+        "I/He/She/It/We/You/They had taken a seat",
+        "I/He/She/It/We/You/They had been taking a seat",
+        "I/He/She/It/We/You/They will take a seat",
+        "I/He/She/It/We/You/They will be taking a seat",
+        "I/He/She/It/We/You/They will have taken a seat",
+        "I/He/She/It/We/You/They will have been taking a seat"
+    ],
+"synonyms":[ "sit down", "seat oneself", "be seated", "settle down", "rest", "occupy a chair"],
+
+"antonyms":[ "stand up", "rise", "leave one's seat", "get up", "move", "remain standing"],
+
+    "questions": [
+        "Can you take a seat while you wait?(context: waiting room)",
+        "Who took a seat at the front of the class?(context: classroom setting)",
+        "Have they taken their seats for the performance?(context: event attendance)",
+        "Why did she take a seat at the back?(context: preference)",
+        "How do you feel when someone takes a seat next to you on public transport?(context: social interaction)"
+    ]
+},
+
 
 
 
