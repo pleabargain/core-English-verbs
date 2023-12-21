@@ -2627,11 +2627,111 @@ document.addEventListener('DOMContentLoaded', function() {
 "questions": [
 "Who will teach the class tomorrow?(context: education planning)",
 "Can you teach me how to do this?(context: learning request)",
+"Have you ever taught a class?(context: personal inquiry)",
 "Has she taught this subject before?(context: professional inquiry)",
+"What does art teach us?(context: philosophical inquiry)",
+"What are you capable of teaching?(context: professional inquiry)",
+"Did you ever want to teach?(context: personal inquiry)",
 "Why did he stop teaching?(context: career change)",
 "What do you want to teach next year?(context: future planning in education)"
 ]
 },
+
+
+{
+    "topic": "decision-making verbs",
+    "category": "irregular",
+    "verb": "choose",
+    "answer": [
+        "I/They/We/You choose | He/She/It chooses",
+        "I am | He/She/It is | They/We/You are choosing",
+        "I/You/They/We have | He/She/It has chosen",
+        "I/You/They/We have been choosing | He/She/It has been choosing",
+        "I/He/She/It/We/You/They chose",
+        "I/He/She/It was choosing | They/We/You were choosing",
+        "I/He/She/It/We/You/They had chosen",
+        "I/He/She/It/We/You/They had been choosing",
+        "I/He/She/It/We/You/They will choose",
+        "I/He/She/It/We/You/They will be choosing",
+        "I/He/She/It/We/You/They will have chosen",
+        "I/He/She/It/We/You/They will have been choosing"
+    ],
+    "synonyms": [
+        "select",
+        "pick",
+        "decide on",
+        "opt for",
+        "settle on",
+        "elect",
+        "prefer",
+        "go for",
+        "vote for",
+        "favor"
+    ],
+    "antonyms": [
+        "reject",
+        "discard",
+        "dismiss",
+        "ignore",
+        "neglect",
+        "overlook"
+    ],
+    "questions": [
+        "Which color did you choose for your room?(context: decoration)",
+        "How would you choose the right candidate for the job?(context: recruitment)",
+        "What factors did you consider when choosing a profession?(context: education)",
+        "How will you choose between these two offers?(context: decision-making)",
+        "Have you chosen where to go on your vacation yet?(context: travel planning)"
+    ]
+  },
+  
+
+  {
+    "topic": "literacy verbs",
+    "category": "irregular",
+    "verb": "read",
+    "answer": [
+        "I/They/We/You read | He/She/It reads",
+        "I am | He/She/It is | They/We/You are reading",
+        "I/You/They/We have | He/She/It has read",
+        "I/You/They/We have been reading | He/She/It has been reading",
+        "I/He/She/It/We/You/They read",
+        "I/He/She/It was reading | They/We/You were reading",
+        "I/He/She/It/We/You/They had read",
+        "I/He/She/It/We/You/They had been reading",
+        "I/He/She/It/We/You/They will read",
+        "I/He/She/It/We/You/They will be reading",
+        "I/He/She/It/We/You/They will have read",
+        "I/He/She/It/We/You/They will have been reading"
+    ],
+    "synonyms": [
+        "peruse",
+        "study",
+        "examine",
+        "scan",
+        "review",
+        "browse",
+        "look over",
+        "leaf through",
+        "glance at",
+        "skim"
+    ],
+    "antonyms": [
+        "overlook",
+        "ignore",
+        "neglect",
+        "misinterpret",
+        "misread"
+    ],
+    "questions": [
+        "What book are you reading at the moment?(context: leisure)",
+        "Have you read the report on the recent market trends?(context: business)",
+        "Can you read this prescription for me?(context: healthcare)",
+        "How often do you read to your children?(context: parenting)",
+        "Where do you like to read in your free time?(context: personal preference)"
+    ]
+  },
+
 
 {
 "topic": "fundamental verbs",
@@ -3368,6 +3468,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ],
 "questions": [
 "Where did you go on your last vacation? (context: travel inquiry)",
+"When was the last you went ... ",
 "How often do you go to the gym? (context: inquiry about routine)",
 "Can I go with you? (context: request to accompany)",
 "If you could go anywhere, where would you go? (context: hypothetical)",
@@ -3542,6 +3643,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "What are you watching on TV? (context: entertainment)",
         "Who watches the store when you're away? (context: business operations)",
         "Have you watched the latest movie? (context: film inquiry)",
+        "Which seasons have you seen|watched? (context: inquiry about experience)",
         "Why do people watch sports so passionately? (context: spectator interests)",
         "How do you feel when someone watches you work? (context: observation effects)"
     ]
