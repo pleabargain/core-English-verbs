@@ -117,6 +117,41 @@ document.addEventListener('DOMContentLoaded', function() {
 },
 
 
+
+{
+      "topic": "action verbs",
+      "category": "regular",
+      "verb": "pick up",
+      "answer": [
+          "I/They/We/You pick up | He/She/It picks up",
+          "I am | He/She/It is | They/We/You are picking up",
+          "I/You/They/We have | He/She/It has picked up",
+          "I/You/They/We have been picking up | He/She/It has been picking up",
+          "I/He/She/It/We/You/They picked up",
+          "I/He/She/It was picking up | They/We/You were picking up",
+          "I/He/She/It/We/You/They had picked up",
+          "I/He/She/It/We/You/They had been picking up",
+          "I/He/She/It/We/You/They will pick up",
+          "I/He/She/It/We/You/They will be picking up",
+          "I/He/She/It/We/You/They will have picked up",
+          "I/He/She/It/We/You/They will have been picking up"
+      ],
+"synonyms":[ "lift", "gather", "collect", "grasp", "take", "retrieve"],
+
+"antonyms":[ "drop", "leave", "discard", "put down", "abandon", "ignore"],
+
+      "questions": [
+          "Can you pick up the kids from school today?(context: daily routine)",
+          "Who picks up groceries on their way home?(context: household chores)",
+          "Who's picking up the package?(context: delivery)",
+          "Have they picked up the skills needed for the job?(context: skill acquisition)",
+          "Why did she pick up so many hobbies recently?(context: personal interests)",
+          "How do you pick up a new language quickly?(context: learning)"
+      ]
+  },
+
+
+
 {
     "topic": "evaluation verbs",
     "category": "regular",
@@ -321,15 +356,65 @@ document.addEventListener('DOMContentLoaded', function() {
     "synonyms": ["overlook", "neglect", "miss", "disregard", "omit", "ignore", "disremember", "lose track of", "fail to remember", "slip one's mind", "blank out", "fail to recall"],
     "antonyms": ["remember", "recall", "recollect", "retain", "memorize", "reminisce", "bear in mind", "keep in mind", "take note of", "be mindful of", "think of", "acknowledge"],
     "questions": [
-        "Do you often forget people's names? (context: memory lapses)",
+        "How often do you forget people's names? (context: memory lapses)",
         "Who forgets their passwords most often? (context: digital security)",
         "Did you forget to lock the door? (context: daily routine)",
         "Have you forgotten what I told you? (context: recollection)",
         "Why do we forget important dates? (context: memory study)",
         "How can I avoid forgetting this information? (context: memory techniques)"
     ]
-}
-,
+},
+
+
+{
+    "topic": "dependency verbs",
+    "category": "irregular",
+    "verb": "depend",
+    "answer": [
+        "I/They/We/You depend | He/She/It depends",
+        "I am | He/She/It is | They/We/You are depending",
+        "I/You/They/We have | He/She/It has depended",
+        "I/You/They/We have been depending | He/She/It has been depending",
+        "I/He/She/It/We/You/They depended",
+        "I/He/She/It was depending | They/We/You were depending",
+        "I/He/She/It/We/You/They had depended",
+        "I/He/She/It/We/You/They had been depending",
+        "I/He/She/It/We/You/They will depend",
+        "I/He/She/It/We/You/They will be depending",
+        "I/He/She/It/We/You/They will have depended",
+        "I/He/She/It/We/You/They will have been depending"
+    ],
+    "synonyms": [
+        "rely",
+        "count on",
+        "bank on",
+        "trust",
+        "lean on",
+        "rest on",
+        "hinge on",
+        "be contingent on",
+        "be based on",
+        "be subject to"
+    ],
+    "antonyms": [
+        "disregard",
+        "ignore",
+        "neglect",
+        "distrust",
+        "doubt"
+    ],
+    "questions": [
+        "Does your decision depend on the budget?(context: business)",
+        "Who depends on you for support?(context: family)",
+        "How much does your happiness depend on external factors?(context: personal well-being)",
+        "Does the success of the project depend on this phase?(context: project management)",
+        "Do the outcomes depend largely on team cooperation?(context: teamwork)",
+        "How much do you depend on technology in your daily life?(context: technology use)"
+    ]
+  },
+
+
+  
 
 {
     "topic": "memory verbs",
@@ -1023,38 +1108,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 {
-    "topic": "exclusion verbs",
-    "category": "regular",
-    "verb": "leave out",
-    "answer": [
-        "I/They/We/You leave out | He/She/It leaves out",
-        "I am | He/She/It is | They/We/You are leaving out",
-        "I/You/They/We have | He/She/It has left out",
-        "I/You/They/We have been leaving out | He/She/It has been leaving out",
-        "I/He/She/It/We/You/They left out",
-        "I/He/She/It was leaving out | They/We/You were leaving out",
-        "I/He/She/It/We/You/They had left out",
-        "I/He/She/It/We/You/They had been leaving out",
-        "I/He/She/It/We/You/They will leave out",
-        "I/He/She/It/We/You/They will be leaving out",
-        "I/He/She/It/We/You/They will have left out",
-        "I/He/She/It/We/You/They will have been leaving out"
-    ],
-"synonyms":[ "omit", "exclude", "skip", "overlook", "neglect", "ignore"],
-
-"antonyms":[ "include", "incorporate", "embrace", "add", "insert", "acknowledge"],
-
-    "questions": [
-        "Why did you leave out the important details in your report?(context: work documentation)",
-        "Who was left out of the team selection?(context: team formation)",
-        "Have they left out any key points in the presentation?(context: presentation review)",
-        "Can you ensure no one is left out in the meeting discussion?(context: inclusivity)",
-        "How do you feel when you are left out of social events?(context: social experiences)"
-    ]
-},
-
-
-{
     "topic": "emotional verbs",
     "category": "regular",
     "verb": "worry about",
@@ -1550,7 +1603,74 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
 
-  
+  {
+    "topic": "error verbs",
+    "category": "regular",
+    "verb": "mess up",
+    "answer": [
+        "I/They/We/You mess up | He/She/It messes up",
+        "I am | He/She/It is | They/We/You are messing up",
+        "I/You/They/We have | He/She/It has messed up",
+        "I/You/They/We have been messing up | He/She/It has been messing up",
+        "I/He/She/It/We/You/They messed up",
+        "I/He/She/It was messing up | They/We/You were messing up",
+        "I/He/She/It/We/You/They had messed up",
+        "I/He/She/It/We/You/They had been messing up",
+        "I/He/She/It/We/You/They will mess up",
+        "I/He/She/It/We/You/They will be messing up",
+        "I/He/She/It/We/You/They will have messed up",
+        "I/He/She/It/We/You/They will have been messing up"
+    ],
+"synonyms":[ "botch", "bungle", "foul up", "blunder", "screw up", "muddle"],
+
+"antonyms":[ "succeed", "excel", "do well", "achieve", "get right", "perfect"],
+
+    "questions": [
+        "Why do you think you mess up in tests even after studying?(context: academic performance)",
+        "Who messes up the most in your sports team?(context: team dynamics)",
+        "Have they messed up the order again?(context: customer service)",
+        "Why did he mess up the presentation at the last minute?(context: work tasks)",
+        "How do you handle it when you mess up in a relationship?(context: personal relationships)"
+    ]
+},
+
+
+
+{
+      "topic": "inquiry verbs",
+      "category": "regular",
+      "verb": "ask around",
+      "answer": [
+          "I/They/We/You ask around | He/She/It asks around",
+          "I am | He/She/It is | They/We/You are asking around",
+          "I/You/They/We have | He/She/It has asked around",
+          "I/You/They/We have been asking around | He/She/It has been asking around",
+          "I/He/She/It/We/You/They asked around",
+          "I/He/She/It was asking around | They/We/You were asking around",
+          "I/He/She/It/We/You/They had asked around",
+          "I/He/She/It/We/You/They had been asking around",
+          "I/He/She/It/We/You/They will ask around",
+          "I/He/She/It/We/You/They will be asking around",
+          "I/He/She/It/We/You/They will have asked around",
+          "I/He/She/It/We/You/They will have been asking around"
+      ],
+"synonyms":[ "inquire", "seek information", "probe", "investigate", "question", "gather information"],
+
+"antonyms":[ "ignore", "overlook", "disregard", "neglect", "bypass", "avoid asking"],
+
+      "questions": [
+          "Can you ask around to see who knows a good plumber?(context: finding services)",
+          "Who asked around about the missing files?(context: workplace inquiry)",
+          "Have they asked around for any job openings?(context: job hunting)",
+          "Why did she ask around for opinions on her project?(context: feedback gathering)",
+          "How do you ask around discreetly in a small office?(context: sensitive inquiries)"
+      ]
+  },
+
+
+
+
+
   {
     "topic": "separation verbs",
     "category": "regular",
@@ -1727,6 +1847,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Can you look up the definition of this word? (context: study)",
         "Who will look up the flight times? (context: travel)",
+        "Who did you look up to when you were a kid? (context: role model)",
         "If you look yourself up on Google, what do you find? (context: personal)",
         "Have you looked up the information for your report? (context: work)",
         "Why are they always looking up old records? (context: research)",
@@ -1867,7 +1988,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "ignore"
     ],
     "questions": [
-        "Do you often talk about politics? (context: discussion)",
+        "How often do you talk about politics? (context: discussion)",
         "If you are talking about X, then we need to consider Y. (context: conversation)",
         "Who were you talking to? (context: conversation)",
         "Have they talked to each other about the issue? (context: communication)",
@@ -1910,6 +2031,8 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "What would you like to drink? (context: hospitality)",
         "Who drinks coffee in the morning? (context: habit)",
+        "Did you drink a lot last New Years? (context: social event)",
+        "What will you be drinking tonight? (context: social event)",
         "Have they drunk enough water today? (context: health)",
         "Why did he drink so much last night? (context: social event)",
         "How much should one drink during exercise? (context: fitness)"
@@ -2418,53 +2541,6 @@ document.addEventListener('DOMContentLoaded', function() {
 ,
 
 
-
-
-{
-"topic": "basic verbs",
-"category": "irregular",
-"verb": "say",
-"answer": [
-"I/They/We/You say | He/She/It says",
-"I am | He/She/It is | They/We/You are saying",
-"I/You/They/We have | He/She/It has said",
-"I/You/They/We have been saying | He/She/It has been saying",
-"I/He/She/It/We/You/They said",
-"I/He/She/It was saying | They/We/You were saying",
-"I/He/She/It/We/You/They had said",
-"I/He/She/It/We/You/They had been saying",
-"I/He/She/It/We/You/They will say",
-"I/He/She/It/We/You/They will be saying",
-"I/He/She/It/We/You/They will have said",
-"I/He/She/It/We/You/They will have been saying"
-],
-"synonyms": [
-"speak",
-"utter",
-"voice",
-"express",
-"articulate",
-"pronounce",
-"state",
-"declare",
-"announce",
-"proclaim"
-],
-"antonyms": [
-"mute",
-"silence",
-"suppress",
-"withhold",
-"keep quiet"
-],
-"questions": [
-"What did he say about the meeting?(context: business)",
-"Can you say that again?(context: conversation)",
-"Have you said your goodbyes?(context: farewell)",
-"Why didn't she say anything?(context: discussion)",
-"How do you say this word in English?(context: language learning)"
-]
-},
 {
 "topic": "communication verbs",
 "category": "regular",
@@ -2862,6 +2938,74 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
 
+  {
+        "topic": "cognitive verbs",
+        "category": "regular",
+        "verb": "think about",
+        "answer": [
+            "I/They/We/You think about | He/She/It thinks about",
+            "I am | He/She/It is | They/We/You are thinking about",
+            "I/You/They/We have | He/She/It has thought about",
+            "I/You/They/We have been thinking about | He/She/It has been thinking about",
+            "I/He/She/It/We/You/They thought about",
+            "I/He/She/It was thinking about | They/We/You were thinking about",
+            "I/He/She/It/We/You/They had thought about",
+            "I/He/She/It/We/You/They had been thinking about",
+            "I/He/She/It/We/You/They will think about",
+            "I/He/She/It/We/You/They will be thinking about",
+            "I/He/She/It/We/You/They will have thought about",
+            "I/He/She/It/We/You/They will have been thinking about"
+        ],
+  "synonyms":[ "ponder", "consider", "reflect on", "contemplate", "mull over", "deliberate"],
+  
+  "antonyms":[ "ignore", "disregard", "neglect", "overlook", "forget", "dismiss"],
+  
+        "questions": [
+            "What do you think about the new proposal at work?(context: business decision)",
+            "Who thinks about the consequences before acting?(context: personal traits)",
+            "Have they thought about the implications of their decision?(context: careful consideration)",
+            "Why did she think about changing her career path?(context: career planning)",
+            "How do you think about solving complex problems?(context: problem-solving)"
+        ]
+    },
+  
+
+
+
+
+  {
+        "topic": "action verbs",
+        "category": "regular",
+        "verb": "go ahead",
+        "answer": [
+            "I/They/We/You go ahead | He/She/It goes ahead",
+            "I am | He/She/It is | They/We/You are going ahead",
+            "I/You/They/We have | He/She/It has gone ahead",
+            "I/You/They/We have been going ahead | He/She/It has been going ahead",
+            "I/He/She/It/We/You/They went ahead",
+            "I/He/She/It was going ahead | They/We/You were going ahead",
+            "I/He/She/It/We/You/They had gone ahead",
+            "I/He/She/It/We/You/They had been going ahead",
+            "I/He/She/It/We/You/They will go ahead",
+            "I/He/She/It/We/You/They will be going ahead",
+            "I/He/She/It/We/You/They will have gone ahead",
+            "I/He/She/It/We/You/They will have been going ahead"
+        ],
+  "synonyms":[ "proceed", "continue", "advance", "move forward", "carry on", "forge ahead"],
+  
+  "antonyms":[ "stop", "halt", "pause", "wait", "hesitate", "delay"],
+  
+        "questions": [
+            "Can we go ahead with the plan as discussed?(context: project management)",
+            "Who went ahead and made the decision without consulting everyone?(context: decision-making)",
+            "Have they gone ahead with the wedding despite the challenges?(context: event planning)",
+            "Why did she go ahead with the surgery?(context: health decisions)",
+            "How do you feel when someone goes ahead of you in a queue?(context: social etiquette)"
+        ]
+    },
+  
+
+
 
 {
     "topic": "communication verbs",
@@ -3223,7 +3367,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "cease"
 ],
 "questions": [
-"Where did you go on your vacation? (context: travel inquiry)",
+"Where did you go on your last vacation? (context: travel inquiry)",
 "How often do you go to the gym? (context: inquiry about routine)",
 "Can I go with you? (context: request to accompany)",
 "If you could go anywhere, where would you go? (context: hypothetical)",
@@ -3729,13 +3873,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "antonyms": [
       "stagnate", "regress", "deteriorate", "backslide", "stall", "fall behind", "fail", "regress"
     ],
-    "images": [
-      "A close-up photo of a gardener planting a seedling, symbolizing the start of new progress.",
-      "A bar graph showing an upward trend, illustrating progress over time.",
-      "A photo of a person crossing a finish line, representing successful completion of a goal.",
-      "A picture of a construction site with scaffolding and beams, depicting progress on a physical project.",
-      "A split-screen image showing a messy room before and a tidy room after, showcasing progress in cleaning."
-    ],
+ 
     "questions": [
       "How can you make progress on your fitness goals?(context: personal health)",
       "Have you made any progress on your project?(context: work tasks)",
@@ -3744,7 +3882,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "Why did she stall and make no progress on her writing?(context: creative roadblocks)",
       "What strategies can we use to make progress towards a more sustainable future?(context: environmental action)"
     ]
-  }
+  },
   
   
 
@@ -3790,7 +3928,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "If you win today's match, what happens next? (context: conditional statement)",
         "What does it take to win in this industry? (context: business)",
         "Which team do you think will win the championship? (context: sports)",
-        "How did she feel after winning the award? (context: achievement)"
+        "How did she look after winning the award? (context: achievement)"
     ]
 }
 ,
@@ -3817,9 +3955,11 @@ document.addEventListener('DOMContentLoaded', function() {
     "antonyms": ["ignore", "overlook", "misinterpret", "neglect", "disregard", "be numb to", "miss", "misunderstand", "be insensitive to", "be indifferent to", "overlook"],
     "questions": [
         "How do you feel today? (context: well-being)",
-        "Who feels responsible for this? (context: accountability)",
+        "Who is responsible for this? (context: accountability)",
         "If you feel sick, you should see a doctor. (context: health advice)",
         "Have you ever felt this way before? (context: emotional experience)",
+        "What does it feel like to be in love? (context: emotional experience)",
+        "If you are feeling tired, you should rest. (context: health advice)",
         "What makes you feel happy? (context: emotions)",
         "Why do you feel that way? (context: understanding emotions)"
     ]
@@ -3885,6 +4025,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How quickly can you answer the email? (context: correspondence)",
         "Who answered the phone? (context: telephone call)",
+        "Why isn't he answering his phone? (context: inquiry about behavior)",
         "If you know the answer, why didn't you say anything? (context: inquiry about behavior)",
         "Have you answered their questions yet? (context: inquiry response)",
         "What answer did you give to the interviewer? (context: interview)",
@@ -3922,8 +4063,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Why do certain foods inflame allergies? (context: dietary concerns)",
         "How can we avoid actions that inflame tensions? (context: diplomacy)"
     ]
-}
-,
+},
 
 {
     "topic": "travel verbs",
@@ -3947,7 +4087,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "antonyms": ["depart", "leave", "exit", "abandon", "neglect", "ignore", "shun", "avoid", "bypass", "evade", "desert", "forsake"],
     "questions": [
         "Which countries did you visit last year? (context: travel experiences)",
-        "Who will visit the new museum? (context: leisure activity)",
+        "Who wants to visit the new museum with me? (context: leisure activity)",
         "Have you visited your family recently? (context: family reunion)",
         "If you could visit any country, where would you go? (context: travel plans)",
         "What attractions did you visit in the city? (context: tourism)",
@@ -3955,9 +4095,6 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
 }
 ,
-
-
-
 
 
 
@@ -3999,6 +4136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "How often do you fly for business? (context: travel)",
         "When do you fly out? (context: travel plans)",
+        "If you could fly, where would you go? (context: hypothetical)",
         "Who flew the plane during the emergency? (context: aviation)",
         "Have the birds started flying south for the winter? (context: nature)",
         "Can you fly a kite in this kind of wind? (context: leisure)",
@@ -4048,6 +4186,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "Who grows the best flowers in this neighborhood? (context: community)",
         "Have they grown much since last year? (context: development)",
         "Where did you grow up? (context: childhood)",
+        "If you could grow any plant, what would it be? (context: hypothetical)",
+        "If you had grown up in France, how would your life be different?    (context: hypothetical)",
         "What do you need to grow a business? (context: entrepreneurship)",
         "Why is it important to grow your network? (context: networking)",
         "Why do some companies grow faster than others? (context: business growth)",
@@ -4512,6 +4652,8 @@ document.addEventListener('DOMContentLoaded', function() {
 "What did you eat for breakfast?(context: daily routine)",
 "Who will eat with you tonight?(context: social gathering)",
 "Have they eaten yet?(context: concern for others)",
+"Did you eat something for lunch?(context: inquiry about food intake)",
+
 "Why did she eat so quickly?(context: observation)",
 "What's your favorite thing to eat?(context: personal preference)",
 "How can you eat that?(context: expressing disbelief)",
@@ -5158,9 +5300,10 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "questions": [
         "What will you wear to the party? (context: event dressing)",
-        "Who wears a uniform at your school? (context: dress code)",
+        "What uniform did you wear at your school? (context: dress code)",
+        "When was the last time you wore that outfit? (context: formal attire)",
         "What are you wearing to the show?",
-        "Have they worn their new shoes yet? (context: usage)",
+        "Have you worn ski boots before? (context: usage)",
         "Why did she wear such a colorful dress? (context: fashion choice)",
         "How long have you been wearing glasses? (context: personal accessory)"
     ]
@@ -5333,6 +5476,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Who made this decision? (context: business)",
         "Have they made any progress? (context: project management)",
         "How do you make a website? (context: technology)",
+        "How do you make apple cider? (context: cooking)",
         "Can you make a difference? (context: motivational)"
     ]
   } ,
@@ -5482,9 +5626,146 @@ document.addEventListener('DOMContentLoaded', function() {
        "Who solved the mystery in the story? (context: literature)",
        "Is it possible to solve this conflict peacefully? (context: conflict resolution)"
    ]
- }
- ,
+ },
+
+
+
+{
+      "topic": "relaxation verbs",
+      "category": "regular",
+      "verb": "take it easy",
+      "answer": [
+          "I/They/We/You take it easy | He/She/It takes it easy",
+          "I am | He/She/It is | They/We/You are taking it easy",
+          "I/You/They/We have | He/She/It has taken it easy",
+          "I/You/They/We have been taking it easy | He/She/It has been taking it easy",
+          "I/He/She/It/We/You/They took it easy",
+          "I/He/She/It was taking it easy | They/We/You were taking it easy",
+          "I/He/She/It/We/You/They had taken it easy",
+          "I/He/She/It/We/You/They had been taking it easy",
+          "I/He/She/It/We/You/They will take it easy",
+          "I/He/She/It/We/You/They will be taking it easy",
+          "I/He/She/It/We/You/They will have taken it easy",
+          "I/He/She/It/We/You/They will have been taking it easy"
+      ],
+"synonyms":[ "relax", "unwind", "chill", "rest", "loosen up", "de-stress"],
+
+"antonyms":[ "hurry", "rush", "work hard", "exert", "stress", "overdo"],
+
+      "questions": [
+          "Can you take it easy this weekend after a busy week?(context: relaxation)",
+          "Who takes it easy on Sundays in your house?(context: family time)",
+          "Have they taken it easy since the doctor's advice?(context: health recovery)",
+          "Why did she decide to take it easy and skip the party?(context: personal choice)",
+          "How do you take it easy after a long day at work?(context: stress management)"
+      ]
+  },
+
+
+
+
+ {
+       "topic": "exercise verbs",
+       "category": "regular",
+       "verb": "work out",
+       "answer": [
+           "I/They/We/You work out | He/She/It works out",
+           "I am | He/She/It is | They/We/You are working out",
+           "I/You/They/We have | He/She/It has worked out",
+           "I/You/They/We have been working out | He/She/It has been working out",
+           "I/He/She/It/We/You/They worked out",
+           "I/He/She/It was working out | They/We/You were working out",
+           "I/He/She/It/We/You/They had worked out",
+           "I/He/She/It/We/You/They had been working out",
+           "I/He/She/It/We/You/They will work out",
+           "I/He/She/It/We/You/They will be working out",
+           "I/He/She/It/We/You/They will have worked out",
+           "I/He/She/It/We/You/They will have been working out"
+       ],
+ "synonyms":[ "exercise", "train", "engage in physical activity", "get fit", "condition", "practice fitness"],
  
+ "antonyms":[ "rest", "relax", "be inactive", "take it easy", "laze", "do nothing"],
+ 
+       "questions": [
+           "How often do you work out at the gym?(context: fitness routine)",
+           "Who works out early in the morning in your family?(context: daily schedule)",
+           "Have they worked out to prepare for the marathon?(context: sports training)",
+           "Why did she work out even when she was feeling unwell?(context: commitment)",
+           "How do you work out when you don't have access to a gym?(context: home exercise)"
+       ]
+   },
+ 
+
+
+
+
+{
+      "topic": "problem-solving verbs",
+      "category": "regular",
+      "verb": "figure out",
+      "answer": [
+          "I/They/We/You figure out | He/She/It figures out",
+          "I am | He/She/It is | They/We/You are figuring out",
+          "I/You/They/We have | He/She/It has figured out",
+          "I/You/They/We have been figuring out | He/She/It has been figuring out",
+          "I/He/She/It/We/You/They figured out",
+          "I/He/She/It was figuring out | They/We/You were figuring out",
+          "I/He/She/It/We/You/They had figured out",
+          "I/He/She/It/We/You/They had been figuring out",
+          "I/He/She/It/We/You/They will figure out",
+          "I/He/She/It/We/You/They will be figuring out",
+          "I/He/She/It/We/You/They will have figured out",
+          "I/He/She/It/We/You/They will have been figuring out"
+      ],
+"synonyms":[ "solve", "work out", "decipher", "understand", "deduce", "unravel"],
+
+"antonyms":[ "misunderstand", "confuse", "muddle", "complicate", "misinterpret", "overlook"],
+
+      "questions": [
+          "How did you figure out the solution to the puzzle?(context: problem-solving)",
+          "Who figures out the technical issues in your team?(context: technical support)",
+          "Have they figured out what caused the error?(context: troubleshooting)",
+          "Why did she figure out the truth so late?(context: realization)",
+          "How do you figure out complex math problems?(context: academic study)"
+      ]
+  },
+
+
+  {
+        "topic": "visit verbs",
+        "category": "regular",
+        "verb": "come over",
+        "answer": [
+            "I/They/We/You come over | He/She/It comes over",
+            "I am | He/She/It is | They/We/You are coming over",
+            "I/You/They/We have | He/She/It has come over",
+            "I/You/They/We have been coming over | He/She/It has been coming over",
+            "I/He/She/It/We/You/They came over",
+            "I/He/She/It was coming over | They/We/You were coming over",
+            "I/He/She/It/We/You/They had come over",
+            "I/He/She/It/We/You/They had been coming over",
+            "I/He/She/It/We/You/They will come over",
+            "I/He/She/It/We/You/They will be coming over",
+            "I/He/She/It/We/You/They will have come over",
+            "I/He/She/It/We/You/They will have been coming over"
+        ],
+  "synonyms":[ "visit", "drop by", "stop by", "pop in", "call in", "make a visit"],
+  
+  "antonyms":[ "leave", "depart", "go away", "exit", "vacate", "withdraw"],
+  
+        "questions": [
+            "Can you come over after work today?(context: social invitation)",
+            "Who comes over the most to your house?(context: frequent visits)",
+            "Have they come over to see the new baby yet?(context: family event)",
+            "Why did she come over so early in the morning?(context: unexpected visit)",
+            "How do you feel when friends come over unannounced?(context: social interaction)"
+        ]
+    },
+  
+
+
+
+
  {
     "topic": "discovery verbs",
     "category": "irregular",
@@ -5525,6 +5806,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "questions": [
         "Have you come across any good books lately? (context: reading)",
         "How did you come across this information? (context: research)",
+        "After you came across the bridge, which way did you turn? (context: directions)",
         "Do you often come across such problems in your work? (context: problem-solving)",
         "What should we do if we come across a dangerous animal? (context: safety)",
         "Have you ever come across someone from your hometown in another country? (context: travel)"
@@ -5532,6 +5814,163 @@ document.addEventListener('DOMContentLoaded', function() {
   }
  
  ,
+
+
+
+ {
+    "topic": "discovery verbs",
+    "category": "regular",
+    "verb": "find out",
+    "answer": [
+        "I/They/We/You find out | He/She/It finds out",
+        "I am | He/She/It is | They/We/You are finding out",
+        "I/You/They/We have | He/She/It has found out",
+        "I/You/They/We have been finding out | He/She/It has been finding out",
+        "I/He/She/It/We/You/They found out",
+        "I/He/She/It was finding out | They/We/You were finding out",
+        "I/He/She/It/We/You/They had found out",
+        "I/He/She/It/We/You/They had been finding out",
+        "I/He/She/It/We/You/They will find out",
+        "I/He/She/It/We/You/They will be finding out",
+        "I/He/She/It/We/You/They will have found out",
+        "I/He/She/It/We/You/They will have been finding out"
+    ],
+"synonyms":[ "discover", "uncover", "learn", "ascertain", "determine", "unearth"],
+
+"antonyms":[ "overlook", "miss", "ignore", "neglect", "disregard", "remain unaware"],
+
+    "questions": [
+        "How did you find out about the surprise party?(context: discovery)",
+        "Who finds out the latest news in your office?(context: staying informed)",
+        "If you find out the truth, will you tell me?(context: honesty)",
+        "Have they found out the cause of the problem?(context: problem-solving)",
+        "Why did she find out about the change so late?(context: communication delay)",
+        "How do you find out about current events?(context: information gathering)"
+    ]
+},
+
+{
+    "topic": "exercise verbs",
+    "category": "regular",
+    "verb": "warm up",
+    "answer": [
+        "I/They/We/You warm up | He/She/It warms up",
+        "I am | He/She/It is | They/We/You are warming up",
+        "I/You/They/We have | He/She/It has warmed up",
+        "I/You/They/We have been warming up | He/She/It has been warming up",
+        "I/He/She/It/We/You/They warmed up",
+        "I/He/She/It was warming up | They/We/You were warming up",
+        "I/He/She/It/We/You/They had warmed up",
+        "I/He/She/It/We/You/They had been warming up",
+        "I/He/She/It/We/You/They will warm up",
+        "I/He/She/It/We/You/They will be warming up",
+        "I/He/She/It/We/You/They will have warmed up",
+        "I/He/She/It/We/You/They will have been warming up"
+    ],
+    "synonyms": [
+        "heat up",
+        "loosen up",
+        "prepare",
+        "ready oneself",
+        "get ready",
+        "limber up",
+        "stretch"
+    ],
+    "antonyms": [
+        "cool down",
+        "relax",
+        "unwind"
+    ],
+    "questions": [
+        "How do you usually warm up before exercising? (context: fitness)",
+        "Can you warm up the food? (context: cooking)",
+        "Did the team warm up before the match? (context: sports)",
+        "Why is it important to warm up your voice before singing? (context: music)",
+        "How long does it take to warm up the engine in cold weather? (context: automotive)"
+    ]
+},
+
+{
+    "topic": "cooking verbs",
+    "category": "regular",
+    "verb": "heat up",
+    "answer": [
+        "I/They/We/You heat up | He/She/It heats up",
+        "I am | He/She/It is | They/We/You are heating up",
+        "I/You/They/We have | He/She/It has heated up",
+        "I/You/They/We have been heating up | He/She/It has been heating up",
+        "I/He/She/It/We/You/They heated up",
+        "I/He/She/It was heating up | They/We/You were heating up",
+        "I/He/She/It/We/You/They had heated up",
+        "I/He/She/It/We/You/They had been heating up",
+        "I/He/She/It/We/You/They will heat up",
+        "I/He/She/It/We/You/They will be heating up",
+        "I/He/She/It/We/You/They will have heated up",
+        "I/He/She/It/We/You/They will have been heating up"
+    ],
+    "synonyms": [
+        "warm",
+        "warm up",
+        "reheat",
+        "cook",
+        "microwave",
+        "thaw",
+        "defrost"
+    ],
+    "antonyms": [
+        "cool",
+        "cool down",
+        "freeze",
+        "chill"
+    ],
+    "questions": [
+        "Can you heat up the soup for dinner? (context: cooking)",
+        "How long does it take to heat up the oven? (context: baking)",
+        "Do you prefer to heat up leftovers or eat them cold? (context: food preference)",
+        "What's the best way to heat up frozen food? (context: cooking)",
+        "Is it safe to heat up this dish in the microwave? (context: food safety)"
+    ]
+},
+
+
+
+
+
+{
+      "topic": "search verbs",
+      "category": "regular",
+      "verb": "look for",
+      "answer": [
+          "I/They/We/You look for | He/She/It looks for",
+          "I am | He/She/It is | They/We/You are looking for",
+          "I/You/They/We have | He/She/It has looked for",
+          "I/You/They/We have been looking for | He/She/It has been looking for",
+          "I/He/She/It/We/You/They looked for",
+          "I/He/She/It was looking for | They/We/You were looking for",
+          "I/He/She/It/We/You/They had looked for",
+          "I/He/She/It/We/You/They had been looking for",
+          "I/He/She/It/We/You/They will look for",
+          "I/He/She/It/We/You/They will be looking for",
+          "I/He/She/It/We/You/They will have looked for",
+          "I/He/She/It/We/You/They will have been looking for"
+      ],
+"synonyms":[ "search", "seek", "hunt for", "scout for", "quest for", "probe for"],
+
+"antonyms":[ "ignore", "neglect", "overlook", "disregard", "abandon", "forget"],
+
+      "questions": [
+          "What are you looking for in the store?(context: shopping)",
+          "Who looks for new talent in your company?(context: recruitment)",
+          "Have they looked for a solution to the issue?(context: problem-solving)",
+          "Why did she look for her old friend online?(context: reconnection)",
+          "When you are researching a new supplier, what do you look for?(context: business)"   ,
+          "If you look yourself up online, what will you look for?(context: research)",
+          "How do you look for information for your school projects?(context: research)"
+      ]
+  },
+
+
+
   {
     "topic": "financial verbs",
     "category": "regular",
@@ -5750,6 +6189,8 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   }
   ,
+
+
   {
     "topic": "hospitality verbs",
     "category": "irregular",
@@ -5886,6 +6327,239 @@ document.addEventListener('DOMContentLoaded', function() {
         "What strategies can be used to not use up energy too fast? (context: energy conservation)"
     ]
   },
+
+  
+  {
+        "topic": "movement verbs",
+        "category": "regular",
+        "verb": "pull up",
+        "answer": [
+            "I/They/We/You pull up | He/She/It pulls up",
+            "I am | He/She/It is | They/We/You are pulling up",
+            "I/You/They/We have | He/She/It has pulled up",
+            "I/You/They/We have been pulling up | He/She/It has been pulling up",
+            "I/He/She/It/We/You/They pulled up",
+            "I/He/She/It was pulling up | They/We/You were pulling up",
+            "I/He/She/It/We/You/They had pulled up",
+            "I/He/She/It/We/You/They had been pulling up",
+            "I/He/She/It/We/You/They will pull up",
+            "I/He/She/It/We/You/They will be pulling up",
+            "I/He/She/It/We/You/They will have pulled up",
+            "I/He/She/It/We/You/They will have been pulling up"
+        ],
+  "synonyms":[ "stop", "halt", "arrive", "draw up", "come to a stop", "park"],
+  
+  "antonyms":[ "drive away", "depart", "leave", "move on", "continue", "proceed"],
+  
+        "questions": [
+            "Can you pull up outside the store to pick me up?(context: transportation)",
+            "Who pulled up in the red car yesterday?(context: arrival)",
+            "Have they pulled up the weeds in the garden?(context: gardening)",
+            "Why did the police car pull up next to the park?(context: law enforcement)",
+            "How do you signal a bus to pull up at your stop?(context: public transport)"
+        ]
+    },
+
+
+    
+{
+      "topic": "disposal verbs",
+      "category": "regular",
+      "verb": "throw away",
+      "answer": [
+          "I/They/We/You throw away | He/She/It throws away",
+          "I am | He/She/It is | They/We/You are throwing away",
+          "I/You/They/We have | He/She/It has thrown away",
+          "I/You/They/We have been throwing away | He/She/It has been throwing away",
+          "I/He/She/It/We/You/They threw away",
+          "I/He/She/It was throwing away | They/We/You were throwing away",
+          "I/He/She/It/We/You/They had thrown away",
+          "I/He/She/It/We/You/They had been throwing away",
+          "I/He/She/It/We/You/They will throw away",
+          "I/He/She/It/We/You/They will be throwing away",
+          "I/He/She/It/We/You/They will have thrown away",
+          "I/He/She/It/We/You/They will have been throwing away"
+      ],
+"synonyms":[ "discard", "dispose of", "get rid of", "dump", "toss out", "eliminate"],
+
+"antonyms":[ "keep", "hold onto", "save", "preserve", "retain", "store"],
+
+      "questions": [
+          "Why did you throw away the old magazines?(context: decluttering)",
+          "Who throws away the leftovers at your home?(context: household management)",
+          "Have they thrown away the damaged equipment?(context: workplace clean-up)",
+          "Why did she throw away his letters after the breakup?(context: emotional response)",
+          "How do you decide what to throw away when moving to a smaller place?(context: downsizing)"
+      ]
+  },
+
+
+  
+  {
+        "topic": "action verbs",
+        "category": "regular",
+        "verb": "turn off",
+        "answer": [
+            "I/They/We/You turn off | He/She/It turns off",
+            "I am | He/She/It is | They/We/You are turning off",
+            "I/You/They/We have | He/She/It has turned off",
+            "I/You/They/We have been turning off | He/She/It has been turning off",
+            "I/He/She/It/We/You/They turned off",
+            "I/He/She/It was turning off | They/We/You were turning off",
+            "I/He/She/It/We/You/They had turned off",
+            "I/He/She/It/We/You/They had been turning off",
+            "I/He/She/It/We/You/They will turn off",
+            "I/He/She/It/We/You/They will be turning off",
+            "I/He/She/It/We/You/They will have turned off",
+            "I/He/She/It/We/You/They will have been turning off"
+        ],
+  "synonyms":[ "shut off", "switch off", "deactivate", "power down", "stop", "disengage"],
+  
+  "antonyms":[ "turn on", "activate", "start", "power up", "switch on", "engage"],
+  
+        "questions": [
+            "Can you turn off the lights before leaving the room?(context: energy saving)",
+            "Who turned off the alarm this morning?(context: daily routine)",
+            "Have they turned off the main water supply during the repairs?(context: maintenance work)",
+            "Why did she turn off her phone during the meeting?(context: etiquette)",
+            "How do you remember to turn off appliances before going to bed?(context: safety)"
+        ]
+    },
+  
+
+
+  {
+        "topic": "sleep verbs",
+        "category": "regular",
+        "verb": "go to sleep",
+        "answer": [
+            "I/They/We/You go to sleep | He/She/It goes to sleep",
+            "I am | He/She/It is | They/We/You are going to sleep",
+            "I/You/They/We have | He/She/It has gone to sleep",
+            "I/You/They/We have been going to sleep | He/She/It has been going to sleep",
+            "I/He/She/It/We/You/They went to sleep",
+            "I/He/She/It was going to sleep | They/We/You were going to sleep",
+            "I/He/She/It/We/You/They had gone to sleep",
+            "I/He/She/It/We/You/They had been going to sleep",
+            "I/He/She/It/We/You/They will go to sleep",
+            "I/He/She/It/We/You/They will be going to sleep",
+            "I/He/She/It/We/You/They will have gone to sleep",
+            "I/He/She/It/We/You/They will have been going to sleep"
+        ],
+  "synonyms":[ "fall asleep", "retire", "hit the hay", "turn in", "hit the sack", "bed down"],
+  
+  "antonyms":[ "wake up", "get up", "arise", "rouse", "stay awake", "remain up"],
+  
+        "questions": [
+            "What time do you usually go to sleep at night?(context: sleep schedule)",
+            "Who goes to sleep first in your household?(context: family bedtime)",
+            "Have they gone to sleep early to catch the flight tomorrow?(context: travel preparation)",
+            "Why did she go to sleep so late last night?(context: late night activities)",
+            "How do you go to sleep when you're not tired?(context: sleep challenges)"
+        ]
+    },
+  
+
+
+{
+      "topic": "morning verbs",
+      "category": "irregular",
+      "verb": "wake up",
+      "answer": [
+          "I/They/We/You wake up | He/She/It wakes up",
+          "I am | He/She/It is | They/We/You are waking up",
+          "I/You/They/We have | He/She/It has woken up",
+          "I/You/They/We have been waking up | He/She/It has been waking up",
+          "I/He/She/It/We/You/They woke up",
+          "I/He/She/It was waking up | They/We/You were waking up",
+          "I/He/She/It/We/You/They had woken up",
+          "I/He/She/It/We/You/They had been waking up",
+          "I/He/She/It/We/You/They will wake up",
+          "I/He/She/It/We/You/They will be waking up",
+          "I/He/She/It/We/You/They will have woken up",
+          "I/He/She/It/We/You/They will have been waking up"
+      ],
+"synonyms":[ "arise", "get up", "rouse", "come to", "awaken", "stir"],
+
+"antonyms":[ "fall asleep", "go to sleep", "doze off", "drift off", "nod off", "slumber"],
+
+      "questions": [
+          "What time do you usually wake up in the morning?(context: daily routine)",
+          "Who wakes up the earliest in your family?(context: family habits)",
+          "Have you woken up late and missed an important meeting?(context: time management)",
+          "Why did she wake up in the middle of the night?(context: sleep disturbance)",
+          "How do you wake up without an alarm clock?(context: natural awakening)"
+      ]
+  },
+
+
+{
+      "topic": "sleep verbs",
+      "category": "irregular",
+      "verb": "fall asleep",
+      "answer": [
+          "I/They/We/You fall asleep | He/She/It falls asleep",
+          "I am | He/She/It is | They/We/You are falling asleep",
+          "I/You/They/We have | He/She/It has fallen asleep",
+          "I/You/They/We have been falling asleep | He/She/It has been falling asleep",
+          "I/He/She/It/We/You/They fell asleep",
+          "I/He/She/It was falling asleep | They/We/You were falling asleep",
+          "I/He/She/It/We/You/They had fallen asleep",
+          "I/He/She/It/We/You/They had been falling asleep",
+          "I/He/She/It/We/You/They will fall asleep",
+          "I/He/She/It/We/You/They will be falling asleep",
+          "I/He/She/It/We/You/They will have fallen asleep",
+          "I/He/She/It/We/You/They will have been falling asleep"
+      ],
+"synonyms":[ "doze off", "drift off", "nod off", "snooze", "slumber", "go to sleep"],
+
+"antonyms":[ "wake up", "arise", "get up", "rouse", "awaken", "stay awake"],
+
+      "questions": [
+          "How quickly do you usually fall asleep at night?(context: sleep patterns)",
+          "Who fell asleep during the movie last night?(context: leisure activity)",
+          "Have you ever fallen asleep on public transport?(context: unintentional sleep)",
+          "Why did she fall asleep during the meeting?(context: fatigue)",
+          "How do you fall asleep when you're feeling anxious?(context: sleep difficulties)"
+      ]
+  },
+
+
+ 
+    {
+          "topic": "elimination verbs",
+          "category": "regular",
+          "verb": "get rid of",
+          "answer": [
+              "I/They/We/You get rid of | He/She/It gets rid of",
+              "I am | He/She/It is | They/We/You are getting rid of",
+              "I/You/They/We have | He/She/It has got rid of",
+              "I/You/They/We have been getting rid of | He/She/It has been getting rid of",
+              "I/He/She/It/We/You/They got rid of",
+              "I/He/She/It was getting rid of | They/We/You were getting rid of",
+              "I/He/She/It/We/You/They had got rid of",
+              "I/He/She/It/We/You/They had been getting rid of",
+              "I/He/She/It/We/You/They will get rid of",
+              "I/He/She/It/We/You/They will be getting rid of",
+              "I/He/She/It/We/You/They will have got rid of",
+              "I/He/She/It/We/You/They will have been getting rid of"
+          ],
+    "synonyms":[ "discard", "eliminate", "remove", "dispose of", "throw away", "clear out"],
+    
+    "antonyms":[ "keep", "retain", "hold onto", "preserve", "maintain", "store"],
+    
+          "questions": [
+              "How do you get rid of old clothes you don't wear?(context: decluttering)",
+              "Who got rid of the broken chair in the office?(context: workplace maintenance)",
+              "Have they got rid of the outdated software yet?(context: technology update)",
+              "Why did she get rid of her old photographs?(context: personal choices)",
+              "How can we get rid of pests in the garden without chemicals?(context: pest control)"
+          ]
+      },
+    
+
+
+
 
   {
     "topic": "search verbs",
@@ -6026,7 +6700,57 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
 
-  
+
+{
+  "topic": "request verbs",
+  "category": "regular",
+  "verb": "ask for",
+  "answer": [
+      "I/They/We/You ask for | He/She/It asks for",
+      "I am | He/She/It is | They/We/You are asking for",
+      "I/You/They/We have | He/She/It has asked for",
+      "I/You/They/We have been asking for | He/She/It has been asking for",
+      "I/He/She/It/We/You/They asked for",
+      "I/He/She/It was asking for | They/We/You were asking for",
+      "I/He/She/It/We/You/They had asked for",
+      "I/He/She/It/We/You/They had been asking for",
+      "I/He/She/It/We/You/They will ask for",
+      "I/He/She/It/We/You/They will be asking for",
+      "I/He/She/It/We/You/They will have asked for",
+      "I/He/She/It/We/You/They will have been asking for"
+  ],
+  "synonyms": [
+      "request",
+      "inquire for",
+      "seek",
+      "solicit",
+      "demand",
+      "petition for",
+      "plead for",
+      "appeal for",
+      "call for",
+      "beg for"
+  ],
+  "antonyms": [
+      "offer",
+      "give",
+      "provide",
+      "supply",
+      "grant",
+      "present"
+  ],
+  "questions": [
+      "Can I ask for a higher salary during my review?(context: employment)",
+      "Should we ask for extra resources for this project?(context: project management)",
+      "How do you politely ask for help in this situation?(context: social interaction)",
+      "What information should I ask for when buying a used car?(context: purchasing)",
+      "Is it appropriate to ask for a refund if the product is defective?(context: consumer rights)"
+  ]
+},
+
+
+
+
   {
         "topic": "release verbs",
         "category": "regular",
@@ -6297,6 +7021,156 @@ document.addEventListener('DOMContentLoaded', function() {
         "What tools do you use to keep up with your tasks? (context: productivity)"
     ]
   },
+
+
+  
+{
+  "topic": "basic actions",
+  "category": "regular",
+  "verb": "stick",
+  "answer": [
+      "I/They/We/You stick | He/She/It sticks",
+      "I am | He/She/It is | They/We/You are sticking",
+      "I/You/They/We have | He/She/It has stuck",
+      "I/You/They/We have been sticking | He/She/It has been sticking",
+      "I/He/She/It/We/You/They stuck",
+      "I/He/She/It was sticking | They/We/You were sticking",
+      "I/He/She/It/We/You/They had stuck",
+      "I/He/She/It/We/You/They had been sticking",
+      "I/He/She/It/We/You/They will stick",
+      "I/He/She/It/We/You/They will be sticking",
+      "I/He/She/It/We/You/They will have stuck",
+      "I/He/She/It/We/You/They will have been sticking"
+  ],
+  "synonyms": [
+      "adhere",
+      "cling",
+      "attach",
+      "bond",
+      "cohere",
+      "fasten",
+      "fix",
+      "glue",
+      "gum",
+      "paste",
+      "tack"
+  ],
+  "antonyms": [
+      "detach",
+      "separate",
+      "unstick",
+      "peel off",
+      "come off",
+      "disengage"
+  ],
+  "questions": [
+      "Can you stick this note on the fridge?(context: home)",
+      "Why is this label not sticking properly?(context: everyday)",
+      "Have you stuck the poster on the wall yet?(context: decoration)",
+      "Where did you stick the reminder?(context: organization)",
+      "How many stamps do I need to stick on this package?(context: mailing)"
+  ]
+},
+
+{
+    "topic": "interpersonal actions",
+    "category": "regular",
+    "verb": "engage",
+    "answer": [
+        "I/They/We/You engage | He/She/It engages",
+        "I am | He/She/It is | They/We/You are engaging",
+        "I/You/They/We have | He/She/It has engaged",
+        "I/You/They/We have been engaging | He/She/It has been engaging",
+        "I/He/She/It/We/You/They engaged",
+        "I/He/She/It was engaging | They/We/You were engaging",
+        "I/He/She/It/We/You/They had engaged",
+        "I/He/She/It/We/You/They had been engaging",
+        "I/He/She/It/We/You/They will engage",
+        "I/He/She/It/We/You/They will be engaging",
+        "I/He/She/It/We/You/They will have engaged",
+        "I/He/She/It/We/You/They will have been engaging"
+    ],
+    "synonyms": [
+        "involve",
+        "participate",
+        "take part",
+        "join",
+        "enlist",
+        "enter into",
+        "commit",
+        "undertake",
+        "embark on",
+        "begin",
+        "start"
+    ],
+    "antonyms": [
+        "disengage",
+        "withdraw",
+        "depart",
+        "leave",
+        "disentangle",
+        "exit",
+        "detach"
+    ],
+    "questions": [
+        "How do you plan to engage the audience during your presentation?(context: public speaking)",
+        "Are you engaged in any extracurricular activities?(context: education)",
+        "Has the company engaged in any new projects recently?(context: business)",
+        "Who will engage in negotiations with the client?(context: business negotiations)",
+        "How can we better engage with our community?(context: community involvement)"
+    ]
+  },  
+
+  {
+    "topic": "participation verbs",
+    "category": "regular",
+    "verb": "attend",
+    "answer": [
+        "I/They/We/You attend | He/She/It attends",
+        "I am | He/She/It is | They/We/You are attending",
+        "I/You/They/We have | He/She/It has attended",
+        "I/You/They/We have been attending | He/She/It has been attending",
+        "I/He/She/It/We/You/They attended",
+        "I/He/She/It was attending | They/We/You were attending",
+        "I/He/She/It/We/You/They had attended",
+        "I/He/She/It/We/You/They had been attending",
+        "I/He/She/It/We/You/They will attend",
+        "I/He/She/It/We/You/They will be attending",
+        "I/He/She/It/We/You/They will have attended",
+        "I/He/She/It/We/You/They will have been attending"
+    ],
+    "synonyms": [
+        "be present at",
+        "go to",
+        "be at",
+        "be in attendance",
+        "participate in",
+        "join",
+        "take part in",
+        "sit in on",
+        "show up at",
+        "appear at",
+        "turn up at"
+    ],
+    "antonyms": [
+        "miss",
+        "skip",
+        "neglect",
+        "ignore",
+        "avoid",
+        "bypass"
+    ],
+    "questions": [
+        "Did you attend the meeting yesterday?(context: business)",
+        "How many students attended the class?(context: education)",
+        "Will you attend the wedding this weekend?(context: social event)",
+        "Who will be attending the conference from our team?(context: professional event)",
+        "Are you planning to attend the workshop next month?(context: educational event)"
+    ]
+  },
+
+  
+
 
   {
     "topic": "discovery verbs",
