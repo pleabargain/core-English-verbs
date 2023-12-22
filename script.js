@@ -729,8 +729,293 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
 },
 
+{
+    "topic": "general action verbs",
+    "category": "regular",
+    "verb": "mount",
+    "answer": [
+        "I/They/We/You mount | He/She/It mounts",
+        "I am | He/She/It is | They/We/You are mounting",
+        "I/You/They/We have | He/She/It has mounted",
+        "I/You/They/We have been mounting | He/She/It has been mounting",
+        "I/He/She/It/We/You/They mounted",
+        "I/He/She/It was mounting | They/We/You were mounting",
+        "I/He/She/It/We/You/They had mounted",
+        "I/He/She/It/We/You/They had been mounting",
+        "I/He/She/It/We/You/They will mount",
+        "I/He/She/It/We/You/They will be mounting",
+        "I/He/She/It/We/You/They will have mounted",
+        "I/He/She/It/We/You/They will have been mounting"
+    ],
+    "synonyms": [
+        "install", 
+        "set up", 
+        "fix", 
+        "attach", 
+        "fit", 
+        "place", 
+        "position", 
+        "affix", 
+        "assemble"
+    ],
+    "antonyms": [
+        "dismount", 
+        "remove", 
+        "detach", 
+        "disassemble", 
+        "uninstall"
+    ],
+    "questions": [
+        "How do you mount the shelves on the wall?(context: DIY)",
+        "Who will mount the new exhibit in the gallery?(context: art exhibition)",
+        "Have they mounted the new sign yet?(context: business)",
+        "Why was the picture mounted so high?(context: interior design)",
+        "Can we mount this on a different wall?(context: home decoration)"
+    ]
+  },
+  
+  {
+    "topic": "general action verbs",
+    "category": "regular",
+    "verb": "mount",
+    "answer": [
+        "I/They/We/You mount | He/She/It mounts",
+        "I am | He/She/It is | They/We/You are mounting",
+        "I/You/They/We have | He/She/It has mounted",
+        "I/You/They/We have been mounting | He/She/It has been mounting",
+        "I/He/She/It/We/You/They mounted",
+        "I/He/She/It was mounting | They/We/You were mounting",
+        "I/He/She/It/We/You/They had mounted",
+        "I/He/She/It/We/You/They had been mounting",
+        "I/He/She/It/We/You/They will mount",
+        "I/He/She/It/We/You/They will be mounting",
+        "I/He/She/It/We/You/They will have mounted",
+        "I/He/She/It/We/You/They will have been mounting"
+    ],
+    "synonyms": [
+        "install", 
+        "set up", 
+        "fix", 
+        "attach", 
+        "fit", 
+        "place", 
+        "position", 
+        "affix", 
+        "assemble"
+    ],
+    "antonyms": [
+        "dismount", 
+        "remove", 
+        "detach", 
+        "disassemble", 
+        "uninstall"
+    ],
+    "questions": [
+        "How do you mount the shelves on the wall?(context: DIY)",
+        "Who will mount the new exhibit in the gallery?(context: art exhibition)",
+        "Have they mounted the new sign yet?(context: business)",
+        "Why was the picture mounted so high?(context: interior design)",
+        "Can we mount this on a different wall?(context: home decoration)"
+    ]
+  },
+  
 
+  
+  {
+    "topic": "emotion and feeling verbs",
+    "category": "regular",
+    "verb": "miss",
+    "answer": [
+        "I/They/We/You miss | He/She/It misses",
+        "I am | He/She/It is | They/We/You are missing",
+        "I/You/They/We have | He/She/It has missed",
+        "I/You/They/We have been missing | He/She/It has been missing",
+        "I/He/She/It/We/You/They missed",
+        "I/He/She/It was missing | They/We/You were missing",
+        "I/He/She/It/We/You/They had missed",
+        "I/He/She/It/We/You/They had been missing",
+        "I/He/She/It/We/You/They will miss",
+        "I/He/She/It/We/You/They will be missing",
+        "I/He/She/It/We/You/They will have missed",
+        "I/He/She/It/We/You/They will have been missing"
+    ],
+    "synonyms": [
+        "long for", 
+        "yearn for", 
+        "pine for", 
+        "ache for", 
+        "lament", 
+        "regret the absence of", 
+        "be without", 
+        "be deprived of", 
+        "be missing"
+    ],
+    "antonyms": [
+        "disregard", 
+        "ignore", 
+        "neglect", 
+        "overlook", 
+        "have", 
+        "possess"
+    ],
+    "questions": [
+        "Do you miss your family when you're away?(context: emotion)",
+        "Who misses the old days?(context: nostalgia)",
+        "Have you ever missed a great opportunity?(context: regret)",
+        "Why do you miss those times so much?(context: reminiscing)",
+        "Can you miss someone you've never met?(context: longing)"
+    ]
+  },
+  
 
+  {
+    "topic": "common life experience verbs",
+    "category": "irregular",
+    "verb": "lose",
+    "answer": [
+        "I/They/We/You lose | He/She/It loses",
+        "I am | He/She/It is | They/We/You are losing",
+        "I/You/They/We have | He/She/It has lost",
+        "I/You/They/We have been losing | He/She/It has been losing",
+        "I/He/She/It/We/You/They lost",
+        "I/He/She/It was losing | They/We/You were losing",
+        "I/He/She/It/We/You/They had lost",
+        "I/He/She/It/We/You/They had been losing",
+        "I/He/She/It/We/You/They will lose",
+        "I/He/She/It/We/You/They will be losing",
+        "I/He/She/It/We/You/They will have lost",
+        "I/He/She/It/We/You/They will have been losing"
+    ],
+    "synonyms": [
+        "misplace", 
+        "mislay", 
+        "be deprived of", 
+        "be bereaved of", 
+        "suffer the loss of", 
+        "part with", 
+        "be stripped of", 
+        "forfeit", 
+        "let slip"
+    ],
+    "antonyms": [
+        "find", 
+        "recover", 
+        "win", 
+        "gain", 
+        "retain", 
+        "keep", 
+        "maintain", 
+        "possess", 
+        "acquire"
+    ],
+    "questions": [
+        "How did you lose your keys?(context: misplacement)",
+        "Who loses their temper easily in your family?(context: emotion)",
+        "Have they lost much weight recently?(context: health)",
+        "If your partner loses their cool, what do you do?(context: relationship)",
+        "Why do teams lose focus during matches?(context: sports)",
+        "Can one lose interest in a hobby?(context: personal interest)"
+    ]
+  },
+  
+  
+  {
+    "topic": "communication verbs",
+    "category": "regular",
+    "verb": "complain",
+    "answer": [
+        "I/They/We/You complain | He/She/It complains",
+        "I am | He/She/It is | They/We/You are complaining",
+        "I/You/They/We have | He/She/It has complained",
+        "I/You/They/We have been complaining | He/She/It has been complaining",
+        "I/He/She/It/We/You/They complained",
+        "I/He/She/It was complaining | They/We/You were complaining",
+        "I/He/She/It/We/You/They had complained",
+        "I/He/She/It/We/You/They had been complaining",
+        "I/He/She/It/We/You/They will complain",
+        "I/He/She/It/We/You/They will be complaining",
+        "I/He/She/It/We/You/They will have complained",
+        "I/He/She/It/We/You/They will have been complaining"
+    ],
+    "synonyms": [
+        "grumble", 
+        "grouse", 
+        "whine", 
+        "moan", 
+        "whinge", 
+        "bleat", 
+        "carp", 
+        "cavil", 
+        "protest"
+    ],
+    "antonyms": [
+        "commend", 
+        "praise", 
+        "applaud", 
+        "approve", 
+        "accept", 
+        "be happy", 
+        "be content", 
+        "endorse", 
+        "agree"
+    ],
+    "questions": [
+        "Why do you people complain about the weather?(context: general annoyance)",
+        "Who complains the most in your family?(context: family dynamics)",
+        "Who complained about the noise last night?(context: disturbance)",
+        "Have they complained to the manager about the service?(context: customer service)",
+        "Why do people often complain on social media?(context: online behavior)",
+        "Can I complain about a faulty product after a month?(context: consumer rights)"
+    ]
+  },
+  
+
+  
+  {
+    "topic": "repair and maintenance verbs",
+    "category": "phrasal verb (regular)",
+    "verb": "fix up",
+    "answer": [
+        "I/They/We/You fix up | He/She/It fixes up",
+        "I am | He/She/It is | They/We/You are fixing up",
+        "I/You/They/We have | He/She/It has fixed up",
+        "I/You/They/We have been fixing up | He/She/It has been fixing up",
+        "I/He/She/It/We/You/They fixed up",
+        "I/He/She/It was fixing up | They/We/You were fixing up",
+        "I/He/She/It/We/You/They had fixed up",
+        "I/He/She/It/We/You/They had been fixing up",
+        "I/He/She/It/We/You/They will fix up",
+        "I/He/She/It/We/You/They will be fixing up",
+        "I/He/She/It/We/You/They will have fixed up",
+        "I/He/She/It/We/You/They will have been fixing up"
+    ],
+    "synonyms": [
+        "repair", 
+        "mend", 
+        "restore", 
+        "renovate", 
+        "refurbish", 
+        "recondition", 
+        "overhaul", 
+        "rehabilitate", 
+        "revamp"
+    ],
+    "antonyms": [
+        "break", 
+        "damage", 
+        "destroy", 
+        "worsen", 
+        "neglect"
+    ],
+    "questions": [
+        "Can you fix up the old bike for the kids?(context: repair)",
+        "Who will fix up the meeting room for the event?(context: event preparation)",
+        "Have you fixed up the leak in the roof?(context: home repair)",
+        "Why don't we fix up the garden this weekend?(context: home improvement)",
+        "How long will it take to fix up the car?(context: auto repair)"
+    ]
+  },
+  
 
 
 {
@@ -6823,6 +7108,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "disorganize"
     ],
     "questions": [
+        "What was the most difficult thing you ever had to set up?(context: home improvement)",
+        "Who sets up parties at your place?(context: social event)",
         "How do you set up a new business?(context: entrepreneurship)",
         "Have you set up your Christmas tree yet?(context: holiday tradition)",
         "Who will set up the meeting room?(context: corporate event)",
@@ -6831,6 +7118,461 @@ document.addEventListener('DOMContentLoaded', function() {
         "Can we set up a time to talk?(context: scheduling)"
     ]
 },
+
+
+{
+    "topic": "basic action verbs",
+    "category": "irregular",
+    "verb": "sleep",
+    "answer": [
+        "I/They/We/You sleep | He/She/It sleeps",
+        "I am | He/She/It is | They/We/You are sleeping",
+        "I/You/They/We have | He/She/It has slept",
+        "I/You/They/We have been sleeping | He/She/It has been sleeping",
+        "I/He/She/It/We/You/They slept",
+        "I/He/She/It was sleeping | They/We/You were sleeping",
+        "I/He/She/It/We/You/They had slept",
+        "I/He/She/It/We/You/They had been sleeping",
+        "I/He/She/It/We/You/They will sleep",
+        "I/He/She/It/We/You/They will be sleeping",
+        "I/He/She/It/We/You/They will have slept",
+        "I/He/She/It/We/You/They will have been sleeping"
+    ],
+    "synonyms": [
+        "nap", 
+        "doze", 
+        "rest", 
+        "slumber", 
+        "drowse", 
+        "snooze", 
+        "take a siesta", 
+        "catch some Z's", 
+        "be asleep"
+    ],
+    "antonyms": [
+        "wake", 
+        "awaken", 
+        "get up", 
+        "arise", 
+        "rouse", 
+        "stir", 
+        "be awake", 
+        "stay up", 
+        "remain awake"
+    ],
+    "questions": [
+        "How many hours do you sleep each night?(context: health)",
+        "Who sleeps the most in your family?(context: family habits)",
+        "Have you ever slept through an important event?(context: personal experience)",
+        "Why do some people sleep with a light on?(context: sleeping habits)",
+        "Can you sleep well in a new place?(context: travel)"
+    ]
+  },
+  
+
+  {
+    "topic": "daily routine verbs",
+    "category": "phrasal verb (regular)",
+    "verb": "stay up",
+    "answer": [
+        "I/They/We/You stay up | He/She/It stays up",
+        "I am | He/She/It is | They/We/You are staying up",
+        "I/You/They/We have | He/She/It has stayed up",
+        "I/You/They/We have been staying up | He/She/It has been staying up",
+        "I/He/She/It/We/You/They stayed up",
+        "I/He/She/It was staying up | They/We/You were staying up",
+        "I/He/She/It/We/You/They had stayed up",
+        "I/He/She/It/We/You/They had been staying up",
+        "I/He/She/It/We/You/They will stay up",
+        "I/He/She/It/We/You/They will be staying up",
+        "I/He/She/It/We/You/They will have stayed up",
+        "I/He/She/It/We/You/They will have been staying up"
+    ],
+    "synonyms": [
+        "remain awake", 
+        "keep awake", 
+        "not go to bed", 
+        "be up late", 
+        "burn the midnight oil", 
+        "keep vigil", 
+        "wait up", 
+        "linger awake", 
+        "prolong waking hours"
+    ],
+    "antonyms": [
+        "go to bed", 
+        "sleep", 
+        "retire", 
+        "hit the hay", 
+        "turn in", 
+        "hit the sack", 
+        "rest", 
+        "nap", 
+        "doze off"
+    ],
+    "questions": [
+        "Why do you often stay up late?(context: habits)",
+        "Who stayed up to watch the meteor shower?(context: event)",
+        "Have you ever stayed up all night studying?(context: studying)",
+        "Why is it unhealthy to stay up too late?(context: health)",
+        "Can you stay up till midnight on New Year's Eve?(context: celebration)"
+    ]
+  },
+  
+
+
+  {
+    "topic": "daily routine verbs",
+    "category": "phrasal verb (regular)",
+    "verb": "stay up",
+    "answer": [
+        "I/They/We/You stay up | He/She/It stays up",
+        "I am | He/She/It is | They/We/You are staying up",
+        "I/You/They/We have | He/She/It has stayed up",
+        "I/You/They/We have been staying up | He/She/It has been staying up",
+        "I/He/She/It/We/You/They stayed up",
+        "I/He/She/It was staying up | They/We/You were staying up",
+        "I/He/She/It/We/You/They had stayed up",
+        "I/He/She/It/We/You/They had been staying up",
+        "I/He/She/It/We/You/They will stay up",
+        "I/He/She/It/We/You/They will be staying up",
+        "I/He/She/It/We/You/They will have stayed up",
+        "I/He/She/It/We/You/They will have been staying up"
+    ],
+    "synonyms": [
+        "remain awake", 
+        "keep awake", 
+        "not go to bed", 
+        "be up late", 
+        "burn the midnight oil", 
+        "keep vigil", 
+        "wait up", 
+        "linger awake", 
+        "prolong waking hours"
+    ],
+    "antonyms": [
+        "go to bed", 
+        "sleep", 
+        "retire", 
+        "hit the hay", 
+        "turn in", 
+        "hit the sack", 
+        "rest", 
+        "nap", 
+        "doze off"
+    ],
+    "questions": [
+        "Why do you often stay up late?(context: habits)",
+        "Who stayed up to watch the meteor shower?(context: event)",
+        "Have you ever stayed up all night studying?(context: studying)",
+        "Why is it unhealthy to stay up too late?(context: health)",
+        "Can you stay up till midnight on New Year's Eve?(context: celebration)"
+    ]
+  },
+  
+
+  {
+    "topic": "common action verbs",
+    "category": "phrasal verb (regular)",
+    "verb": "turn on",
+    "answer": [
+        "I/They/We/You turn on | He/She/It turns on",
+        "I am | He/She/It is | They/We/You are turning on",
+        "I/You/They/We have | He/She/It has turned on",
+        "I/You/They/We have been turning on | He/She/It has been turning on",
+        "I/He/She/It/We/You/They turned on",
+        "I/He/She/It was turning on | They/We/You were turning on",
+        "I/He/She/It/We/You/They had turned on",
+        "I/He/She/It/We/You/They had been turning on",
+        "I/He/She/It/We/You/They will turn on",
+        "I/He/She/It/We/You/They will be turning on",
+        "I/He/She/It/We/You/They will have turned on",
+        "I/He/She/It/We/You/They will have been turning on"
+    ],
+    "synonyms": [
+        "activate", 
+        "start", 
+        "switch on", 
+        "power up", 
+        "ignite", 
+        "energize", 
+        "stimulate", 
+        "trigger", 
+        "initiate"
+    ],
+    "antonyms": [
+        "turn off", 
+        "deactivate", 
+        "switch off", 
+        "shut down", 
+        "stop", 
+        "extinguish", 
+        "cut off", 
+        "kill", 
+        "disable"
+    ],
+    "questions": [
+        "Can you turn on the lights, please?(context: simple request)",
+        "Who turned on the alarm system?(context: security)",
+        "Have you turned on the heater yet?(context: household)",
+        "Why does the computer turn on by itself?(context: technology)",
+        "What happens when you turn on the machine?(context: operation)"
+    ]
+  },
+  
+  {
+    "topic": "household verbs",
+    "category": "regular",
+    "verb": "heat",
+    "answer": [
+        "I/They/We/You heat | He/She/It heats",
+        "I am | He/She/It is | They/We/You are heating",
+        "I/You/They/We have | He/She/It has heated",
+        "I/You/They/We have been heating | He/She/It has been heating",
+        "I/He/She/It/We/You/They heated",
+        "I/He/She/It was heating | They/We/You were heating",
+        "I/He/She/It/We/You/They had heated",
+        "I/He/She/It/We/You/They had been heating",
+        "I/He/She/It/We/You/They will heat",
+        "I/He/She/It/We/You/They will be heating",
+        "I/He/She/It/We/You/They will have heated",
+        "I/He/She/It/We/You/They will have been heating"
+    ],
+    "synonyms": [
+        "warm", 
+        "warm up", 
+        "cook", 
+        "melt", 
+        "toast", 
+        "reheat", 
+        "broil", 
+        "scald", 
+        "blanch"
+    ],
+    "antonyms": [
+        "cool", 
+        "chill", 
+        "freeze", 
+        "refrigerate", 
+        "ice", 
+        "air-condition", 
+        "ventilate", 
+        "fan", 
+        "quench"
+    ],
+    "questions": [
+        "How do you heat your home in winter?(context: household)",
+        "Who will heat the water for tea?(context: kitchen tasks)",
+        "Have you heated the leftovers from yesterday?(context: cooking)",
+        "Why do we need to heat the pool?(context: recreation)",
+        "Can we heat this room more efficiently?(context: energy saving)"
+    ]
+  },
+  
+
+
+  
+  {
+    "topic": "legal and crime verbs",
+    "category": "irregular",
+    "verb": "steal",
+    "answer": [
+        "I/They/We/You steal | He/She/It steals",
+        "I am | He/She/It is | They/We/You are stealing",
+        "I/You/They/We have | He/She/It has stolen",
+        "I/You/They/We have been stealing | He/She/It has been stealing",
+        "I/He/She/It/We/You/They stole",
+        "I/He/She/It was stealing | They/We/You were stealing",
+        "I/He/She/It/We/You/They had stolen",
+        "I/He/She/It/We/You/They had been stealing",
+        "I/He/She/It/We/You/They will steal",
+        "I/He/She/It/We/You/They will be stealing",
+        "I/He/She/It/We/You/They will have stolen",
+        "I/He/She/It/We/You/They will have been stealing"
+    ],
+    "synonyms": [
+        "pilfer", 
+        "purloin", 
+        "shoplift", 
+        "embezzle", 
+        "appropriate", 
+        "snatch", 
+        "filch", 
+        "thieve", 
+        "pocket"
+    ],
+    "antonyms": [
+        "return", 
+        "give back", 
+        "restitute", 
+        "restore", 
+        "reimburse", 
+        "compensate", 
+        "repay", 
+        "surrender", 
+        "yield"
+    ],
+    "questions": [
+        "Why do people steal?(context: crime psychology)",
+        "Who stole your bicycle?(context: personal experience)",
+        "Have you ever stolen anything, even as a child?(context: ethics)",
+        "Why did the character steal in the story?(context: literature)",
+        "Can businesses steal ideas from each other?(context: corporate ethics)"
+    ]
+  },
+  
+
+  {
+    "topic": "cognitive process verbs",
+    "category": "regular",
+    "verb": "assume",
+    "answer": [
+        "I/They/We/You assume | He/She/It assumes",
+        "I am | He/She/It is | They/We/You are assuming",
+        "I/You/They/We have | He/She/It has assumed",
+        "I/You/They/We have been assuming | He/She/It has been assuming",
+        "I/He/She/It/We/You/They assumed",
+        "I/He/She/It was assuming | They/We/You were assuming",
+        "I/He/She/It/We/You/They had assumed",
+        "I/He/She/It/We/You/They had been assuming",
+        "I/He/She/It/We/You/They will assume",
+        "I/He/She/It/We/You/They will be assuming",
+        "I/He/She/It/We/You/They will have assumed",
+        "I/He/She/It/We/You/They will have been assuming"
+    ],
+    "synonyms": [
+        "presume", 
+        "suppose", 
+        "take for granted", 
+        "surmise", 
+        "conjecture", 
+        "speculate", 
+        "infer", 
+        "hypothesize", 
+        "believe"
+    ],
+    "antonyms": [
+        "know", 
+        "confirm", 
+        "verify", 
+        "validate", 
+        "prove", 
+        "establish", 
+        "demonstrate", 
+        "ascertain", 
+        "disprove"
+    ],
+    "questions": [
+        "Why do you assume the worst in every situation?(context: mindset)",
+        "Who assumed responsibility for the project?(context: leadership)",
+        "Have they assumed that you would agree?(context: communication)",
+        "Why should we not assume others' feelings?(context: empathy)",
+        "Can one assume success without effort?(context: motivational)"
+    ]
+  },
+  
+
+  
+  {
+    "topic": "social interaction verbs",
+    "category": "regular",
+    "verb": "share",
+    "answer": [
+        "I/They/We/You share | He/She/It shares",
+        "I am | He/She/It is | They/We/You are sharing",
+        "I/You/They/We have | He/She/It has shared",
+        "I/You/They/We have been sharing | He/She/It has been sharing",
+        "I/He/She/It/We/You/They shared",
+        "I/He/She/It was sharing | They/We/You were sharing",
+        "I/He/She/It/We/You/They had shared",
+        "I/He/She/It/We/You/They had been sharing",
+        "I/He/She/It/We/You/They will share",
+        "I/He/She/It/We/You/They will be sharing",
+        "I/He/She/It/We/You/They will have shared",
+        "I/He/She/It/We/You/They will have been sharing"
+    ],
+    "synonyms": [
+        "divide", 
+        "distribute", 
+        "partake", 
+        "apportion", 
+        "allocate", 
+        "dispense", 
+        "allot", 
+        "parcel out", 
+        "split"
+    ],
+    "antonyms": [
+        "withhold", 
+        "keep", 
+        "hoard", 
+        "conceal", 
+        "retain", 
+        "seize", 
+        "monopolize", 
+        "appropriate", 
+        "take"
+    ],
+    "questions": [
+        "Why is it important to share knowledge in a team?(context: teamwork)",
+        "Who shares their lunch with you at school?(context: friendship)",
+        "Have they shared the results of the survey yet?(context: information dissemination)",
+        "Why do people share personal stories on social media?(context: online behavior)",
+        "Can you share this document with the rest of the group?(context: work collaboration)"
+    ]
+  },
+  
+
+  {
+    "topic": "health and wellness verbs",
+    "category": "regular",
+    "verb": "relieve",
+    "answer": [
+        "I/They/We/You relieve | He/She/It relieves",
+        "I am | He/She/It is | They/We/You are relieving",
+        "I/You/They/We have | He/She/It has relieved",
+        "I/You/They/We have been relieving | He/She/It has been relieving",
+        "I/He/She/It/We/You/They relieved",
+        "I/He/She/It was relieving | They/We/You were relieving",
+        "I/He/She/It/We/You/They had relieved",
+        "I/He/She/It/We/You/They had been relieving",
+        "I/He/She/It/We/You/They will relieve",
+        "I/He/She/It/We/You/They will be relieving",
+        "I/He/She/It/We/You/They will have relieved",
+        "I/He/She/It/We/You/They will have been relieving"
+    ],
+    "synonyms": [
+        "alleviate", 
+        "ease", 
+        "mitigate", 
+        "lessen", 
+        "diminish", 
+        "reduce", 
+        "soothe", 
+        "assuage", 
+        "lighten"
+    ],
+    "antonyms": [
+        "aggravate", 
+        "worsen", 
+        "intensify", 
+        "exacerbate", 
+        "increase", 
+        "heighten", 
+        "complicate", 
+        "magnify", 
+        "amplify"
+    ],
+    "questions": [
+        "How do you relieve stress after a long day?(context: stress management)",
+        "Who can relieve you at work when you're on vacation?(context: work delegation)",
+        "Have they relieved the symptoms with medication?(context: medical treatment)",
+        "Why is it hard to relieve anxiety without professional help?(context: mental health)",
+        "Can exercise relieve back pain effectively?(context: physical health)"
+    ]
+  },
+  
+
 
 
 
