@@ -511,6 +511,145 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
   {
+    "topic": "communication verbs",
+    "category": "regular",
+    "verb": "agree",
+    "answer": [
+        "I/They/We/You agree | He/She/It agrees",
+        "I am | He/She/It is | They/We/You are agreeing",
+        "I/You/They/We have | He/She/It has agreed",
+        "I/You/They/We have been agreeing | He/She/It has been agreeing",
+        "I/He/She/It/We/You/They agreed",
+        "I/He/She/It was agreeing | They/We/You were agreeing",
+        "I/He/She/It/We/You/They had agreed",
+        "I/He/She/It/We/You/They had been agreeing",
+        "I/He/She/It/We/You/They will agree",
+        "I/He/She/It/We/You/They will be agreeing",
+        "I/He/She/It/We/You/They will have agreed",
+        "I/He/She/It/We/You/They will have been agreeing"
+    ],
+    "synonyms": [
+        "consent",
+        "accept",
+        "concur",
+        "approve",
+        "accede",
+        "assent"
+    ],
+    "antonyms": [
+        "disagree",
+        "refuse",
+        "decline",
+        "dissent",
+        "reject",
+        "oppose"
+    ],
+    "questions": [
+        "Do you agree with this decision?(context: discussion)",
+        "Who agrees to the terms of the contract?(context: legal)",
+        "Have you agreed on a date for the event?(context: planning)",
+        "Why do experts not agree on this issue?(context: debate)",
+        "Can we agree to compromise on this matter?(context: negotiation)"
+    ]
+},
+
+{
+    "topic": "negative action verbs",
+    "category": "irregular",
+    "verb": "spoil",
+    "answer": [
+        "I/They/We/You spoil | He/She/It spoils",
+        "I am | He/She/It is | They/We/You are spoiling",
+        "I/You/They/We have | He/She/It has spoiled/spoilt",
+        "I/You/They/We have been spoiling | He/She/It has been spoiling",
+        "I/He/She/It/We/You/They spoiled/spoilt",
+        "I/He/She/It was spoiling | They/We/You were spoiling",
+        "I/He/She/It/We/You/They had spoiled/spoilt",
+        "I/He/She/It/We/You/They had been spoiling",
+        "I/He/She/It/We/You/They will spoil",
+        "I/He/She/It/We/You/They will be spoiling",
+        "I/He/She/It/We/You/They will have spoiled/spoilt",
+        "I/He/She/It/We/You/They will have been spoiling"
+    ],
+    "synonyms": [
+        "ruin",
+        "destroy",
+        "mar",
+        "damage",
+        "degrade",
+        "deteriorate"
+    ],
+    "antonyms": [
+        "preserve",
+        "protect",
+        "maintain",
+        "enhance",
+        "improve",
+        "repair"
+    ],
+    "questions": [
+        "On average, how much spoiled food do you throw away each week?(context: food waste)",
+        "How do you prevent fruit from spoiling?(context: food storage)",
+        "Who spoiled the surprise party?(context: events)",
+        "Have you ever spoiled a book by getting it wet?(context: accidents)",
+        "Why do some parents spoil their children?(context: parenting)",
+        "Can warm weather spoil milk faster?(context: food safety)"
+    ]
+},
+
+
+
+
+
+
+  {
+    "topic": "effort-related verbs",
+    "category": "regular",
+    "verb": "try",
+    "answer": [
+        "I/They/We/You try | He/She/It tries",
+        "I am | He/She/It is | They/We/You are trying",
+        "I/You/They/We have | He/She/It has tried",
+        "I/You/They/We have been trying | He/She/It has been trying",
+        "I/He/She/It/We/You/They tried",
+        "I/He/She/It was trying | They/We/You were trying",
+        "I/He/She/It/We/You/They had tried",
+        "I/He/She/It/We/You/They had been trying",
+        "I/He/She/It/We/You/They will try",
+        "I/He/She/It/We/You/They will be trying",
+        "I/He/She/It/We/You/They will have tried",
+        "I/He/She/It/We/You/They will have been trying"
+    ],
+    "synonyms": [
+        "attempt",
+        "endeavor",
+        "strive",
+        "seek",
+        "aspire",
+        "experiment"
+    ],
+    "antonyms": [
+        "abandon",
+        "quit",
+        "forgo",
+        "neglect",
+        "surrender",
+        "give up"
+    ],
+    "questions": [
+        "What does the phrase Try, Try Again mean to you?(context: perseverance)",
+        "Can you try to open this jar?(context: everyday task)",
+        "Who tries hardest in the team?(context: sports)",
+        "Have you tried this method before?(context: problem-solving)",
+        "Why do we need to try different approaches?(context: innovation)",
+        "How often should I try this exercise?(context: fitness)"
+    ]
+},
+
+
+
+
+  {
     "topic": "skill development verbs",
     "category": "regular",
     "verb": "train",
@@ -548,6 +687,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "forget"
     ],
     "questions": [
+        "What was the last thing you really trained for?(context: skill development)",
         "How long have you been training for the marathon? (context: sports)",
         "Who will train the new employees? (context: workplace)",
         "Have they trained their dog well? (context: pet training)",
@@ -580,6 +720,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "antonyms":[ "mess up", "disorder", "clutter", "litter", "disarrange", "scatter"],
 
     "questions": [
+        "Is having a party the only reason to clean your apartment?(context: household chores)",
         "Can you clean up your room before guests arrive?(context: household chores)",
         "Who cleans up the kitchen after dinner?(context: family duties)",
         "Have they cleaned up the park after the festival?(context: community service)",
@@ -762,6 +903,48 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
   
+
+  {
+    "topic": "financial verbs",
+    "category": "regular",
+    "verb": "budget",
+    "answer": [
+        "I/They/We/You budget | He/She/It budgets",
+        "I am | He/She/It is | They/We/You are budgeting",
+        "I/You/They/We have | He/She/It has budgeted",
+        "I/You/They/We have been budgeting | He/She/It has been budgeting",
+        "I/He/She/It/We/You/They budgeted",
+        "I/He/She/It was budgeting | They/We/You were budgeting",
+        "I/He/She/It/We/You/They had budgeted",
+        "I/He/She/It/We/You/They had been budgeting",
+        "I/He/She/It/We/You/They will budget",
+        "I/He/She/It/We/You/They will be budgeting",
+        "I/He/She/It/We/You/They will have budgeted",
+        "I/He/She/It/We/You/They will have been budgeting"
+    ],
+    "synonyms": [
+        "plan",
+        "allocate",
+        "manage",
+        "forecast",
+        "calculate",
+        "estimate"
+    ],
+    "antonyms": [
+        "squander",
+        "waste",
+        "mismanage",
+        "overspend"
+    ],
+    "questions": [
+        "How do you budget your monthly expenses?(context: finance)",
+        "Who budgets for your household?(context: family finance)",
+        "Have you budgeted enough for your trip?(context: travel)",
+        "Why is it important to budget wisely?(context: financial planning)",
+        "Can we budget for a new project this quarter?(context: business)"
+    ]
+},
+
 
 
   {
@@ -2542,6 +2725,186 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 {
+    "topic": "action verbs",
+    "category": "irregular",
+    "verb": "catch",
+    "answer": [
+        "I/They/We/You catch | He/She/It catches",
+        "I am | He/She/It is | They/We/You are catching",
+        "I/You/They/We have | He/She/It has caught",
+        "I/You/They/We have been catching | He/She/It has been catching",
+        "I/He/She/It/We/You/They caught",
+        "I/He/She/It was catching | They/We/You were catching",
+        "I/He/She/It/We/You/They had caught",
+        "I/He/She/It/We/You/They had been catching",
+        "I/He/She/It/We/You/They will catch",
+        "I/He/She/It/We/You/They will be catching",
+        "I/He/She/It/We/You/They will have caught",
+        "I/He/She/It/We/You/They will have been catching"
+    ],
+    "synonyms": [
+        "capture",
+        "snare",
+        "trap",
+        "seize",
+        "snatch",
+        "grasp"
+    ],
+    "antonyms": [
+        "release",
+        "let go",
+        "miss",
+        "free",
+        "liberate"
+    ],
+    "questions": [
+        "Can you catch the ball?(context: sports)",
+        "Did you catch what she said?(context: communication)",
+        "Who caught the thief?(context: law enforcement)",
+        "Have you ever caught a fish?(context: recreation)",
+        "Why is it hard to catch a cold from pets?(context: health)",
+        "How do you catch someone's attention?(context: communication)"
+    ]
+},
+
+
+
+{
+    "topic": "creative verbs",
+    "category": "regular",
+    "verb": "create",
+    "answer": [
+        "I/They/We/You create | He/She/It creates",
+        "I am | He/She/It is | They/We/You are creating",
+        "I/You/They/We have | He/She/It has created",
+        "I/You/They/We have been creating | He/She/It has been creating",
+        "I/He/She/It/We/You/They created",
+        "I/He/She/It was creating | They/We/You were creating",
+        "I/He/She/It/We/You/They had created",
+        "I/He/She/It/We/You/They had been creating",
+        "I/He/She/It/We/You/They will create",
+        "I/He/She/It/We/You/They will be creating",
+        "I/He/She/It/We/You/They will have created",
+        "I/He/She/It/We/You/They will have been creating"
+    ],
+    "synonyms": [
+        "invent",
+        "produce",
+        "design",
+        "generate",
+        "fabricate",
+        "construct"
+    ],
+    "antonyms": [
+        "destroy",
+        "demolish",
+        "dismantle",
+        "ruin",
+        "erase",
+        "undo"
+    ],
+    "questions": [
+        "How do you create a work of art?(context: art)",
+        "Who created this software program?(context: technology)",
+        "Have you created a business plan?(context: entrepreneurship)",
+        "Why is it important to create new ideas?(context: innovation)",
+        "Can anyone create their own website?(context: digital creation)"
+    ]
+},
+
+
+{
+    "topic": "functional verbs",
+    "category": "regular",
+    "verb": "operate",
+    "answer": [
+        "I/They/We/You operate | He/She/It operates",
+        "I am | He/She/It is | They/We/You are operating",
+        "I/You/They/We have | He/She/It has operated",
+        "I/You/They/We have been operating | He/She/It has been operating",
+        "I/He/She/It/We/You/They operated",
+        "I/He/She/It was operating | They/We/You were operating",
+        "I/He/She/It/We/You/They had operated",
+        "I/He/She/It/We/You/They had been operating",
+        "I/He/She/It/We/You/They will operate",
+        "I/He/She/It/We/You/They will be operating",
+        "I/He/She/It/We/You/They will have operated",
+        "I/He/She/It/We/You/They will have been operating"
+    ],
+    "synonyms": [
+        "run",
+        "function",
+        "work",
+        "manage",
+        "control",
+        "use"
+    ],
+    "antonyms": [
+        "cease",
+        "stop",
+        "halt",
+        "discontinue",
+        "shut down"
+    ],
+    "questions": [
+        "How do you operate this machine?(context: machinery)",
+        "Who operates the business?(context: management)",
+        "Have they operated on you before?(context: medical)",
+        "Why does the government operate differently in this region?(context: governance)",
+        "Can the system operate independently?(context: technology)"
+    ]
+},
+
+{
+    "topic": "communication verbs",
+    "category": "regular",
+    "verb": "repeat",
+    "answer": [
+        "I/They/We/You repeat | He/She/It repeats",
+        "I am | He/She/It is | They/We/You are repeating",
+        "I/You/They/We have | He/She/It has repeated",
+        "I/You/They/We have been repeating | He/She/It has been repeating",
+        "I/He/She/It/We/You/They repeated",
+        "I/He/She/It was repeating | They/We/You were repeating",
+        "I/He/She/It/We/You/They had repeated",
+        "I/He/She/It/We/You/They had been repeating",
+        "I/He/She/It/We/You/They will repeat",
+        "I/He/She/It/We/You/They will be repeating",
+        "I/He/She/It/We/You/They will have repeated",
+        "I/He/She/It/We/You/They will have been repeating"
+    ],
+    "synonyms": [
+        "reiterate",
+        "echo",
+        "reproduce",
+        "duplicate",
+        "recapitulate",
+        "restate"
+    ],
+    "antonyms": [
+        "originate",
+        "create",
+        "innovate",
+        "devise",
+        "introduce",
+        "invent"
+    ],
+    "questions": [
+        "Can you repeat what you just said?(context: conversation)",
+        "Who repeats the same story over and over?(context: storytelling)",
+        "Have you repeated this course?(context: education)",
+        "Why do we need to repeat these experiments?(context: scientific research)",
+        "How often should you repeat the exercise routine?(context: fitness)"
+    ]
+},
+
+
+
+
+
+
+
+{
 "topic": "communication verbs",
 "category": "regular",
 "verb": "call",
@@ -2687,6 +3050,98 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
   {
+    "topic": "communication verbs",
+    "category": "irregular",
+    "verb": "write",
+    "answer": [
+        "I/They/We/You write | He/She/It writes",
+        "I am | He/She/It is | They/We/You are writing",
+        "I/You/They/We have | He/She/It has written",
+        "I/You/They/We have been writing | He/She/It has been writing",
+        "I/He/She/It/We/You/They wrote",
+        "I/He/She/It was writing | They/We/You were writing",
+        "I/He/She/It/We/You/They had written",
+        "I/He/She/It/We/You/They had been writing",
+        "I/He/She/It/We/You/They will write",
+        "I/He/She/It/We/You/They will be writing",
+        "I/He/She/It/We/You/They will have written",
+        "I/He/She/It/We/You/They will have been writing"
+    ],
+    "synonyms": [
+        "compose",
+        "pen",
+        "draft",
+        "scribble",
+        "author",
+        "inscribe",
+        "jot down",
+        "record"
+    ],
+    "antonyms": [
+        "erase",
+        "delete",
+        "obliterate",
+        "ignore"
+    ],
+    "questions": [
+        "What are you writing about?(context: literature)",
+        "Have you ever written a markting plan?(context: business)",
+        "Who is going to write this down?(context: communication)",
+        "If you were to write a book, what would it be about?(context: literature)",
+        "Who wrote this report?(context: business)",
+        "Have you written that email yet?(context: work environment)",
+        "How long did it take you to write this book?(context: literature)",
+        "Why did you write to them?(context: communication)"
+    ]
+},
+
+
+{
+    "topic": "common phrasal verbs",
+    "category": "regular",
+    "verb": "depend on",
+    "answer": [
+        "I/They/We/You depend on | He/She/It depends on",
+        "I am | He/She/It is | They/We/You are depending on",
+        "I/You/They/We have | He/She/It has depended on",
+        "I/You/They/We have been depending on | He/She/It has been depending on",
+        "I/He/She/It/We/You/They depended on",
+        "I/He/She/It was depending on | They/We/You were depending on",
+        "I/He/She/It/We/You/They had depended on",
+        "I/He/She/It/We/You/They had been depending on",
+        "I/He/She/It/We/You/They will depend on",
+        "I/He/She/It/We/You/They will be depending on",
+        "I/He/She/It/We/You/They will have depended on",
+        "I/He/She/It/We/You/They will have been depending on"
+    ],
+    "synonyms": [
+        "rely on",
+        "count on",
+        "bank on",
+        "trust in",
+        "lean on",
+        "repose on"
+    ],
+    "antonyms": [
+        "distrust",
+        "disbelieve",
+        "ignore",
+        "overlook"
+    ],
+    "questions": [
+        "Do you depend on this software for your work?(context: technology)",
+        "Who do you depend on for support?(context: personal)",
+        "Have they depended on external funding?(context: finance)",
+        "What does our success depend on?(context: business)",
+        "Why do children depend on their parents?(context: family)"
+    ]
+},
+
+
+
+
+
+  {
     "topic": "literacy verbs",
     "category": "irregular",
     "verb": "read",
@@ -2731,6 +3186,93 @@ document.addEventListener('DOMContentLoaded', function() {
         "Where do you like to read in your free time?(context: personal preference)"
     ]
   },
+
+
+  {
+    "topic": "education verbs",
+    "category": "regular",
+    "verb": "study",
+    "answer": [
+        "I/They/We/You study | He/She/It studies",
+        "I am | He/She/It is | They/We/You are studying",
+        "I/You/They/We have | He/She/It has studied",
+        "I/You/They/We have been studying | He/She/It has been studying",
+        "I/He/She/It/We/You/They studied",
+        "I/He/She/It was studying | They/We/You were studying",
+        "I/He/She/It/We/You/They had studied",
+        "I/He/She/It/We/You/They had been studying",
+        "I/He/She/It/We/You/They will study",
+        "I/He/She/It/We/You/They will be studying",
+        "I/He/She/It/We/You/They will have studied",
+        "I/He/She/It/We/You/They will have been studying"
+    ],
+    "synonyms": [
+        "learn",
+        "examine",
+        "analyze",
+        "investigate",
+        "review",
+        "research",
+        "scrutinize"
+    ],
+    "antonyms": [
+        "ignore",
+        "neglect",
+        "overlook",
+        "disregard"
+    ],
+    "questions": [
+        "How long do you study each day?(context: education)",
+        "Who studies physics in your class?(context: education)",
+        "Have you studied for the test?(context: education)",
+        "What subject are you studying at university?(context: higher education)",
+        "Why did you decide to study medicine?(context: career choice)"
+    ]
+},
+
+
+{
+      "topic": "financial verbs",
+      "category": "irregular",
+      "verb": "pay",
+      "answer": [
+          "I/They/We/You pay | He/She/It pays",
+          "I am | He/She/It is | They/We/You are paying",
+          "I/You/They/We have | He/She/It has paid",
+          "I/You/They/We have been paying | He/She/It has been paying",
+          "I/He/She/It/We/You/They paid",
+          "I/He/She/It was paying | They/We/You were paying",
+          "I/He/She/It/We/You/They had paid",
+          "I/He/She/It/We/You/They had been paying",
+          "I/He/She/It/We/You/They will pay",
+          "I/He/She/It/We/You/They will be paying",
+          "I/He/She/It/We/You/They will have paid",
+          "I/He/She/It/We/You/They will have been paying"
+      ],
+      "synonyms": [
+          "remit",
+          "settle",
+          "disburse",
+          "compensate",
+          "reimburse",
+          "reward",
+          "cover"
+      ],
+      "antonyms": [
+          "withhold",
+          "default",
+          "dodge",
+          "evade"
+      ],
+      "questions": [
+          "How much did you pay for the car?(context: purchase)",
+          "How much do you pay for rent?(context: housing)",
+          "Who pays the bills in your house?(context: household)",
+          "Have they paid their debts?(context: finance)",
+          "Why do we pay taxes?(context: civics)",
+          "Can you pay in installments?(context: commerce)"
+      ]
+},
 
 
 {
@@ -2817,6 +3359,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "want"
 ],
 "questions": [
+    "How long have you been doing that?(context: duration)",
 "Do you have a pen I could use? (context: request)",
 "Who has the keys to the office? (context: inquiry)",
 "Have they had their lunch yet? (context: inquiry about meal)",
@@ -2825,6 +3368,219 @@ document.addEventListener('DOMContentLoaded', function() {
 ]
 }
 ,
+
+
+{
+    "topic": "quantitative verbs",
+    "category": "regular",
+    "verb": "measure",
+    "answer": [
+        "I/They/We/You measure | He/She/It measures",
+        "I am | He/She/It is | They/We/You are measuring",
+        "I/You/They/We have | He/She/It has measured",
+        "I/You/They/We have been measuring | He/She/It has been measuring",
+        "I/He/She/It/We/You/They measured",
+        "I/He/She/It was measuring | They/We/You were measuring",
+        "I/He/She/It/We/You/They had measured",
+        "I/He/She/It/We/You/They had been measuring",
+        "I/He/She/It/We/You/They will measure",
+        "I/He/She/It/We/You/They will be measuring",
+        "I/He/She/It/We/You/They will have measured",
+        "I/He/She/It/We/You/They will have been measuring"
+    ],
+    "synonyms": [
+        "gauge",
+        "calculate",
+        "assess",
+        "evaluate",
+        "quantify",
+        "size up"
+    ],
+    "antonyms": [
+        "estimate",
+        "guess",
+        "disregard",
+        "ignore"
+    ],
+    "questions": [
+        "How do you measure success?(context: general)",
+        "Who measures the ingredients in this recipe?(context: cooking)",
+        "Have you measured the room for the new furniture?(context: home improvement)",
+        "Why is it important to measure your progress?(context: personal development)",
+        "Can you measure happiness?(context: philosophical)"
+    ]
+},
+
+
+{
+    "topic": "real estate verbs",
+    "category": "regular",
+    "verb": "rent",
+    "answer": [
+        "I/They/We/You rent | He/She/It rents",
+        "I am | He/She/It is | They/We/You are renting",
+        "I/You/They/We have | He/She/It has rented",
+        "I/You/They/We have been renting | He/She/It has been renting",
+        "I/He/She/It/We/You/They rented",
+        "I/He/She/It was renting | They/We/You were renting",
+        "I/He/She/It/We/You/They had rented",
+        "I/He/She/It/We/You/They had been renting",
+        "I/He/She/It/We/You/They will rent",
+        "I/He/She/It/We/You/They will be renting",
+        "I/He/She/It/We/You/They will have rented",
+        "I/He/She/It/We/You/They will have been renting"
+    ],
+    "synonyms": [
+        "lease",
+        "hire",
+        "charter",
+        "let",
+        "sublet",
+        "take on lease"
+    ],
+    "antonyms": [
+        "own",
+        "buy",
+        "purchase",
+        "sell",
+        "dispose of"
+    ],
+    "questions": [
+        "How much do you rent your apartment for?(context: housing)",
+        "Who rents this office space?(context: commercial real estate)",
+        "Have you rented a car for the trip?(context: travel)",
+        "Why do people prefer to rent instead of buy?(context: lifestyle choice)",
+        "Can we rent the equipment for a week?(context: business)"
+    ]
+},
+
+
+
+{
+    "topic": "professional verbs",
+    "category": "regular",
+    "verb": "specialize",
+    "answer": [
+        "I/They/We/You specialize | He/She/It specializes",
+        "I am | He/She/It is | They/We/You are specializing",
+        "I/You/They/We have | He/She/It has specialized",
+        "I/You/They/We have been specializing | He/She/It has been specializing",
+        "I/He/She/It/We/You/They specialized",
+        "I/He/She/It was specializing | They/We/You were specializing",
+        "I/He/She/It/We/You/They had specialized",
+        "I/He/She/It/We/You/They had been specializing",
+        "I/He/She/It/We/You/They will specialize",
+        "I/He/She/It/We/You/They will be specializing",
+        "I/He/She/It/We/You/They will have specialized",
+        "I/He/She/It/We/You/They will have been specializing"
+    ],
+    "synonyms": [
+        "focus",
+        "concentrate",
+        "dedicate oneself",
+        "develop expertise",
+        "hone skills"
+    ],
+    "antonyms": [
+        "generalize",
+        "diversify",
+        "broaden",
+        "spread out"
+    ],
+    "questions": [
+        "What do you specialize in?(context: professional)",
+        "Who specializes in this type of surgery?(context: healthcare)",
+        "Have you specialized in any particular area?(context: career)",
+        "Why do companies specialize in certain products?(context: business)",
+        "Can I specialize in two fields at the same time?(context: education)"
+    ]
+},
+
+{
+    "topic": "financial verbs",
+    "category": "regular",
+    "verb": "make money",
+    "answer": [
+        "I/They/We/You make money | He/She/It makes money",
+        "I am | He/She/It is | They/We/You are making money",
+        "I/You/They/We have | He/She/It has made money",
+        "I/You/They/We have been making money | He/She/It has been making money",
+        "I/He/She/It/We/You/They made money",
+        "I/He/She/It was making money | They/We/You were making money",
+        "I/He/She/It/We/You/They had made money",
+        "I/He/She/It/We/You/They had been making money",
+        "I/He/She/It/We/You/They will make money",
+        "I/He/She/It/We/You/They will be making money",
+        "I/He/She/It/We/You/They will have made money",
+        "I/He/She/It/We/You/They will have been making money"
+    ],
+    "synonyms": [
+        "earn",
+        "generate income",
+        "profit",
+        "accumulate wealth",
+        "gain financially"
+    ],
+    "antonyms": [
+        "lose money",
+        "spend",
+        "waste funds",
+        "deplete resources"
+    ],
+    "questions": [
+        "How do you make money online?(context: digital economy)",
+        "Who makes money in this deal?(context: business)",
+        "Have you made money from your investments?(context: finance)",
+        "Why is it hard to make money in this market?(context: economics)",
+        "Can we make money by saving energy?(context: environmental economics)"
+    ]
+},
+
+{
+    "topic": "action verbs",
+    "category": "regular",
+    "verb": "continue",
+    "answer": [
+        "I/They/We/You continue | He/She/It continues",
+        "I am | He/She/It is | They/We/You are continuing",
+        "I/You/They/We have | He/She/It has continued",
+        "I/You/They/We have been continuing | He/She/It has been continuing",
+        "I/He/She/It/We/You/They continued",
+        "I/He/She/It was continuing | They/We/You were continuing",
+        "I/He/She/It/We/You/They had continued",
+        "I/He/She/It/We/You/They had been continuing",
+        "I/He/She/It/We/You/They will continue",
+        "I/He/She/It/We/You/They will be continuing",
+        "I/He/She/It/We/You/They will have continued",
+        "I/He/She/It/We/You/They will have been continuing"
+    ],
+    "synonyms": [
+        "proceed",
+        "carry on",
+        "maintain",
+        "extend",
+        "persist",
+        "keep up"
+    ],
+    "antonyms": [
+        "stop",
+        "halt",
+        "discontinue",
+        "cease",
+        "end",
+        "terminate"
+    ],
+    "questions": [
+        "Will you continue working after retirement?(context: career)",
+        "How long can we continue like this?(context: general)",
+        "Have they continued their research?(context: academia)",
+        "Why did she continue to trust him?(context: personal)",
+        "Can the company continue to operate profitably?(context: business)"
+    ]
+},
+
+
+
 
 {
     "topic": "preference verbs",
@@ -2929,6 +3685,275 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
   
+
+  {
+    "topic": "predictive verbs",
+    "category": "regular",
+    "verb": "foresee",
+    "answer": [
+        "I/They/We/You foresee | He/She/It foresees",
+        "I am | He/She/It is | They/We/You are foreseeing",
+        "I/You/They/We have | He/She/It has foreseen",
+        "I/You/They/We have been foreseeing | He/She/It has been foreseeing",
+        "I/He/She/It/We/You/They foresaw",
+        "I/He/She/It was foreseeing | They/We/You were foreseeing",
+        "I/He/She/It/We/You/They had foreseen",
+        "I/He/She/It/We/You/They had been foreseeing",
+        "I/He/She/It/We/You/They will foresee",
+        "I/He/She/It/We/You/They will be foreseeing",
+        "I/He/She/It/We/You/They will have foreseen",
+        "I/He/She/It/We/You/They will have been foreseeing"
+    ],
+    "synonyms": [
+        "predict",
+        "anticipate",
+        "envision",
+        "expect",
+        "prognosticate",
+        "foretell"
+    ],
+    "antonyms": [
+        "ignore",
+        "disregard",
+        "overlook",
+        "miss",
+        "neglect"
+    ],
+    "questions": [
+        "How do you foresee the future of this industry?(context: project management)",
+        "How can you foresee the outcomes of this decision?(context: planning)",
+        "Who foresaw the change in market trends?(context: business)",
+        "Have you foreseen any potential risks?(context: risk assessment)",
+        "Why is it hard to foresee certain events?(context: unpredictability)",
+        "Can technology help us foresee natural disasters?(context: science)"
+    ]
+},
+
+
+{
+    "topic": "colloquial verbs",
+    "category": "regular",
+    "verb": "rip off",
+    "answer": [
+        "I/They/We/You rip off | He/She/It rips off",
+        "I am | He/She/It is | They/We/You are ripping off",
+        "I/You/They/We have | He/She/It has ripped off",
+        "I/You/They/We have been ripping off | He/She/It has been ripping off",
+        "I/He/She/It/We/You/They ripped off",
+        "I/He/She/It was ripping off | They/We/You were ripping off",
+        "I/He/She/It/We/You/They had ripped off",
+        "I/He/She/It/We/You/They had been ripping off",
+        "I/He/She/It/We/You/They will rip off",
+        "I/He/She/It/We/You/They will be ripping off",
+        "I/He/She/It/We/You/They will have ripped off",
+        "I/He/She/It/We/You/They will have been ripping off"
+    ],
+    "synonyms": [
+        "overcharge",
+        "swindle",
+        "defraud",
+        "cheat",
+        "fleece",
+        "gouge"
+    ],
+    "antonyms": [
+        "refund",
+        "compensate",
+        "reimburse",
+        "give back",
+        "return"
+    ],
+    "questions": [
+        "Do you think this store rips off its customers?(context: shopping)",
+        "How do you keep from getting ripped off?(context: consumer awareness)",
+        "Who ripped off your idea?(context: intellectual property)",
+        "Have you ever been ripped off while traveling?(context: travel)",
+        "Why do some businesses rip off their clients?(context: unethical practices)",
+        "Can we prevent being ripped off in this market?(context: consumer awareness)"
+    ]
+},
+
+
+{
+    "topic": "physical action verbs",
+    "category": "irregular",
+    "verb": "tear",
+    "answer": [
+        "I/They/We/You tear | He/She/It tears",
+        "I am | He/She/It is | They/We/You are tearing",
+        "I/You/They/We have | He/She/It has torn",
+        "I/You/They/We have been tearing | He/She/It has been tearing",
+        "I/He/She/It/We/You/They tore",
+        "I/He/She/It was tearing | They/We/You were tearing",
+        "I/He/She/It/We/You/They had torn",
+        "I/He/She/It/We/You/They had been tearing",
+        "I/He/She/It/We/You/They will tear",
+        "I/He/She/It/We/You/They will be tearing",
+        "I/He/She/It/We/You/They will have torn",
+        "I/He/She/It/We/You/They will have been tearing"
+    ],
+    "synonyms": [
+        "rip",
+        "rend",
+        "split",
+        "shred",
+        "lacerate",
+        "rip apart"
+    ],
+    "antonyms": [
+        "mend",
+        "repair",
+        "sew",
+        "join",
+        "unite",
+        "fix"
+    ],
+    "questions": [
+        "How did you tear your shirt?(context: accident)",
+        "Who tore the pages out of this book?(context: vandalism)",
+        "Who tore apart your room?(context: anger)",
+        "Who is tearing this project apart?(context: action observation)",
+        "Have you torn the contract?(context: legal)",
+        "Why do old papers tear easily?(context: material properties)",
+        "Can this fabric tear under pressure?(context: material strength)"
+    ]
+},
+
+
+{
+    "topic": "emotional verbs",
+    "category": "regular",
+    "verb": "satisfy",
+    "answer": [
+        "I/They/We/You satisfy | He/She/It satisfies",
+        "I am | He/She/It is | They/We/You are satisfying",
+        "I/You/They/We have | He/She/It has satisfied",
+        "I/You/They/We have been satisfying | He/She/It has been satisfying",
+        "I/He/She/It/We/You/They satisfied",
+        "I/He/She/It was satisfying | They/We/You were satisfying",
+        "I/He/She/It/We/You/They had satisfied",
+        "I/He/She/It/We/You/They had been satisfying",
+        "I/He/She/It/We/You/They will satisfy",
+        "I/He/She/It/We/You/They will be satisfying",
+        "I/He/She/It/We/You/They will have satisfied",
+        "I/He/She/It/We/You/They will have been satisfying"
+    ],
+    "synonyms": [
+        "please",
+        "fulfill",
+        "meet",
+        "gratify",
+        "content",
+        "appease"
+    ],
+    "antonyms": [
+        "disappoint",
+        "dissatisfy",
+        "frustrate",
+        "upset",
+        "displease",
+        "let down"
+    ],
+    "questions": [
+        "What can satisfy your hunger?(context: food)",
+        "Who satisfies the requirements for this job?(context: employment)",
+        "Have you satisfied the terms of the agreement?(context: legal)",
+        "Why is it hard to satisfy everyone?(context: general)",
+        "Can money satisfy all your needs?(context: philosophical)"
+    ]
+},
+
+{
+    "topic": "emotional verbs",
+    "category": "regular",
+    "verb": "let down",
+    "answer": [
+        "I/They/We/You let down | He/She/It lets down",
+        "I am | He/She/It is | They/We/You are letting down",
+        "I/You/They/We have | He/She/It has let down",
+        "I/You/They/We have been letting down | He/She/It has been letting down",
+        "I/He/She/It/We/You/They let down",
+        "I/He/She/It was letting down | They/We/You were letting down",
+        "I/He/She/It/We/You/They had let down",
+        "I/He/She/It/We/You/They had been letting down",
+        "I/He/She/It/We/You/They will let down",
+        "I/He/She/It/We/You/They will be letting down",
+        "I/He/She/It/We/You/They will have let down",
+        "I/He/She/It/We/You/They will have been letting down"
+    ],
+    "synonyms": [
+        "disappoint",
+        "fail",
+        "dishearten",
+        "dismay",
+        "betray",
+        "fall short"
+    ],
+    "antonyms": [
+        "satisfy",
+        "please",
+        "uplift",
+        "fulfill",
+        "support",
+        "encourage"
+    ],
+    "questions": [
+        
+        "How do you let someone down gently?(context: personal relationships)",
+        "Have you ever felt let down by a friend?(context: personal relationships)",
+        "Who let down the team in the last match?(context: sports)",
+        "Why do parents sometimes let down their children?(context: family)",
+        "Can a company let down its customers?(context: business)",
+        "What happens when a leader lets down their followers?(context: leadership)"
+    ]
+},
+
+
+{
+    "topic": "construction verbs",
+    "category": "regular",
+    "verb": "renovate",
+    "answer": [
+        "I/They/We/You renovate | He/She/It renovates",
+        "I am | He/She/It is | They/We/You are renovating",
+        "I/You/They/We have | He/She/It has renovated",
+        "I/You/They/We have been renovating | He/She/It has been renovating",
+        "I/He/She/It/We/You/They renovated",
+        "I/He/She/It was renovating | They/We/You were renovating",
+        "I/He/She/It/We/You/They had renovated",
+        "I/He/She/It/We/You/They had been renovating",
+        "I/He/She/It/We/You/They will renovate",
+        "I/He/She/It/We/You/They will be renovating",
+        "I/He/She/It/We/You/They will have renovated",
+        "I/He/She/It/We/You/They will have been renovating"
+    ],
+    "synonyms": [
+        "refurbish",
+        "restore",
+        "rehabilitate",
+        "revamp",
+        "modernize",
+        "overhaul"
+    ],
+    "antonyms": [
+        "demolish",
+        "destroy",
+        "ruin",
+        "deteriorate",
+        "neglect"
+    ],
+    "questions": [
+        "How much will it cost to renovate the kitchen?(context: home improvement)",
+        "Who is renovating the old theater downtown?(context: community project)",
+        "Have you renovated any other houses?(context: real estate)",
+        "Why do people renovate historical buildings?(context: preservation)",
+        "Can you renovate a building while preserving its character?(context: architecture)"
+    ]
+},
+
+
+
+
 
   {
     "topic": "movement verbs",
@@ -3687,6 +4712,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "abandon"
 ],
 "questions": [
+    "Do you have time to do this? (context: inquiry about availability)",
 "What do you do for a living? (context: career inquiry)",
 "Why didn't he care? (context: inquiry about behavior)",
 "What did you do?! (context: expressing surprise)",
@@ -3814,6 +4840,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "antonyms": ["listen", "hear", "be silent", "be quiet", "withhold", "mute", "hush", "suppress", "refrain", "keep quiet", "muzzle", "silence"],
     "questions": [
         "Can you speak louder, please? (context: public speaking)",
+        "How many languages do you speak? (context: language inquiry)",
         "Who will speak at the conference? (context: event planning)",
         "If you could speak any language, what would it be? (context: hypothetical)",
         "Have you spoken to him about the issue? (context: interpersonal communication)",
@@ -3986,6 +5013,51 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   },
   
+
+
+  {
+    "topic": "competitive verbs",
+    "category": "regular",
+    "verb": "compete",
+    "answer": [
+        "I/They/We/You compete | He/She/It competes",
+        "I am | He/She/It is | They/We/You are competing",
+        "I/You/They/We have | He/She/It has competed",
+        "I/You/They/We have been competing | He/She/It has been competing",
+        "I/He/She/It/We/You/They competed",
+        "I/He/She/It was competing | They/We/You were competing",
+        "I/He/She/It/We/You/They had competed",
+        "I/He/She/It/We/You/They had been competing",
+        "I/He/She/It/We/You/They will compete",
+        "I/He/She/It/We/You/They will be competing",
+        "I/He/She/It/We/You/They will have competed",
+        "I/He/She/It/We/You/They will have been competing"
+    ],
+    "synonyms": [
+        "contend",
+        "challenge",
+        "vie",
+        "rival",
+        "participate",
+        "strive"
+    ],
+    "antonyms": [
+        "cooperate",
+        "collaborate",
+        "concede",
+        "withdraw",
+        "avoid"
+    ],
+    "questions": [
+        "How do you compete with others? (context: competition strategy)",
+        "Do you compete in any sports?(context: sports)",
+        "Who competes for the championship?(context: tournament)",
+        "Have you competed in a debate before?(context: academic)",
+        "Why do companies compete with each other?(context: business)",
+        "Can small businesses compete with large ones?(context: economics)"
+    ]
+},
+
   
 
 {
@@ -5163,6 +6235,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "surrender"
     ],
     "questions": [
+        "Have you ever taken dance classes?",
         "Can you take this to the post office? (context: request for a task)",
         "How long does it take to get there? (context: inquiry about travel time)",
         "Who is taking you to the airport? (context: inquiry about transportation)",
@@ -5355,15 +6428,104 @@ document.addEventListener('DOMContentLoaded', function() {
         "expire"
     ],
     "questions": [
+        "How long did you live in X? (context: duration)",
+        "How long have you lived in X city? (context: duration)",
         "Where do you live? (context: residence)",
         "Who lives next door to you? (context: neighborhood)",
-        "Have they lived abroad before? (context: experience)",
-        "How long have you lived in this city? (context: duration)",
+        "Have you lived abroad before? (context: experience)",
         "Why did she live in the city for so long? (context: choice)",
         "What is it like to live in a rural area? (context: lifestyle)"
     ]
-  }
-,
+  },
+
+  {
+    "topic": "cognitive verbs",
+    "category": "regular",
+    "verb": "believe",
+    "answer": [
+        "I/They/We/You believe | He/She/It believes",
+        "I am | He/She/It is | They/We/You are believing",
+        "I/You/They/We have | He/She/It has believed",
+        "I/You/They/We have been believing | He/She/It has been believing",
+        "I/He/She/It/We/You/They believed",
+        "I/He/She/It was believing | They/We/You were believing",
+        "I/He/She/It/We/You/They had believed",
+        "I/He/She/It/We/You/They had been believing",
+        "I/He/She/It/We/You/They will believe",
+        "I/He/She/It/We/You/They will be believing",
+        "I/He/She/It/We/You/They will have believed",
+        "I/He/She/It/We/You/They will have been believing"
+    ],
+    "synonyms": [
+        "think",
+        "feel",
+        "hold",
+        "assume",
+        "trust",
+        "accept"
+    ],
+    "antonyms": [
+        "disbelieve",
+        "doubt",
+        "question",
+        "reject",
+        "deny",
+        "dispute"
+    ],
+    "questions": [
+        "Do you believe in life after death?(context: philosophical)",
+        "Who believes in that theory?(context: academic)",
+        "Have you always believed in these principles?(context: personal belief)",
+        "Why do some people believe in superstitions?(context: cultural phenomenon)",
+        "Can you believe everything you read online?(context: digital literacy)"
+    ]
+},
+
+
+
+{
+    "topic": "recreational verbs",
+    "category": "regular",
+    "verb": "dance",
+    "answer": [
+        "I/They/We/You dance | He/She/It dances",
+        "I am | He/She/It is | They/We/You are dancing",
+        "I/You/They/We have | He/She/It has danced",
+        "I/You/They/We have been dancing | He/She/It has been dancing",
+        "I/He/She/It/We/You/They danced",
+        "I/He/She/It was dancing | They/We/You were dancing",
+        "I/He/She/It/We/You/They had danced",
+        "I/He/She/It/We/You/They had been dancing",
+        "I/He/She/It/We/You/They will dance",
+        "I/He/She/It/We/You/They will be dancing",
+        "I/He/She/It/We/You/They will have danced",
+        "I/He/She/It/We/You/They will have been dancing"
+    ],
+    "synonyms": [
+        "twirl",
+        "swing",
+        "step",
+        "boogie",
+        "jive",
+        "sashay"
+    ],
+    "antonyms": [
+        "sit",
+        "rest",
+        "stand still",
+        "stay",
+        "remain motionless"
+    ],
+    "questions": [
+        "Do you dance at parties?(context: social event)",
+        "Who dances best in your group?(context: entertainment)",
+        "Have you ever danced in a competition?(context: competition)",
+        "Why do people dance at weddings?(context: cultural tradition)",
+        "Can anyone learn to dance?(context: learning)"
+    ]
+},
+
+
 
 
 
@@ -5574,6 +6736,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "undo"
     ],
     "questions": [
+        "Have you made plans for the weekend? (context: planning)",
         "What are you making for dinner? (context: cooking)",
         "Who made this decision? (context: business)",
         "Have they made any progress? (context: project management)",
@@ -5582,6 +6745,184 @@ document.addEventListener('DOMContentLoaded', function() {
         "Can you make a difference? (context: motivational)"
     ]
   } ,
+
+
+  {
+    "topic": "physical action verbs",
+    "category": "irregular",
+    "verb": "carry",
+    "answer": [
+        "I/They/We/You carry | He/She/It carries",
+        "I am | He/She/It is | They/We/You are carrying",
+        "I/You/They/We have | He/She/It has carried",
+        "I/You/They/We have been carrying | He/She/It has been carrying",
+        "I/He/She/It/We/You/They carried",
+        "I/He/She/It was carrying | They/We/You were carrying",
+        "I/He/She/It/We/You/They had carried",
+        "I/He/She/It/We/You/They had been carrying",
+        "I/He/She/It/We/You/They will carry",
+        "I/He/She/It/We/You/They will be carrying",
+        "I/He/She/It/We/You/They will have carried",
+        "I/He/She/It/We/You/They will have been carrying"
+    ],
+    "synonyms": [
+        "transport",
+        "convey",
+        "haul",
+        "bear",
+        "lug",
+        "shoulder"
+    ],
+    "antonyms": [
+        "drop",
+        "leave",
+        "abandon",
+        "discard",
+        "forsake"
+    ],
+    "questions": [
+        "Can you carry this bag for me?(context: assistance)",
+        "Who will carry the flag in the parade?(context: ceremonial)",
+        "Have you carried a load this heavy before?(context: physical task)",
+        "Why do some animals carry their young?(context: nature)",
+        "Can the bridge carry heavy trucks?(context: engineering)"
+    ]
+},
+
+{
+    "topic": "organizational verbs",
+    "category": "regular",
+    "verb": "set up",
+    "answer": [
+        "I/They/We/You set up | He/She/It sets up",
+        "I am | He/She/It is | They/We/You are setting up",
+        "I/You/They/We have | He/She/It has set up",
+        "I/You/They/We have been setting up | He/She/It has been setting up",
+        "I/He/She/It/We/You/They set up",
+        "I/He/She/It was setting up | They/We/You were setting up",
+        "I/He/She/It/We/You/They had set up",
+        "I/He/She/It/We/You/They had been setting up",
+        "I/He/She/It/We/You/They will set up",
+        "I/He/She/It/We/You/They will be setting up",
+        "I/He/She/It/We/You/They will have set up",
+        "I/He/She/It/We/You/They will have been setting up"
+    ],
+    "synonyms": [
+        "establish",
+        "organize",
+        "arrange",
+        "assemble",
+        "prepare",
+        "install"
+    ],
+    "antonyms": [
+        "disassemble",
+        "dismantle",
+        "take down",
+        "destroy",
+        "disorganize"
+    ],
+    "questions": [
+        "How do you set up a new business?(context: entrepreneurship)",
+        "Have you set up your Christmas tree yet?(context: holiday tradition)",
+        "Who will set up the meeting room?(context: corporate event)",
+        "Have you set up your new computer yet?(context: technology)",
+        "Why is it important to set up a routine?(context: personal development)",
+        "Can we set up a time to talk?(context: scheduling)"
+    ]
+},
+
+
+
+{
+    "topic": "action verbs",
+    "category": "regular",
+    "verb": "take down",
+    "answer": [
+        "I/They/We/You take down | He/She/It takes down",
+        "I am | He/She/It is | They/We/You are taking down",
+        "I/You/They/We have | He/She/It has taken down",
+        "I/You/They/We have been taking down | He/She/It has been taking down",
+        "I/He/She/It/We/You/They took down",
+        "I/He/She/It was taking down | They/We/You were taking down",
+        "I/He/She/It/We/You/They had taken down",
+        "I/He/She/It/We/You/They had been taking down",
+        "I/He/She/It/We/You/They will take down",
+        "I/He/She/It/We/You/They will be taking down",
+        "I/He/She/It/We/You/They will have taken down",
+        "I/He/She/It/We/You/They will have been taking down"
+    ],
+    "synonyms": [
+        "dismantle",
+        "disassemble",
+        "remove",
+        "demolish",
+        "deconstruct",
+        "lower"
+    ],
+    "antonyms": [
+        "set up",
+        "assemble",
+        "erect",
+        "construct",
+        "raise",
+        "build"
+    ],
+    "questions": [
+        "Can you help me take down these shelves?(context: home improvement)",
+        "Who will take down the notes in the meeting?(context: administrative)",
+        "Have they taken down the old building yet?(context: construction)",
+        "Why did they take down the website?(context: digital management)",
+        "How do you plan to take down this structure safely?(context: demolition)"
+    ]
+},
+
+
+
+
+{
+    "topic": "cognitive verbs",
+    "category": "regular",
+    "verb": "dream",
+    "answer": [
+        "I/They/We/You dream | He/She/It dreams",
+        "I am | He/She/It is | They/We/You are dreaming",
+        "I/You/They/We have | He/She/It has dreamed/dreamt",
+        "I/You/They/We have been dreaming | He/She/It has been dreaming",
+        "I/He/She/It/We/You/They dreamed/dreamt",
+        "I/He/She/It was dreaming | They/We/You were dreaming",
+        "I/He/She/It/We/You/They had dreamed/dreamt",
+        "I/He/She/It/We/You/They had been dreaming",
+        "I/He/She/It/We/You/They will dream",
+        "I/He/She/It/We/You/They will be dreaming",
+        "I/He/She/It/We/You/They will have dreamed/dreamt",
+        "I/He/She/It/We/You/They will have been dreaming"
+    ],
+    "synonyms": [
+        "fantasize",
+        "imagine",
+        "daydream",
+        "envision",
+        "hallucinate",
+        "contemplate"
+    ],
+    "antonyms": [
+        "face reality",
+        "confront",
+        "awaken",
+        "realize",
+        "disillusion"
+    ],
+    "questions": [
+        "Do you often dream at night?(context: sleep)",
+        "Who dreams of becoming an astronaut?(context: aspirations)",
+        "Have you ever dreamed in color?(context: dreaming experience)",
+        "Why do we dream when we sleep?(context: psychology)",
+        "Can you control what you dream about?(context: lucid dreaming)"
+    ]
+},
+
+
 
 
   {
@@ -6034,6 +7375,46 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
 },
 
+{
+    "topic": "financial verbs",
+    "category": "regular",
+    "verb": "earn",
+    "answer": [
+        "I/They/We/You earn | He/She/It earns",
+        "I am | He/She/It is | They/We/You are earning",
+        "I/You/They/We have | He/She/It has earned",
+        "I/You/They/We have been earning | He/She/It has been earning",
+        "I/He/She/It/We/You/They earned",
+        "I/He/She/It was earning | They/We/You were earning",
+        "I/He/She/It/We/You/They had earned",
+        "I/He/She/It/We/You/They had been earning",
+        "I/He/She/It/We/You/They will earn",
+        "I/He/She/It/We/You/They will be earning",
+        "I/He/She/It/We/You/They will have earned",
+        "I/He/She/It/We/You/They will have been earning"
+    ],
+    "synonyms": [
+        "gain",
+        "receive",
+        "get",
+        "acquire",
+        "obtain",
+        "make"
+    ],
+    "antonyms": [
+        "lose",
+        "forfeit",
+        "spend",
+        "pay"
+    ],
+    "questions": [
+        "How much do you earn per month?(context: employment)",
+        "Who earns the most in your family?(context: household income)",
+        "Have you earned a bonus this year?(context: work reward)",
+        "What skills can I learn to earn more?(context: career development)",
+        "Why is it hard to earn a living in this field?(context: job market)"
+    ]
+},
 
 
 
@@ -7222,6 +8603,52 @@ document.addEventListener('DOMContentLoaded', function() {
         "How can we better engage with our community?(context: community involvement)"
     ]
   },  
+
+  {
+    "topic": "action verbs",
+    "category": "regular",
+    "verb": "attack",
+    "answer": [
+        "I/They/We/You attack | He/She/It attacks",
+        "I am | He/She/It is | They/We/You are attacking",
+        "I/You/They/We have | He/She/It has attacked",
+        "I/You/They/We have been attacking | He/She/It has been attacking",
+        "I/He/She/It/We/You/They attacked",
+        "I/He/She/It was attacking | They/We/You were attacking",
+        "I/He/She/It/We/You/They had attacked",
+        "I/He/She/It/We/You/They had been attacking",
+        "I/He/She/It/We/You/They will attack",
+        "I/He/She/It/We/You/They will be attacking",
+        "I/He/She/It/We/You/They will have attacked",
+        "I/He/She/It/We/You/They will have been attacking"
+    ],
+    "synonyms": [
+        "assault",
+        "strike",
+        "charge",
+        "ambush",
+        "storm",
+        "confront"
+    ],
+    "antonyms": [
+        "defend",
+        "protect",
+        "guard",
+        "shield",
+        "safeguard",
+        "support"
+    ],
+    "questions": [
+        "How do you defend against a bear attack?(context: survival)",
+        "Who attacked the fortress in history?(context: military)",
+        "Have you been attacked by a dog?(context: personal safety)",
+        "Why do hackers attack websites?(context: cybersecurity)",
+        "Can stress attack the immune system?(context: health)"
+    ]
+},
+
+
+
 
   {
     "topic": "participation verbs",
