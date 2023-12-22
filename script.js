@@ -7523,6 +7523,56 @@ document.addEventListener('DOMContentLoaded', function() {
   },
   
 
+  
+{
+  "topic": "general verbs",
+  "category": "regular",
+  "verb": "plan",
+  "answer": [
+    "I/They/We/You plan | He/She/It plans",
+    "I am | He/She/It is | They/We/You are planning",
+    "I/You/They/We have | He/She/It has planned",
+    "I/You/They/We have been planning | He/She/It has been planning",
+    "I/He/She/It/We/You/They planned",
+    "I/He/She/It was planning | They/We/You were planning",
+    "I/He/She/It/We/You/They had planned",
+    "I/He/She/It/We/You/They had been planning",
+    "I/He/She/It/We/You/They will plan",
+    "I/He/She/It/We/You/They will be planning",
+    "I/He/She/It/We/You/They will have planned",
+    "I/He/She/It/We/You/They will have been planning"
+  ],
+  "synonyms": [
+    "arrange",
+    "organize",
+    "prepare",
+    "scheme",
+    "design",
+    "plot",
+    "map out",
+    "devise",
+    "outline",
+    "draft",
+    "project"
+  ],
+  "antonyms": [
+    "disorganize",
+    "neglect",
+    "ignore",
+    "disregard",
+    "overlook",
+    "wing it"
+  ],
+  "questions": [
+    "How do you plan to achieve this goal?(context: strategy)",
+    "Who plans these events?(context: organization)",
+    "Have you planned your vacation?(context: travel)",
+    "What are your plans for the weekend?(context: social)",
+    "When will you plan the meeting?(context: business)"
+  ]
+}
+
+
   {
     "topic": "health and wellness verbs",
     "category": "regular",
